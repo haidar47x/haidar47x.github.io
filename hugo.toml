@@ -1,0 +1,38 @@
+baseURL = 'https://haidarali.net/'
+languageCode = 'en-us'
+title = 'Haidar Ali'
+theme = "hugo-tufte"
+paginate = 10
+defaultContentLanguage = "en"
+copyright = "CC BY 4.0"
+
+[params]
+    showPoweredBy = false
+    copyrightHolder = "Haidar Ali"
+    codeBlocksDark = true
+    sansSubtitle = false
+
+    github = "haidar47x"
+    linkedin = "haidar47x"
+    showSummary = false
+    math = false
+    centerArticle = true
+
+[menu]
+  [[menu.nav]]
+    name = "About"
+    weight = -110
+    identifier = "about"
+    url = "/"
+
+  [[menu.nav]]
+    name = "Posts"
+    weight = -100
+    identifier = "posts"
+    url = "/posts/"
+
+  [[menu.nav]]
+    name = "Open-Source"
+    weight = -90
+    identifier = "projects"
+    url = "/projects"
