@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Asynchronously load Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/gill-sans-2" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+<noscript>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/gill-sans-2" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+</noscript>
+
+{{ $htoptions := (dict "targetPath" "/css/hugo-tufte.min.css" "outputStyle" "compressed" "enableSourceMap" true) }}
+{{ $htstyle := resources.Get "scss/hugo-tufte.scss"| resources.ExecuteAsTemplate "main.scss" .  | resources.ToCSS $htoptions }}
+<link rel="stylesheet" href="{{ $htstyle.Permalink | relURL }}">
+
+{{ $ht_o_options := (dict "targetPath" "/css/hugo-tufte-options.min.css" "outputStyle" "compressed" "enableSourceMap" true) }}
+{{ $ht_o_style := resources.Get "scss/hugo-tufte-options.scss"| resources.ExecuteAsTemplate "main.scss" .  | resources.ToCSS $ht_o_options }}
+<link rel="stylesheet" href="{{ $ht_o_style.Permalink | relURL }}">
+
+<link rel="stylesheet" href="{{ "/css/hugo-tufte-override.css" | relURL }}">
