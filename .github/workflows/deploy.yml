@@ -33,9 +33,10 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
+          extended: true
       
       - name: Build Hugo site
-        run: hugo
+        run: hugo --minify
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
