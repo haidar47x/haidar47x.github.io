@@ -2,11 +2,11 @@ baseURL = 'https://haidarali.net/'
 languageCode = 'en-us'
 title = 'Haidar Ali'
 theme = "hugo-tufte"
-paginate = 10
 defaultContentLanguage = "en"
 copyright = "CC BY 4.0"
 
 [params]
+    subtitle = "Software Engineer"
     showPoweredBy = false
     copyrightHolder = "Haidar Ali"
     codeBlocksDark = true
@@ -14,6 +14,8 @@ copyright = "CC BY 4.0"
 
     github = "haidar47x"
     linkedin = "haidar47x"
+    email = "haidar47x@gmail.com"
+    rss = true
     showSummary = false
     math = false
     centerArticle = true
@@ -36,3 +38,6 @@ copyright = "CC BY 4.0"
     weight = -90
     identifier = "projects"
     url = "/projects"
+
+[pagintion]
+    paperSize = 3
