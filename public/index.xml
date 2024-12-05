@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Haidar Ali</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Haidar Ali</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>CC BY 4.0</copyright>
+    <lastBuildDate>Sun, 23 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This is my second post</title>
+      <link>http://localhost:1313/posts/second-post/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/second-post/</guid>
+      <description>My page.&#xA;Heading 1 # System.out.println(&amp;#34;hello, world!&amp;#34;); </description>
+    </item>
+    <item>
+      <title>Example to demonstrate how to hide the table of contents on a single post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>My page.&#xA;Heading 1 # System.out.println(&amp;#34;hello, world!&amp;#34;); </description>
+    </item>
+  </channel>
+</rss>
