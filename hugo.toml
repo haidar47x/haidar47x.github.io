@@ -1,34 +1,29 @@
 baseURL = 'https://haidarali.net/'
 languageCode = 'en-us'
 title = 'Haidar Ali'
-theme = "hugo-tufte"
+theme = "tufte-custom"
 defaultContentLanguage = "en"
 copyright = "CC BY 4.0"
 
 [params]
     subtitle = "Software Engineer"
     showPoweredBy = false
-    copyrightHolder = "Haidar Ali"
+    copyright = "CC BY 4.0"
     codeBlocksDark = true
     sansSubtitle = false
-
     github = "haidar47x"
     linkedin = "haidar47x"
     email = "haidar47x@gmail.com"
     rss = true
     showSummary = false
     math = false
+    main_page = "about"
     centerArticle = true
 
 [menu]
-  [[menu.nav]]
-    name = "About"
-    weight = -110
-    identifier = "about"
-    url = "/"
 
   [[menu.nav]]
-    name = "Posts"
+    name = "Blog"
     weight = -100
     identifier = "posts"
     url = "/posts/"

@@ -1,0 +1,99 @@
+<footer class="page-footer">
+
+<div class="previous-post" style="display:inline-block;">
+  {{ if .Prev }}
+  <a class="link-reverse" href="{{ .Prev.Permalink }}?ref=footer">« {{ .Prev.Title | truncate 50 "..."}}</a>
+  {{ end }}
+</div>
+
+<div class="next-post" style="display:inline-block; float:right;">
+  {{ if .Next }}
+  <a class="link-reverse" href="{{ .Next.Permalink }}?ref=footer">{{ .Next.Title | truncate 50 "..." }} »</a>
+  {{ end }}
+</div>
+
+<ul class="page-footer-menu">
+  {{/* SOCIALS */}}
+  {{ if isset .Site.Params "twitter" }}
+  <li><a target="_blank" href="https://twitter.com/{{.Site.Params.twitter}}">Twitter</a></li>
+  {{ end }}
+  
+  {{ if isset .Site.Params "linkedin" }}
+  <li><a target="_blank" href="https://linkedin.com/in/{{.Site.Params.linkedin}}">LinkedIn</a></li>
+  {{ end }}
+
+  {{ if isset .Site.Params "github" }}
+  <li><a target="_blank" href="https://github.com/{{.Site.Params.github}}">GitHub</a></li>
+  {{ end }}
+
+  {{ if isset .Site.Params "gitlab" }}
+  <li><a target="_blank" href="https://gitlab.com/{{.Site.Params.gitlab}}">GitLab</a></li>
+  {{ end }}
+
+  {{ if isset .Site.Params "patreon" }}
+  <li><a target="_blank" href="https://www.patreon.com/{{.Site.Params.patreon}}">Patreon</i></a></li>
+  {{ end }}
+
+  {{ if isset .Site.Params "youtube" }}
+  <li><a target="_blank" href="https://www.youtube.com/{{.Site.Params.youtube}}">YouTube</a></li>
+  {{ end }}
+
+  {{ if isset .Site.Params "medium" }}
+  <li><a target="_blank" href="https://medium.com/{{.Site.Params.medium}}">Medium</a></li>
+  {{ end }}
+
+  {{ if isset .Site.Params "reddit" }}
+  <li><a target="_blank" href="https://www.reddit.com/user/{{.Site.Params.reddit}}">Reddit</a></li>
+  {{ end }}
+
+  {{ if isset .Site.Params "stackoverflow" }}
+  <li><a target="_blank" href="https://stackoverflow.com/users/{{.Site.Params.stackoverflow}}?tab=profile">StackOverflow</a></li>
+  {{ end }}
+
+  {{ if isset .Site.Params "instagram" }}
+  <li><a target="_blank" href="https://www.instagram.com/{{.Site.Params.instagram}}">Instagram</a></li>
+  {{ end }}
+
+  {{ if isset .Site.Params "mastodon" }}
+  <li><a target="_blank" href="https://{{.Site.Params.mastodon}}">Mastodon</a></li>
+  {{ end }}
+
+  {{ if isset .Site.Params "orcid" }}
+  <li><a target="_blank" href="https://orcid.org/{{.Site.Params.orcid}}">ORCID</a></li>
+  {{ end }}
+
+  {{ if isset .Site.Params "google_scholar" }}
+  <li><a target="_blank" href="https://scholar.google.com/citations?user={{.Site.Params.google_scholar}}">Google Scholar</a></li>
+  {{ end }}
+
+    {{ if isset .Site.Params "email" }}
+    <li><a target="_blank" href="mailto:{{.Site.Params.email}}">Email</a></li>
+    {{ end }}
+
+    {{ if isset .Site.Params "rss" }}
+        <li><a target="_blank" href="{{.Site.BaseURL}}index.xml">RSS</a></li>
+    {{ end }}
+
+  {{/* END SOCIALS */}}
+  {{ range .Site.Menus.footer }}
+    <li><a target="_blank" href="{{.URL}}">{{.Pre }} {{ .Name }}</a></li>
+  {{ end }}
+</ul>
+
+{{ if .Site.Params.showPoweredBy}}
+<p>
+  Powered by <a target="_blank" href="https://gohugo.io">Hugo</a>
+</p>
+{{ end }}
+
+{{ if isset .Site.Params "copyright" }}
+<div class="copyright">
+    <p>
+      {{ with .Site.Params.copyright }}
+      {{ . | safeHTML }}
+      {{end}}
+    </p>
+</div>
+{{ end }}
+
+</footer>
