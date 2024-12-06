@@ -4,13 +4,9 @@
 
 <body>
 
+{{ partial "appearance.html" . }}
+
 {{ block "main" . }}{{ end }}
-
-<!-- Load Katex, if necessary. -->
-{{ if or .Params.math .IsHome }}
-{{ partial "math.html" . }}
-{{ end }}
-
 </body>
 
 </html>
