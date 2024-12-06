@@ -6,7 +6,8 @@ defaultContentLanguage = "en"
 copyright = "CC BY 4.0"
 
 [params]
-    subtitle = "Software Engineer"
+    # subtitle = "Software Engineer"
+    pronunciation = "hey there alee"
     showPoweredBy = false
     copyright = "CC BY 4.0"
     codeBlocksDark = true
