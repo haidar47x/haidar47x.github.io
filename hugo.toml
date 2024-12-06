@@ -23,17 +23,23 @@ copyright = "CC BY 4.0"
 
 [menu]
 
-  [[menu.nav]]
-    name = "Blog"
-    weight = -100
-    identifier = "posts"
-    url = "/posts/"
+    [[menu.nav]]
+        name = "Blog"
+        weight = -100
+        identifier = "posts"
+        url = "/posts/"
 
-  [[menu.nav]]
-    name = "Open-Source"
-    weight = -90
-    identifier = "projects"
-    url = "/projects"
+    [[menu.nav]]
+        name = "Open-Source"
+        weight = -90
+        identifier = "projects"
+        url = "/projects"
+
+    [[ menu.nav ]]
+        name = "About"
+        weight = -80
+        identifier = "about"
+        url = "/"
 
 [pagintion]
     paperSize = 3
