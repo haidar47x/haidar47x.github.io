@@ -2,17 +2,17 @@
 
     <hr>
 
+    {{ if .Prev }}
 <div class="previous-post" style="display:inline-block;">
-  {{ if .Prev }}
   <a class="link-reverse" href="{{ .Prev.Permalink }}?ref=footer">« Previous Post</a>
-  {{ end }}
 </div>
+    {{ end }}
 
+    {{ if .Next }}
 <div class="next-post" style="display:inline-block; float:right;">
-  {{ if .Next }}
   <a class="link-reverse" href="{{ .Next.Permalink }}?ref=footer">Next Post »</a>
-  {{ end }}
 </div>
+    {{ end }}
 
 <ul class="page-footer-menu">
   {{/* SOCIALS */}}
