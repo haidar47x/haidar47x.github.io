@@ -11,8 +11,9 @@
 @import "components/meta";
 @import "components/post";
 
-{{ if and (isset .Site.Params "codeblocksdark") .Site.Params.codeBlocksDark  }}
+{{ if .Site.Params.darkMode }}
 @import "syntax/highlight-dark.scss";
 {{ else }}
 @import "syntax/highlight-light.scss";
 {{ end }}
+

@@ -6,10 +6,10 @@ This template render single pages
 
 {{ define "main" }}
 <article id="main">
-    <section>{{ partial "brand.html" . }}</section>
+    {{ partial "brand.html" . }}</section>
     {{ partial "content.header.html" . }}
     {{ partial "toc.html" . }}
-    <section>{{ .Content }}</section>
+    <section class="substance">{{ .Content }}</section>
     {{ partial "footer.html" . }}
 </article>
 {{ end }}

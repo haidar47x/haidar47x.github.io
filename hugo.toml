@@ -9,7 +9,7 @@ copyright = "CC BY 4.0"
     # subtitle = "Software Engineer"
     pronunciation = "hay-th-er aa-lee"
     showPoweredBy = false
-    copyright = "CC BY 4.0"
+    copyright = "© 2024 Haidar Ali. CC BY 4.0"
     codeBlocksDark = true
     sansSubtitle = false
     github = "haidar47x"
@@ -20,6 +20,7 @@ copyright = "CC BY 4.0"
     math = false
     main_page = "about"
     centerArticle = true
+    darkMode = false
 
 [menu]
 
@@ -43,3 +44,8 @@ copyright = "CC BY 4.0"
 
 [pagintion]
     paperSize = 3
+
+[markup]
+    [markup.highlight]
+        lineNos = true
+        style = 'gruvbox-light'

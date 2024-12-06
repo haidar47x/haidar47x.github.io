@@ -5,12 +5,6 @@ footer.page-footer{
     max-width: 45rem;
 }
 
-footer.page-footer p {
-    font-size: 1.2rem;
-    margin: 0em;
-    /** Light font looked odd on chrome **/
-    /* font-weight: lighter; */
-}
 footer.page-footer a {
     color: rgba(65, 70, 75, 1);
     text-decoration: none;
@@ -35,10 +29,8 @@ footer.page-footer ul.page-footer-menu li {
 	/* font-size: 55%; */
 }
 
-.copyright {
-
-}
-
 .copyright p {
-    font-size: 50%;
+  font-size: 1rem;
+  font-family: $sans-fonts;
+  font-weight: 400;
 }

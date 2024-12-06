@@ -1,4 +1,5 @@
 <header class="brand">
+    {{ if .IsHome }}
     {{ if isset .Site.Params "pronunciation" }}
     {{ if eq .Page.RelPermalink "/" }}
     <h1 class="with-pronunciation">{{ .Site.Title }}</h1>
@@ -10,5 +11,6 @@
     <h1>{{ .Site.Title }}</h1>
     {{ end }}
     <p class="subtitle">{{ .Site.Params.subtitle }}</p>
+    {{ end }}
     {{ partial "nav.html" . }}
 </header>

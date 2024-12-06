@@ -1,14 +1,12 @@
 $ht-code-border-radius: .4em;
 .highlight {
-    width: 50%;
+    width: 70%;
     overflow-x: scroll;
-    /* border-radius: $ht-code-border-radius; */
-    margin-top: 1.4em;
-    margin-bottom: 1.4em;
-    margin-right: 2.5%;
-    margin-left: 2.5%;
+    margin: 1.4em 0;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    background: #FFFFF8 !important;
+    font-weight: 600;
 
     &::-webkit-scrollbar {
         display: none;
@@ -24,12 +22,10 @@ $ht-code-border-radius: .4em;
     }
 
     &>.chroma .hl {
-        /* border-radius: $ht-code-border-radius / 2; */
         display: block;
 
         &::before{
             content: "> ";
-            /* font-family: "Noto Emoji"; */
             font-family: inherit;
             position: absolute;
             left: 0;
@@ -39,7 +35,6 @@ $ht-code-border-radius: .4em;
 
     &>div.chroma>table.lntable{
         overflow: initial;
-        /* margin: $ht-code-border-radius 0 $ht-code-border-radius 0; */
         & td:first-of-type {
             & span:not(& span>span) {
                 padding: 0 .75em 0 .5em;
@@ -74,4 +69,8 @@ $ht-code-border-radius: .4em;
 
 ul > li > div.highlight {
     width: 100%;
+}
+
+pre, code {
+    font-family: $mono-fonts;
 }
