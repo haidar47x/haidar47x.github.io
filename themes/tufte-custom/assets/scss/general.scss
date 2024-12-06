@@ -18,6 +18,13 @@ body {
   padding-right: 12.5%;
 }
 
+@media (max-width: 375px) {
+  body {
+    padding-left: 6.25%;
+    padding-right: 6.25%;
+  }
+}
+
 section h1 {
   margin-top: 0.8em;
 }
@@ -60,13 +67,15 @@ mark {
 }
 
 .list-page {
-  width: 100%;
-  ul {
+  ul.outer {
     list-style-type: none;
-    margin: -0.25em -0.25em -0.25em -0.99em;
+    /* margin: -0.25em -0.25em -0.25em -0.99em; */
+    margin: 0;
     width: 100%;
-    min-width: 21rem;
     max-width: 45rem;
+  }
+  ul:first-child {
+
   }
   li.year {
     font-weight: 500;
@@ -79,7 +88,7 @@ mark {
     padding-left: 0;
     /* font-size: 95%; */
   }
-  ul.nested-list {
+  ul.inner {
     width: 100%;
   }
 }
