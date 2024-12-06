@@ -8,10 +8,10 @@
 
 <section class="list-page">
 {{ range .Data.Pages.GroupByDate "2006" }}
-  <ul>
-  <li class="year">{{ .Key }} <span class="count">({{ len .Pages }})</span></li>
+  <ul class="outer">
+  <li class="year">{{ .Key }}</li>
     {{ range .Pages.GroupByDate "January" }}
-    <ul class="nested-list">
+    <ul class="inner">
       {{ range .Pages }}
       <li>
         <span class="list-date">{{ .Date.Format "Jan 2" }} &middot;</span>
