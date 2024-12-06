@@ -1,8 +1,9 @@
 {{ define "main" }}
 <article id="main" class="home-page">
+    {{ if .IsHome }}
     {{ partial "brand.html" . }}
-
-    <section>
+    {{ end }}
+    <section class="substance">
         {{ $mainPage := .Site.Params.main_page | default "about" }}
         {{ $pageContent := .Site.GetPage "section" $mainPage }}
         {{ if $pageContent }}

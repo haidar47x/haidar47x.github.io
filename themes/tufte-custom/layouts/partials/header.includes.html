@@ -3,13 +3,11 @@
 <!-- Asynchronously load Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 <link href="https://fonts.cdnfonts.com/css/gill-sans-2" rel="stylesheet">
-<link href="https://fonts.cdnfonts.com/css/cascadia-code" rel="stylesheet">
 <noscript>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/gill-sans-2" rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/cascadia-code" rel="stylesheet">
 </noscript>
 
 {{ $htoptions := (dict "targetPath" "/css/hugo-tufte.min.css" "outputStyle" "compressed" "enableSourceMap" true) }}
@@ -21,6 +19,7 @@
 <link rel="stylesheet" href="{{ $ht_o_style.Permalink | relURL }}">
 
 <link rel="stylesheet" href="{{ "/css/hugo-tufte-override.css" | relURL }}">
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1Q74BDMPQ"></script>
 <script>

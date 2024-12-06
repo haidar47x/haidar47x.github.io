@@ -1,25 +1,7 @@
-<!-- <nav class="menu">
-    <ul>
-        {{ $currentPath := .Page.RelPermalink }}
-        {{ range .Site.Menus.nav }}
-        {{ if not (and (eq $currentPath "/" ) (eq .Identifier "about")) }}
-        <li><a href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a></li>
-        {{ end }}
-        {{ end }}
-    </ul>
-</nav> -->
-
 <nav class="menu">
     <ul>
-        {{ $currentPath := .Page.RelPermalink }}
         {{ range .Site.Menus.nav }}
-        {{ if not (or
-            (and (eq $currentPath "/" ) (eq .Identifier "about"))
-            (and (or (eq $currentPath "/posts/") (eq $currentPath "/blog/")) (eq .Identifier "posts"))
-            (and (eq $currentPath "/projects/") (eq .Identifier "projects"))
-        ) }}
         <li><a href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a></li>
-        {{ end }}
         {{ end }}
     </ul>
 </nav>

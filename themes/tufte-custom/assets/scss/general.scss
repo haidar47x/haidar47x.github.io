@@ -1,3 +1,7 @@
+$serif-fonts: "EB Garamond", "Garamond", "Palatino", "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+$sans-fonts: "Gill Sans", Calibri, sans-serif;
+$mono-fonts: "Ubuntu Mono", "Liberation Mono", Menlo, Courier, monospace;
+
 :root * {
   text-align: left;
   text-rendering: optimizeLegibility;
@@ -40,7 +44,7 @@ section:last-child {
   font-size: 2.4rem;
   margin-top: 1.2rem;
   width: 70%;
-  min-width: 320px;
+  min-width: 19.08rem;
 }
 
 section h2 {
@@ -64,13 +68,14 @@ h3:hover > a.heading-anchor {
 
 hr {
   text-align: left;
-  margin-left: 0;
-  margin-top: 1.4rem;
-  margin-bottom: 1.4rem;
   width: 75%;
   max-width: 45rem;
-  border-style: solid none none none;
-  border-color: #111;
+  margin: 1.4rem 0 1.4rem 0;
+  display: block;
+  border: none;
+  height: 1px;
+  background: #0071B9;
+  background: linear-gradient(to right, white, #aaa, #333, #aaa, white);
 }
 
 kbd {
@@ -271,3 +276,39 @@ p:lang(ja), span:lang(ja), {
 .marginnote:lang(ja) {
   font-size: 0.9rem;
 }
+
+.substance a {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.substance p {
+  font-size: 1.2em;
+  hyphens: none;
+  text-align: left;
+  width: 70%;
+}
+
+img {
+  filter: none !important;
+}
+
+@media screen and (max-width: 376px) {
+  h2, h3, p, footer {
+    width: 100%;
+    min-width: 19.886rem;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  h2, h3, p, footer {
+    min-width: 100%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  h2, h3, p, footer {
+    min-width: 70%;
+  }
+}
+
