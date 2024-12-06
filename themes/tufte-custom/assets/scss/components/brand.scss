@@ -7,6 +7,16 @@
     line-height: 0;
 }
 
+.menu ul {
+    width: 100%;
+}
+
+@media (max-width: 375px) {
+    .menu ul {
+        font-size: 1.1em;
+    }
+}
+
 .pronunciation {
     padding-left: 2.4rem;
     font-style: italic;

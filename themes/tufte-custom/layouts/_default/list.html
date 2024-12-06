@@ -9,24 +9,23 @@
 <section class="list-page">
 {{ range .Data.Pages.GroupByDate "2006" }}
   <ul class="outer">
-  <li class="year">{{ .Key }}</li>
-    {{ range .Pages.GroupByDate "January" }}
-    <ul class="inner">
-      {{ range .Pages }}
-      <li>
-        <span class="list-date">{{ .Date.Format "Jan 2" }} &middot;</span>
-        <a href="{{ .RelPermalink }}">{{.Title}}</a>
+      <li class="year">{{ .Key }}
+          {{ range .Pages.GroupByDate "January" }}
+          <ul class="inner">
+              {{ range .Pages }}
+              <li>
+                  <span class="list-date">{{ .Date.Format "Jan 2" }} &middot;</span>
+                  <a href="{{ .RelPermalink }}">{{.Title}}</a>
+              </li>
+              {{ end }}
+          </ul>
       </li>
-      {{ end }}
-    </ul>
-    </li>
-    </ul>
-    {{ end }}
   </ul>
-  {{ end }}
+    {{ end }}
+    {{ end }}
 </section>
 
-{{ partial "footer.html" . }}
+    {{ partial "footer.html" . }}
 
 </article>
 </div>
