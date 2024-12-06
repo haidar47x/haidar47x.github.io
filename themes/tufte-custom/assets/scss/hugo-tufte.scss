@@ -9,6 +9,7 @@
 @import "components/nav";
 @import "components/brand";
 @import "components/meta";
+@import "components/post";
 
 {{ if and (isset .Site.Params "codeblocksdark") .Site.Params.codeBlocksDark  }}
 @import "syntax/highlight-dark.scss";
