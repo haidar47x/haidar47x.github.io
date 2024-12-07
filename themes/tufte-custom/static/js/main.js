@@ -30,18 +30,40 @@ class ThemeToggle {
 
     toggleMode() {
         const currMode = localStorage.getItem('mode') === 'dark' ? 'light' : 'dark';
-        // localStorage.setItem('mode', currMode)
-        // window.reload();
         this.setMode(currMode);
     }
 
     init() {
-        const savedMode = localStorage.getItem('mode') || 'light';
-        this.setMode(savedMode);
-
         const toggleBtn = document.querySelector(this.toggleButtonSelector);
+
+        // Detect system's preferred color scheme
+        const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+
+        // Determine initial mode
+        const savedMode = localStorage.getItem('mode');
+        if (savedMode) {
+            this.setMode(savedMode);
+        } else {
+            const initialMode = prefersDarkMode.matches ? 'dark' : 'light';
+            this.setMode(initialMode);
+        }
+
+        // Listen for system preference changes
+        prefersDarkMode.addEventListener('change', (event) => {
+            const systemMode = event.matches ? 'dark' : 'light';
+            const savedMode = localStorage.getItem('mode');
+            // Only apply system mode if no manual mode is set
+            if (!savedMode) {
+                this.setMode(systemMode);
+            }
+        });
+
+        // Attach toggle button event listener
         if (toggleBtn) {
-            toggleBtn.addEventListener("click", () => this.toggleMode());
+            toggleBtn.addEventListener("click", () => {
+                localStorage.removeItem('mode'); // Clear manual override if toggled
+                this.toggleMode();
+            });
         }
     }
 }
