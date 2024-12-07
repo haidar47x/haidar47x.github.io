@@ -18,21 +18,11 @@ class ThemeToggle {
             iconElem.classList.remove('light');
             iconElem.classList.add('dark');
             iconElem.src = this.darkIconSrc;
-            /** Dynamic theme for Safari status bar **/
-            const iOSThemeMeta = document.createElement('meta');
-            iOSThemeMeta.name = "content-theme";
-            iOSThemeMeta.content = "#000000";
-            document.head.appendChild(iOSThemeMeta);
         } else {
             this.htmlElem.style.cssText = this.htmlElem.style.cssText.replace(this.style, "");
             iconElem.classList.remove('dark');
             iconElem.classList.add('light');
             iconElem.src = this.lightIconSrc;
-            /** Dynamic theme for Safari status bar **/
-            const iOSThemeMeta = document.querySelector('[name="content-theme"]');
-            if (iOSThemeMeta) {
-                iOSThemeMeta.remove();
-            }
         }
 
         localStorage.setItem('mode', mode);
@@ -40,9 +30,9 @@ class ThemeToggle {
 
     toggleMode() {
         const currMode = localStorage.getItem('mode') === 'dark' ? 'light' : 'dark';
-        // localStorage.setItem('mode', currMode)
-        // window.reload();
-        this.setMode(currMode);
+        localStorage.setItem('mode', currMode)
+        location.reload();
+        // this.setMode(currMode);
     }
 
     init() {
