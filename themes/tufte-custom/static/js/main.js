@@ -1,4 +1,4 @@
-class ThemeToggler {
+class ThemeToggle {
     constructor(options) {
         this.htmlElem = document.documentElement;
         this.style = options.style || "filter: invert(1) contrast(0.9) brightness(0.75) saturate(1) sepia(0.35);";
@@ -29,25 +29,27 @@ class ThemeToggler {
     }
 
     toggleMode() {
-        const currentMode = localStorage.getItem('mode') === 'dark' ? 'light' : 'dark';
-        this.setMode(currentMode);
+        const currMode = localStorage.getItem('mode') === 'dark' ? 'light' : 'dark';
+        this.setMode(currMode);
     }
 
     init() {
         const savedMode = localStorage.getItem('mode') || 'light';
         this.setMode(savedMode);
 
-        const toggleButton = document.querySelector(this.toggleButtonSelector);
-        if (toggleButton) {
-            toggleButton.addEventListener("click", () => this.toggleMode());
+        const toggleBtn = document.querySelector(this.toggleButtonSelector);
+        if (toggleBtn) {
+            toggleBtn.addEventListener("click", () => this.toggleMode());
         }
     }
 }
 
-new ThemeToggler({
-    style: "filter: invert(1) contrast(0.9) brightness(0.75) saturate(1) sepia(0.35);",
-    iconSelector: '.appearance img',
-    toggleButtonSelector: '.appearance',
-    lightIconSrc: "img/sun.png",
-    darkIconSrc: "img/moon.png"
-});
+(function() {
+    new ThemeToggle({
+        style: "filter: invert(1) contrast(0.9) brightness(0.75) saturate(1) sepia(0.35);",
+        iconSelector: '.appearance img',
+        toggleButtonSelector: '.appearance',
+        lightIconSrc: "img/sun.png",
+        darkIconSrc: "img/moon.png"
+    });
+})();
