@@ -18,11 +18,18 @@ class ThemeToggle {
             iconElem.classList.remove('light');
             iconElem.classList.add('dark');
             iconElem.src = this.darkIconSrc;
+            /** Dynamic theme for Safari status bar **/
+            const iOSThemeMeta = document.createElement('meta');
+            iOSThemeMeta.name = "content-theme";
+            iOSThemeMeta.content = "#000000";
+            document.head.appendChild(iOSThemeMeta);
         } else {
             this.htmlElem.style.cssText = this.htmlElem.style.cssText.replace(this.style, "");
             iconElem.classList.remove('dark');
             iconElem.classList.add('light');
             iconElem.src = this.lightIconSrc;
+            /** Dynamic theme for Safari status bar **/
+            document.querySelector('[name="content-theme"]').remove();
         }
 
         localStorage.setItem('mode', mode);
@@ -36,10 +43,8 @@ class ThemeToggle {
     init() {
         const toggleBtn = document.querySelector(this.toggleButtonSelector);
 
-        // Detect system's preferred color scheme
         const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
 
-        // Determine initial mode
         const savedMode = localStorage.getItem('mode');
         if (savedMode) {
             this.setMode(savedMode);
@@ -48,17 +53,14 @@ class ThemeToggle {
             this.setMode(initialMode);
         }
 
-        // Listen for system preference changes
         prefersDarkMode.addEventListener('change', (event) => {
             const systemMode = event.matches ? 'dark' : 'light';
             const savedMode = localStorage.getItem('mode');
-            // Only apply system mode if no manual mode is set
             if (!savedMode) {
                 this.setMode(systemMode);
             }
         });
 
-        // Attach toggle button event listener
         if (toggleBtn) {
             toggleBtn.addEventListener("click", () => {
                 localStorage.removeItem('mode'); // Clear manual override if toggled
