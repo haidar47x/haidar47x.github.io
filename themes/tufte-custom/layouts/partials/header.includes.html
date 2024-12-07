@@ -18,10 +18,6 @@
 {{ $htstyle := resources.Get "scss/hugo-tufte.scss"| resources.ExecuteAsTemplate "main.scss" .  | resources.ToCSS $htoptions }}
 <link rel="stylesheet" href="{{ $htstyle.Permalink | relURL }}">
 
-{{ $ht_o_options := (dict "targetPath" "/css/hugo-tufte-options.min.css" "outputStyle" "compressed" "enableSourceMap" true) }}
-{{ $ht_o_style := resources.Get "scss/hugo-tufte-options.scss"| resources.ExecuteAsTemplate "main.scss" .  | resources.ToCSS $ht_o_options }}
-<link rel="stylesheet" href="{{ $ht_o_style.Permalink | relURL }}">
-
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1Q74BDMPQ"></script>
 <script>
