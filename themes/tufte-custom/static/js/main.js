@@ -29,7 +29,10 @@ class ThemeToggle {
             iconElem.classList.add('light');
             iconElem.src = this.lightIconSrc;
             /** Dynamic theme for Safari status bar **/
-            document.querySelector('[name="content-theme"]').remove();
+            const iOSThemeMeta = document.querySelector('[name="content-theme"]');
+            if (iOSThemeMeta) {
+                iOSThemeMeta.remove();
+            }
         }
 
         localStorage.setItem('mode', mode);
