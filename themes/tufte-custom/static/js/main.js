@@ -1,31 +1,53 @@
-function toggleStyle(mode = null) {
-    const htmlElem = document.documentElement;
-    const style = "filter: invert(1) contrast(0.9) brightness(0.75) saturate(1) sepia(0.35);";
+class ThemeToggler {
+    constructor(options) {
+        this.htmlElem = document.documentElement;
+        this.style = options.style || "filter: invert(1) contrast(0.9) brightness(0.75) saturate(1) sepia(0.35);";
+        this.iconSelector = options.iconSelector || '.appearance img';
+        this.toggleButtonSelector = options.toggleButtonSelector || '.appearance';
+        this.lightIconSrc = options.lightIconSrc || "img/sun.png";
+        this.darkIconSrc = options.darkIconSrc || "img/moon.png";
 
-    if (mode === null) {
-        mode = localStorage.getItem('mode') === 'dark' ? 'light' : 'dark';
+        this.init();
     }
 
-    if (mode === 'dark') {
-        htmlElem.style.cssText += style;
-        document.querySelector('.appearance img').classList.replace('light', 'dark');
-        document.querySelector('.appearance img').src = "img/moon.png"
-    } else {
-        htmlElem.style.cssText = htmlElem.style.cssText.replace(style, "");
-        document.querySelector('.appearance img').classList.replace('dark', 'light');
-        document.querySelector('.appearance img').src = "img/sun.png"
+    setMode(mode) {
+        const iconElem = document.querySelector(this.iconSelector);
+
+        if (mode === 'dark') {
+            this.htmlElem.style.cssText += this.style;
+            iconElem.classList.remove('light');
+            iconElem.classList.add('dark');
+            iconElem.src = this.darkIconSrc;
+        } else {
+            this.htmlElem.style.cssText = this.htmlElem.style.cssText.replace(this.style, "");
+            iconElem.classList.remove('dark');
+            iconElem.classList.add('light');
+            iconElem.src = this.lightIconSrc;
+        }
+
+        localStorage.setItem('mode', mode);
     }
 
-    localStorage.setItem('mode', mode);
+    toggleMode() {
+        const currentMode = localStorage.getItem('mode') === 'dark' ? 'light' : 'dark';
+        this.setMode(currentMode);
+    }
+
+    init() {
+        const savedMode = localStorage.getItem('mode') || 'light';
+        this.setMode(savedMode);
+
+        const toggleButton = document.querySelector(this.toggleButtonSelector);
+        if (toggleButton) {
+            toggleButton.addEventListener("click", () => this.toggleMode());
+        }
+    }
 }
 
-document.querySelector(".appearance").addEventListener("click", () => {
-    toggleStyle();
+new ThemeToggler({
+    style: "filter: invert(1) contrast(0.9) brightness(0.75) saturate(1) sepia(0.35);",
+    iconSelector: '.appearance img',
+    toggleButtonSelector: '.appearance',
+    lightIconSrc: "img/sun.png",
+    darkIconSrc: "img/moon.png"
 });
-
-(function() {
-    const savedMode = localStorage.getItem('mode');
-    if (savedMode) {
-        toggleStyle(savedMode);
-    }
-})();
