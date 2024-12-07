@@ -40,35 +40,18 @@ class ThemeToggle {
 
     toggleMode() {
         const currMode = localStorage.getItem('mode') === 'dark' ? 'light' : 'dark';
+        // localStorage.setItem('mode', currMode)
+        // window.reload();
         this.setMode(currMode);
     }
 
     init() {
+        const savedMode = localStorage.getItem('mode') || 'light';
+        this.setMode(savedMode);
+
         const toggleBtn = document.querySelector(this.toggleButtonSelector);
-
-        const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
-
-        const savedMode = localStorage.getItem('mode');
-        if (savedMode) {
-            this.setMode(savedMode);
-        } else {
-            const initialMode = prefersDarkMode.matches ? 'dark' : 'light';
-            this.setMode(initialMode);
-        }
-
-        prefersDarkMode.addEventListener('change', (event) => {
-            const systemMode = event.matches ? 'dark' : 'light';
-            const savedMode = localStorage.getItem('mode');
-            if (!savedMode) {
-                this.setMode(systemMode);
-            }
-        });
-
         if (toggleBtn) {
-            toggleBtn.addEventListener("click", () => {
-                localStorage.removeItem('mode'); // Clear manual override if toggled
-                this.toggleMode();
-            });
+            toggleBtn.addEventListener("click", () => this.toggleMode());
         }
     }
 }
