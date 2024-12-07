@@ -1,6 +1,5 @@
 function toggleStyle() {
-    let mode = localStorage.getItem('mode') || 'light';
-
+    let mode = localStorage.getItem('mode');
     const htmlElem = document.documentElement;
     const style = "filter: invert(1) contrast(0.95) brightness(0.55) saturate(1) sepia(0.35);"
     if (mode === 'light') {
@@ -17,5 +16,6 @@ document.querySelector(".appearance button").addEventListener("click", () => {
 });
 
 (function() {
-    toggleStyle();
+    if (localStorage.getItem('mode') !== null)
+        toggleStyle();
 })();

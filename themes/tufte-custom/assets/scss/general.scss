@@ -289,9 +289,16 @@ p:lang(ja), span:lang(ja), {
   width: 70%;
 }
 
+.appearance {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
 img {
   filter: none !important;
 }
+
 
 @media screen and (max-width: 376px) {
   h2, h3, p, footer {
