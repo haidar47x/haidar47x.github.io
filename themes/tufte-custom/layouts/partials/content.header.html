@@ -8,15 +8,15 @@
 
 {{- if and (.IsPage) (.Params.meta) -}}
 <span class="content-meta">
-  {{- if .Params.author -}}
-  <p class="author">{{ .Params.author }}</p>
+  {{- if .Site.Params.author -}}
+  <p class="author">{{ .Site.Params.author }}</p>
   {{- end -}}
 
-  {{- if not .Params.hidedate -}}
+  {{- if not .Params.hideDate -}}
   <p class="date">{{ .Date.Format "2006-01-02" }}</p>
   {{- end -}}
 
-  {{- if not .Params.hidereadtime -}}
+  {{- if not .Params.hideReadtime -}}
   <span>{{ .ReadingTime }} min read&nbsp;</span>
   {{- end -}}
 
