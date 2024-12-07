@@ -30,6 +30,8 @@ class ThemeToggle {
 
     toggleMode() {
         const currMode = localStorage.getItem('mode') === 'dark' ? 'light' : 'dark';
+        // localStorage.setItem('mode', currMode)
+        // window.reload();
         this.setMode(currMode);
     }
 
