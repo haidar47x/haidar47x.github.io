@@ -1,8 +1,10 @@
 ---
-title: "Example to demonstrate how to hide the table of contents on a single post"
-date: 2023-07-13
+title: "First post"
+date: 2024-12-05
 draft: false
+meta: true
 hideToc: true
+hideReadTime: true
 ---
 
 

@@ -6,9 +6,19 @@
     margin-top: 1em;
 }
 
+.content-meta {
+    color: rgba(100, 105, 105, 1);
+    font-style:italic;
+}
+
 .content-meta .author {
-    /* color: rgb(90, 20, 55) */
-    /* color: rgba(65, 70, 75, 1); */
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.content-meta .date {
+    font-size: 0.92em;
+    font-weight: 500;
 }
 
 .post-avatar {
