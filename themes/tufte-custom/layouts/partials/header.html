@@ -6,11 +6,19 @@
 {{ .Title }} - {{ .Site.Title }}
 {{ end }}
 </title>
+<!-- Configuration -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description"
-    content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{end }}{{ end }} ">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- Website Metadata -->
+<meta name="author" content="{{ .Site.Params.author }}">
+<meta name="description" content="{{ .Site.Params.description }}">
+<meta name="keywords" content="{{ .Site.Params.keywords }}">
+<meta name="robots" content="index, follow">
+<meta name="language" content="English">
 <link rel="canonical" href="{{ .Permalink }}" />
+<!-- Favicon -->
 {{ if .Site.Params.favicon }}
 <link rel="icon" href="{{ .Site.Params.favicon | absURL }}" />
 {{ end }}
