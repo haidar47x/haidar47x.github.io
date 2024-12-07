@@ -1,8 +1,12 @@
-function toggleStyle() {
-    let mode = localStorage.getItem('mode');
+function toggleStyle(mode = null) {
     const htmlElem = document.documentElement;
-    const style = "filter: invert(1) contrast(0.95) brightness(0.55) saturate(1) sepia(0.35);"
-    if (mode === 'light') {
+    const style = "filter: invert(1) contrast(0.95) brightness(0.55) saturate(1) sepia(0.35);";
+
+    if (mode === null) {
+        mode = localStorage.getItem('mode') === 'dark' ? 'light' : 'dark';
+    }
+
+    if (mode === 'dark') {
         htmlElem.style.cssText += style;
         localStorage.setItem('mode', 'dark');
     } else {
@@ -16,6 +20,8 @@ document.querySelector(".appearance button").addEventListener("click", () => {
 });
 
 (function() {
-    if (localStorage.getItem('mode') !== null)
-        toggleStyle();
+    const savedMode = localStorage.getItem('mode');
+    if (savedMode) {
+        toggleStyle(savedMode);
+    }
 })();
