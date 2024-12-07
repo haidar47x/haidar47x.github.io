@@ -4,8 +4,8 @@ class ThemeToggle {
         this.style = options.style || "filter: invert(1) contrast(0.9) brightness(0.75) saturate(1) sepia(0.35);";
         this.iconSelector = options.iconSelector || '.appearance img';
         this.toggleButtonSelector = options.toggleButtonSelector || '.appearance';
-        this.lightIconSrc = options.lightIconSrc || "img/sun.png";
-        this.darkIconSrc = options.darkIconSrc || "img/moon.png";
+        this.lightIconSrc = options.lightIconSrc || "/img/sun.png";
+        this.darkIconSrc = options.darkIconSrc || "/img/moon.png";
 
         this.init();
     }
@@ -49,7 +49,7 @@ class ThemeToggle {
         style: "filter: invert(1) contrast(0.9) brightness(0.75) saturate(1) sepia(0.35);",
         iconSelector: '.appearance img',
         toggleButtonSelector: '.appearance',
-        lightIconSrc: "img/sun.png",
-        darkIconSrc: "img/moon.png"
+        lightIconSrc: "/img/sun.png",
+        darkIconSrc: "/img/moon.png"
     });
 })();
