@@ -5,6 +5,7 @@ $mono-fonts: "Ubuntu Mono", "Liberation Mono", Menlo, Courier, monospace;
 :root * {
   text-align: left;
   text-rendering: optimizeLegibility;
+  background: #f2f0e3;
 }
 
 :focus {
@@ -20,6 +21,7 @@ $mono-fonts: "Ubuntu Mono", "Liberation Mono", Menlo, Courier, monospace;
 
 body {
   padding-right: 12.5%;
+  background: #f2f0e3;
 }
 
 @media (max-width: 375px) {
