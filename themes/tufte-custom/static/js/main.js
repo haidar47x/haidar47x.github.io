@@ -54,4 +54,5 @@ class ThemeToggle {
         lightIconSrc: "/img/sun.png",
         darkIconSrc: "/img/moon.png"
     });
+
 })();
