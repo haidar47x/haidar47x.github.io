@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
 @import "tailwindcss";
 
 *, *::before, *::after {
@@ -7,4 +11,23 @@
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope";
+}
+
+.manrope {
+  font-family: "Manrope";
+  font-optical-sizing: auto;
+}
+
+.eb-garamond {
+  font-family: "EB Garamond";
+  font-optical-sizing: auto;
+}
+
+.yellowtail {
+  font-family: "Yellowtail";
+  font-optical-sizing: auto;
 }
