@@ -1,25 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 
 @import "tailwindcss";
 
-*, *::before, *::after {
-  margin: 0;
-  padding: 0;
+
+/* Don't mess with this or utility classes won't work */
+@layer base {
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
 }
 
-* {
-  box-sizing: border-box;
-}
 
 body {
-  font-family: "Manrope";
-}
-
-.manrope {
-  font-family: "Manrope";
-  font-optical-sizing: auto;
+  font-family: "Inter";
+  @apply bg-stone-100;
+  @apply text-gray-950;
 }
 
 .eb-garamond {
@@ -30,4 +35,8 @@ body {
 .yellowtail {
   font-family: "Yellowtail";
   font-optical-sizing: auto;
+}
+
+.active {
+  @apply border-b-2 border-dashed border-gray-950;
 }
