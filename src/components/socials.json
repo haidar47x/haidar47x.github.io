@@ -1,0 +1,22 @@
+[
+  {
+    "name": "GitHub",
+    "url": "https://github.com/haidar47x",
+    "icon": "github.svg"
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/haidarali-dev",
+    "icon": "linkedin.svg"
+  },
+  {
+    "name": "Discord",
+    "url": "https://discord.gg/haidar47x",
+    "icon": "discord.svg"
+  },
+  {
+    "name": "WhatsApp",
+    "url": "https://wa.me/923005713924",
+    "icon": "whatsapp.svg"
+  }
+]
