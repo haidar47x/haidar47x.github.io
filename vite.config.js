@@ -4,4 +4,8 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: "/",
+  define: {
+    "process.env.PUBLIC_URL": JSON.stringify("")
+  }
 });

@@ -2,22 +2,23 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { createPortal } from "react-dom";
+import { Link } from "react-router-dom";
 import { FaChevronDown } from "react-icons/fa";
 import { RxCross1 } from "react-icons/rx";
 
 const pages = [
   {
     title: "About",
-    href: "#about",
+    href: "/",
     active: true,
   },
   {
     title: "Posts",
-    href: "#posts",
+    href: "/posts",
   },
   {
     title: "Projects",
-    href: "#projects",
+    href: "/projects",
   },
 ];
 
@@ -53,9 +54,9 @@ function PageLinks() {
                   <li
                     key={i + 1}
                     className="rounded-lg px-2 py-1 duration-200 hover:text-stone-500">
-                    <a href={p.href} onClick={toggleMenu}>
+                    <Link to={p.href} onClick={toggleMenu}>
                       {p.title}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -71,11 +72,11 @@ function PageLinks() {
             <li
               key={i}
               className="rounded-lg px-2 py-1 duration-200 hover:bg-gray-200">
-              <a
-                href={p.href}
+              <Link
+                to={p.href}
                 className={`${p.active && p.active === true ? "" : ""}`}>
                 {p.title}
-              </a>
+              </Link>
             </li>
           );
         })}

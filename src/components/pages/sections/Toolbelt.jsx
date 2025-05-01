@@ -81,7 +81,7 @@ function Toolbelt() {
                   initial={{ opacity: 0, x: Math.floor(Math.random() * 40)}}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true, amount: 1.0 }}
-                  transition={{ duration: Math.floor(1 + Math.random() * 300)/100, ease: "linear"}}>
+                  transition={{ duration: Math.floor(1 + Math.random() * 200)/100, ease: "linear"}}>
                   <Icon className="w-5 h-5 sm:w-7 sm:h-7 md:w-8 md:h-8" />
                   <span>{t.name}</span>
                 </motion.div>
