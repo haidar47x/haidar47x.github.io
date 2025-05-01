@@ -21,7 +21,7 @@ function SocialLinks() {
           const IconComponent = icons[s.name.toLowerCase()];
           return (
             <li key={i} className="hover:animate-spin cursor-pointer">
-              <a href={s.link} target="_blank" rel="noopener noreferrer">
+              <a href={s.url} target="_blank" rel="noopener noreferrer">
                 {IconComponent && <IconComponent className="w-5 h-5" />}
               </a>
             </li>

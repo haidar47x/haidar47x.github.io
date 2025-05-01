@@ -5,8 +5,8 @@ import SocialLinks from "./components/SocialLinks";
 
 function Navbar() {
   return (
-    <div className="navbar flex flex-nowrap justify-center items-center mt-4 bg-transparent">
-      <div className="navbar-items flex justify-center items-center gap-4 h-12 px-2 bg-white rounded-[0.6rem] shadow-[0_1px_rgba(0,0,0,0.14)]">
+    <div className="navbar sticky top-5 z-10 mt-5 flex flex-nowrap items-center justify-center bg-transparent">
+      <div className="navbar-items static flex h-12 items-center justify-center gap-4 rounded-[0.6rem] bg-white/80 px-2 shadow-[0_1px_rgba(0,0,0,0.14)] backdrop-blur-[9.6px]">
         <PageLinks />
         <Separator />
         <SocialLinks />
