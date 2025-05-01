@@ -1,4 +1,4 @@
-import socials from "../../socials.json"
+import socials from "../../../assets/socials.json"
 
 /** Social Icons */
 import { FaGithub } from "react-icons/fa"
