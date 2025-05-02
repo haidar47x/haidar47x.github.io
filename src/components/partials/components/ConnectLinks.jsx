@@ -9,7 +9,7 @@ function ConnectLinks() {
     <div className="flex flex-row justify-center gap-3 md:gap-2 pr-1 md:p-0">
       <motion.button className="rounded-[0.6rem] bg-black/5 dark:bg-[rgba(255,255,255,0.08)] px-2.5 py-1 backdrop-blur-[9.6px]"
                      whileHover={whileHover}>
-        <a href="https://www.google.com" className="">
+        <a href="/resume.pdf" target="_blank">
           <span className="hidden md:inline">Resume</span>
           <MdAttachment className="md:hidden" />
         </a>
