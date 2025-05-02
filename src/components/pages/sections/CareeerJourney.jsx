@@ -41,7 +41,7 @@ function CareerJourney() {
       </h1>
       <div className="relative w-full max-w-4xl">
         {/* Timeline Line */}
-        <div className="absolute top-0 left-4 ml-2 h-[calc(100%+0.75rem)] w-[2px] bg-orange-500 shadow-xs/20 md:left-1/2"></div>
+        <div className="absolute top-0 left-4 ml-2 h-[calc(100%+0.15rem)] w-[2px] bg-orange-500 shadow-xs/20 md:left-1/2"></div>
       <img src={gradientImage}
            alt="Gradient"
            className="animate-fade overflow-x-hidden absolute -z-10 -right-32 md:-left-60 lg:-left-64 xl:-left-72 top-0 h-[80%] sm:h-[100%] w-full sm:w-auto opacity-50" />
@@ -62,18 +62,18 @@ function CareerJourney() {
                 i % 2 === 0 ? "md:ml-auto" : "md:mr-auto md:ml-8"
               }`}>
               <h1
-                className={`${i % 2 === 0 ? "text-left md:text-left" : "text-left md:text-right"} eb-garamond py-1 text-2xl text-gray-800 text-shadow-2xs md:text-4xl`}>
+                className={`${i % 2 === 0 ? "text-left md:text-left" : "text-left md:text-right"} eb-garamond py-1 text-2xl text-slate-800 dark:text-slate-300 text-shadow-2xs md:text-4xl`}>
                 {item.year}
               </h1>
               <h4
-                className={`${i % 2 === 0 ? "text-left md:text-left" : "text-left md:text-right"} font-regular inherit py-1 text-sm text-stone-700 uppercase md:text-[0.825em] md:tracking-tight`}>
+                className={`${i % 2 === 0 ? "text-left md:text-left" : "text-left md:text-right"} font-regular inherit py-1 text-sm text-slate-700 dark:text-slate-300 uppercase md:text-[0.825em] md:tracking-tight`}>
                 {item.title}
               </h4>
               <h4
-                className={`${i % 2 === 0 ? "text-left md:text-left" : "text-left md:text-right"} py-1 text-sm font-bold text-stone-500`}>
+                className={`${i % 2 === 0 ? "text-left md:text-left" : "text-left md:text-right"} py-1 text-sm font-bold text-slate-600 dark:text-slate-300`}>
                 {item.company}
               </h4>
-              <p className="py-1 text-justify text-sm text-stone-950">
+              <p className="py-1 text-justify text-sm text-slate-950 dark:text-slate-100">
                 {item.description}
               </p>
             </div>
