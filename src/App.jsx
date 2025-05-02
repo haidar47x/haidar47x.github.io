@@ -12,7 +12,7 @@ function App() {
     <Router basename={import.meta.env.BASE_URL ?? "/"}>
       <div className="site-container">
         <Navbar />
-        <main className="content text-2xl">
+        <main className="content text-2xl dark:text-slate-200">
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="/articles" element={<Articles />} />

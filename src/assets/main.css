@@ -24,8 +24,8 @@
 body {
   font-family: "Inter";
   overflow-x: hidden;
-  @apply bg-stone-100;
-  @apply text-gray-950;
+  @apply bg-slate-100 dark:bg-slate-950;
+  @apply text-slate-950;
 }
 
 .eb-garamond {

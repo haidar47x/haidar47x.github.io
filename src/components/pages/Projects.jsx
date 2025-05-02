@@ -19,8 +19,8 @@ function Projects() {
           {projects.map((p, i) => {
             return (
               <div key={i} className="project flex flex-col gap-4">
-                <h1 className="text-xl hover:text-stone-700 sm:text-3xl">
-                  <a href={p.url} target="_blank">
+                <h1 className="text-xl tracking-tight  sm:text-3xl">
+                  <a className="hover:text-slate-700 dark:hover:text-slate-300" href={p.url} target="_blank">
                     {p.name}
                   </a>
                 </h1>
@@ -29,7 +29,7 @@ function Projects() {
                     return (
                       <span
                         key={i}
-                        className="text-700 rounded-full border-1 border-stone-700 px-1.5 py-0.5 text-xs sm:text-sm">
+                        className="text-700 rounded-full border-1 border-slate-700 dark:border-slate-300 px-1.5 py-0.5 text-xs sm:text-sm">
                         {t}
                       </span>
                     );
@@ -45,7 +45,7 @@ function Projects() {
                     {p.img ? (
                       <img className="h-full w-full object-cover" src={p.img} />
                     ) : (
-                      <div className="flex h-full items-center justify-center text-3xl font-extralight tracking-tighter text-stone-950">
+                      <div className="flex h-full items-center justify-center text-3xl font-extralight tracking-tighter text-slate-950 dark:text-slate-500 cursor-default">
                         COMING SOON
                       </div>
                     )}

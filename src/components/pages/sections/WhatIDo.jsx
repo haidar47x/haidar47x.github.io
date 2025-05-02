@@ -69,7 +69,7 @@ function InfiniteMarquee({ items, baseVelocity = 100 }) {
             key={i}
             className={`${
               i % 2 === 0 ? "font-black" : "font-light"
-            } mx-4 cursor-default text-2xl md:text-4xl text-stone-950 select-none`}>
+            } mx-4 cursor-default text-2xl md:text-4xl text-slate-950 dark:text-slate-400 select-none`}>
             {item}
           </span>
         ))}
