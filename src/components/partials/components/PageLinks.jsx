@@ -13,8 +13,8 @@ const pages = [
     active: true,
   },
   {
-    title: "Posts",
-    href: "/posts",
+    title: "Articles",
+    href: "/articles",
   },
   {
     title: "Projects",

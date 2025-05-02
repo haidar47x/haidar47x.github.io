@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import About from "./components/pages/About";
-import Posts from "./components/pages/Posts";
 import Projects from "./components/pages/Projects";
 
 import Footer from "./components/partials/Footer";
 import Navbar from "./components/partials/Navbar";
+import Articles from "./components/pages/Articles";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <main className="content text-2xl">
           <Routes>
             <Route path="/" element={<About />} />
-            <Route path="/posts" element={<Posts />} />
+            <Route path="/articles" element={<Articles />} />
             <Route path="/projects" element={<Projects />} />
           </Routes>
         </main>
