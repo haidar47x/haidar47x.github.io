@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Pocketer",
+    "technologies": [
+      "JavaScript", "TypeScript", "Pocket API", "Chrome API"
+    ],
+    "url": "https://github.com/haidar47x/pocketer",
+    "description": "A Google Chrome extension that lets you easily manage your Mozilla Pocket items.",
+    "img": "https://raw.githubusercontent.com/haidar47x/Pocketer/refs/heads/master/.github/pocketer.png"
+  },
+  {
+    "name": "Leisurely",
+    "technologies": [
+      "JavaScript", "Electron.js", "React", "Node.js"
+    ],
+    "url": "https://github.com/haidar47x/leisurely",
+    "description": "A cross-platform minimalistic time tracking application that lets you track time while listening to ambient music."
+  }
+]

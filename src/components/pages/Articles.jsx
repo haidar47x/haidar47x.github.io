@@ -5,7 +5,6 @@ import { posts, firstYear } from '../../utils'
 
 function Articles() {
   let separatorYear = firstYear;
-
   return (
     <div className="relative flex flex-col items-center gap-12 overflow-x-hidden px-4 pt-24 pb-4 md:gap-32 md:py-24">
       <img
