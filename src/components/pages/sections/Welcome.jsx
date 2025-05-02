@@ -2,7 +2,7 @@ import gradientImage from "../../../assets/gradient.png"
 
 function Welcome() {
   return (
-    <div className="header relative flex flex-col items-center overflow-x-hidden gap-12 pt-24 pb-4 md:gap-16 md:py-24">
+    <div className="relative flex flex-col items-center overflow-x-hidden gap-12 pt-24 pb-4 md:gap-16 md:py-24">
       <img src={gradientImage}
            alt="Gradient"
            className="animate-fade overflow-x-hidden absolute -z-10 -right-48 md:-right-60 lg:-right-24 xl:right-12 top-0 h-[80%] sm:h-[100%] w-full sm:w-auto opacity-100" />

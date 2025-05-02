@@ -66,7 +66,7 @@ function Toolbelt() {
   };
 
   return (
-    <div className="header relative flex flex-col items-center overflow-x-hidden gap-16 py-12 md:py-24">
+    <div className="relative flex flex-col items-center overflow-x-hidden gap-16 py-12 md:py-24">
       <h1 className="eb-garamond px-4 text-shadow/25 text-center text-5xl text-shadow-xs md:text-8xl">
         toolbelt and <em className="text-orange-500">technologies</em>
       </h1>
