@@ -1,15 +1,5 @@
 import React from "react";
-import {
-  useAnimationFrame,
-  useMotionValue,
-  useScroll,
-  useSpring,
-  useTransform,
-  useVelocity,
-  // eslint-disable-next-line no-unused-vars
-  motion,
-} from "motion/react";
-import { wrap } from "motion/react";
+import { motion } from "framer-motion";
 
 const backendSkills = [
   "API Development",
@@ -39,40 +29,39 @@ const frontendSkills = [
   "E2E Testing",
 ];
 
-function InfiniteMarquee({ items, baseVelocity = 100 }) {
-  const baseX = useMotionValue(0);
-  const { scrollY } = useScroll();
-  const scrollVelocity = useVelocity(scrollY);
-  const smoothVelocity = useSpring(scrollVelocity, {
-    damping: 50,
-    stiffness: 400,
-  });
-  const velocityFactor = useTransform(smoothVelocity, [0, 1000], [0, 1], {
-    clamp: false,
-  });
-
-  const x = useTransform(baseX, (v) => `${wrap(-100, 0, v)}%`);
-
-  useAnimationFrame((t, delta) => {
-    const moveBy =
-      baseVelocity * (delta / 1000) + baseVelocity * velocityFactor.get();
-    baseX.set(baseX.get() + moveBy);
-  });
-
-  return (
-    <div className="marquee-container w-full overflow-hidden bg-transparent">
-      <motion.div
-        className="marquee-content flex justify-center gap-16 py-8 whitespace-nowrap bg-transparent"
-        style={{ x }}>
-        {items.map((item, i) => (
-          <span
-            key={i}
-            className={`${
-              i % 2 === 0 ? "font-black" : "font-light"
-            } mx-4 cursor-default text-2xl md:text-4xl text-slate-950 dark:text-slate-400 select-none`}>
+function InfiniteMarquee({ items, reverse = false }) {
+  const MarqueeText = () => (
+    <span className="text-3xl dark:text-slate-400">
+      {items.map((item, i) => {
+        return (
+          <span className="not-even:font-light not-odd:font-black px-16" key={`${item} - ${i}`}>
             {item}
           </span>
-        ))}
+        );
+      })}
+    </span>
+  );
+
+  return (
+    <div className="marquee relative h-32 w-screen max-w-full overflow-x-hidden">
+      <motion.div
+        className="track absolute whitespace-nowrap"
+        style={{ willChange: "transform" }}
+        variants={{
+          animate: {
+            x: [`${reverse ? "-50%" : "0%"}`, `${reverse ? "0%" : "-50%"}`],
+            transition: {
+              x: {
+                repeat: Infinity,
+                duration: 60,
+                ease: "linear",
+              },
+            },
+          },
+        }}
+        animate="animate">
+        <MarqueeText />
+        <MarqueeText />
       </motion.div>
     </div>
   );
@@ -81,9 +70,9 @@ function InfiniteMarquee({ items, baseVelocity = 100 }) {
 function WhatIDo() {
   return (
     <div className="what-i-do flex flex-col items-center py-8 md:py-24">
-      <div className="flex w-full flex-col items-center gap-1 md:gap-3 text-xl font-medium">
-        <InfiniteMarquee items={backendSkills} baseVelocity={-2} />
-        <InfiniteMarquee items={frontendSkills} baseVelocity={2} />
+      <div className="flex w-full flex-col items-center gap-1 text-xl font-medium md:gap-3">
+        <InfiniteMarquee items={frontendSkills} />
+        <InfiniteMarquee items={backendSkills} reverse={true}/>
       </div>
     </div>
   );
