@@ -32,7 +32,7 @@ const frontendSkills = [
 
 function InfiniteMarquee({ items, reverse = false }) {
   const MarqueeText = () => (
-    <span className="text-3xl dark:text-slate-400">
+    <span className="">
       {items.map((item, i) => {
         return (
           <span className="not-even:font-light not-odd:font-black px-16" key={`${item} - ${i}`}>
@@ -44,7 +44,7 @@ function InfiniteMarquee({ items, reverse = false }) {
   );
 
   return (
-    <div className="marquee relative h-32 w-screen max-w-full overflow-x-hidden">
+    <div className="marquee relative h-10 w-screen max-w-full overflow-x-hidden">
       <motion.div
         className="track absolute whitespace-nowrap"
         style={{ willChange: "transform" }}
@@ -70,8 +70,8 @@ function InfiniteMarquee({ items, reverse = false }) {
 
 function WhatIDo() {
   return (
-    <div className="what-i-do flex flex-col items-center py-8 md:py-24">
-      <div className="flex w-full flex-col items-center gap-1 text-xl font-medium md:gap-3">
+    <div className="what-i-do flex flex-col items-center py-12 md:py-24 dark:text-slate-400" >
+      <div className="flex w-full flex-col items-center text-2xl sm:text-4xl font-medium md:gap-3">
         <InfiniteMarquee items={frontendSkills} />
         <InfiniteMarquee items={backendSkills} reverse={true}/>
       </div>

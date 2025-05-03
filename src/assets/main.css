@@ -75,6 +75,13 @@ body {
   .animate-neon {
     animation: pulsate 3s infinite alternate;
   }
+
+  .glow {
+    box-shadow:
+      0 0 4px #fff,
+      0 0 8px rgba(255, 105, 0, 1.0),
+      0 0 16px rgba(255, 105, 0, 1.0);
+  }
 }
 
 
