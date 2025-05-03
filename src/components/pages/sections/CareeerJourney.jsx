@@ -41,7 +41,7 @@ function CareerJourney() {
       </h1>
       <div className="relative w-full max-w-4xl">
         {/* Timeline Line */}
-        <div className="absolute top-0 left-4 ml-2 h-[calc(100%+0.15rem)] w-[2px] bg-orange-500 shadow-xs/20 md:left-1/2"></div>
+        <div className="absolute top-0 left-4 ml-2 h-[calc(98%)] w-[2px] bg-orange-500 shadow-xs/20 md:left-1/2"></div>
       <img src={gradientImage}
            alt="Gradient"
            className="animate-fade overflow-x-hidden absolute -z-10 -right-32 md:-left-60 lg:-left-64 xl:-left-72 top-0 h-[80%] sm:h-[100%] w-full sm:w-auto opacity-50" />

@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
@@ -30,6 +32,8 @@ import { FaMasksTheater } from "react-icons/fa6";
 
 
 function Toolbelt() {
+  const [xOffset] = useState(() => Math.floor(Math.random() * 40));
+
   const tools = {
     languages: [
       { name: "JavaScript", icon: IoLogoJavascript },
@@ -78,7 +82,7 @@ function Toolbelt() {
               const Icon = t.icon;
               return (
                 <motion.div key={`${stack} - ${j}`} className="flex items-center gap-2 sm:gap-4"
-                  initial={{ opacity: 0, x: Math.floor(Math.random() * 40)}}
+                  initial={{ opacity: 0, x: xOffset}}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true, amount: 1.0 }}
                   transition={{ duration: Math.floor(1 + Math.random() * 200)/100, ease: "linear"}}>
