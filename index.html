@@ -43,6 +43,14 @@
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
-</body>
+  <script>
+    if (!location.hash) {
+      const path = location.pathname;
+      if (path !== "/") {
+        location.replace("/#" + path);
+      }
+    }
+  </script>
+  </body>
 
-</html>
+  </html>
