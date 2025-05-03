@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url=/" />
+    <script>
+      const currentUrl = window.location.href;
+      if (currentUrl.includes("/articles")) {
+        window.location.href = "/articles";
+      } else if (currentUrl.includes("/projects")) {
+        window.locattion.href = "/projects"
+      } else {
+        window.location.href = "/"
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
