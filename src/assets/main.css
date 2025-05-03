@@ -73,7 +73,7 @@ body {
   }
 
   .animate-neon {
-    animation: pulsate 1.5s infinite alternate;
+    animation: pulsate 3s infinite alternate;
   }
 }
 
@@ -88,8 +88,6 @@ body {
       0 0 19px #fff,
       0 0 40px #FF0099,
       0 0 80px #FF0099,
-      0 0 90px #FF0099,
-      0 0 100px #FF0099,
       0 0 150px #FF0099;
   }
 
@@ -97,11 +95,8 @@ body {
     text-shadow:
       0 0 2px #fff,
       0 0 4px #fff,
-      0 0 6px #fff,
       0 0 10px #FF0099,
       0 0 45px #FF0099,
-      0 0 55px #FF0099,
-      0 0 70px #FF0099,
       0 0 80px #FF0099;
   }
 

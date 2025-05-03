@@ -73,11 +73,11 @@ function Toolbelt() {
       <p className="text-base px-8">I use various tools, but there are several that I trust to get the job at hand done.</p>
       <div className="flex px-4 md:flex-row justify-center md:justify-center w-full gap-8 sm:gap-16 md:gap-24">
         {Object.keys(tools).map((stack, i) => {
-          return (<div key={i} className="flex flex-col flex-nowrap gap-4 text-xs sm:text-sm md:text-lg">
+          return (<div key={stack} className="flex flex-col flex-nowrap gap-4 text-xs sm:text-sm md:text-lg">
             {tools[stack].map((t, j) => {
               const Icon = t.icon;
               return (
-                <motion.div key={j+1} className="flex items-center gap-2 sm:gap-4"
+                <motion.div key={`${stack} - ${j}`} className="flex items-center gap-2 sm:gap-4"
                   initial={{ opacity: 0, x: Math.floor(Math.random() * 40)}}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true, amount: 1.0 }}
