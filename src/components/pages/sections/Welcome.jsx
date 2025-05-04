@@ -9,7 +9,7 @@ function Welcome() {
       <h1 className="eb-garamond text-shadow/25 text-center text-5xl text-shadow-xs md:text-8xl lg:text-9xl">
         welcome to
         <br />
-        the <em className="text-orange-500">maker's</em> den
+        the <em className="text-orange-500 dark:text-orange-300">maker's</em> den
       </h1>
       <div className="text-base md:text-base mt-2 w-10/12 md:w-8/12 lg:w-8/12 lg:text-xl xl:w-6/12">
         <p>

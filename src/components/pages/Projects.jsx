@@ -13,7 +13,7 @@ function Projects() {
       />
       <div className="wrapper flex w-full flex-col gap-12 px-4 sm:px-8 md:gap-24 md:px-12 lg:w-10/12 lg:px-0 xl:w-8/12">
         <h1 className="eb-garamond text-shadow/25 text-5xl text-shadow-xs md:text-8xl">
-          things I've <em className="text-orange-500">built</em>
+          things I've <em className="text-orange-500 dark:text-orange-300">built</em>
         </h1>
         <div className="projects flex flex-col gap-20">
           {projects.map((p, i) => {

@@ -21,11 +21,14 @@
 }
 
 
+:root {
+  @apply bg-slate-100 dark:bg-slate-950;
+  @apply text-slate-950;
+}
+
 body {
   font-family: "Inter";
   overflow-x: hidden;
-  @apply bg-slate-100 dark:bg-slate-950;
-  @apply text-slate-950;
 }
 
 .eb-garamond {
@@ -79,8 +82,8 @@ body {
   .glow {
     box-shadow:
       0 0 4px #fff,
-      0 0 8px rgba(255, 105, 0, 1.0),
-      0 0 16px rgba(255, 105, 0, 1.0);
+      0 0 8px rgba(253, 186, 116, 1.0),
+      0 0 16px rgba(253, 186, 116, 1.0);
   }
 }
 
