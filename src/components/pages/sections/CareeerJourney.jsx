@@ -37,11 +37,11 @@ function CareerJourney() {
   return (
     <div className="relative flex flex-col items-center overflow-x-hidden gap-20 py-12 md:gap-36 md:py-24">
       <h1 className="eb-garamond text-shadow/25 text-center text-5xl text-shadow-xs md:text-8xl">
-        career <em className="text-orange-500">journey</em>
+        career <em className="text-orange-500 dark:text-orange-300">journey</em>
       </h1>
       <div className="relative w-full max-w-4xl">
         {/* Timeline Line */}
-        <div className="absolute top-0 left-4 ml-2 h-[calc(97.25%)] md:h-[calc(98.5%)] w-[2px] bg-orange-500 shadow-xs/20 md:left-1/2"></div>
+        <div className="absolute top-0 left-4 ml-2 h-[calc(97.25%)] md:h-[calc(98.5%)] w-[2px] bg-orange-500 dark:bg-orange-300 shadow-xs/20 md:left-1/2"></div>
       <img src={gradientImage}
            alt="Gradient"
            className="animate-fade overflow-x-hidden absolute -z-10 -right-32 md:-left-60 lg:-left-64 xl:-left-72 top-0 h-[80%] sm:h-[100%] w-full sm:w-auto opacity-50" />
@@ -78,7 +78,7 @@ function CareerJourney() {
               </p>
             </div>
             {/* Timeline Marker */}
-            <div className="absolute left-4 ml-2 h-4 w-4 -translate-x-[0.45rem] rounded-full border-2 border-white bg-orange-500 shadow-sm/20 glow md:left-1/2 md:ml-2"></div>
+            <div className="absolute left-4 ml-2 h-4 w-4 -translate-x-[0.45rem] rounded-full border-2 border-white bg-orange-500 dark:bg-orange-300 shadow-sm/20 glow md:left-1/2 md:ml-2"></div>
           </motion.div>
         ))}
       </div>

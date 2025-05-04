@@ -28,7 +28,12 @@ import { RiNextjsFill } from "react-icons/ri";
 import { IoLogoElectron } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { GrGraphQl } from "react-icons/gr";
-import { FaMasksTheater } from "react-icons/fa6";
+import { SiSelenium } from "react-icons/si";
+import { SiSpringboot } from "react-icons/si";
+import { SiSpringsecurity } from "react-icons/si";
+import { SiJunit5 } from "react-icons/si";
+import { SiHibernate } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 
 
 function Toolbelt() {
@@ -36,8 +41,8 @@ function Toolbelt() {
 
   const tools = {
     languages: [
+      { name: "Java", icon: FaJava },
       { name: "JavaScript", icon: IoLogoJavascript },
-      { name: "Python", icon: FaPython },
       { name: "Go", icon: FaGolang },
       { name: "SQL", icon: PiFileSqlFill },
       { name: "Bash", icon: SiGnubash },
@@ -45,13 +50,12 @@ function Toolbelt() {
       { name: "CSS", icon: IoLogoCss3 },
     ],
     backend: [
-      { name: "Node.js", icon: FaNodeJs },
-      { name: "Express.js", icon: SiExpress },
-      { name: "NestJS", icon: SiNestjs },
-      { name: "Prisma", icon: SiPrisma },
-      { name: "Jest", icon: SiJest },
+      { name: "Spring Boot", icon: SiSpringboot },
+      { name: "Spring Security", icon: SiSpringsecurity },
+      { name: "JUnit", icon: SiJunit5},
       { name: "Kafka", icon: SiApachekafka },
       { name: "RabbitMQ", icon: SiRabbitmq },
+      { name: "Hibernate", icon: SiHibernate },
       { name: "PostgreSQL", icon: BiLogoPostgresql },
       { name: "Redis", icon: SiRedis },
       { name: "Elastic Stack", icon: SiElasticstack },
@@ -65,14 +69,15 @@ function Toolbelt() {
       { name: "Electron", icon: IoLogoElectron },
       { name: "Tailwind CSS", icon: RiTailwindCssFill },
       { name: "GraphQL", icon: GrGraphQl },
-      { name: "Playwright", icon: FaMasksTheater },
+      { name: "Node.js", icon: FaNodeJs },
+      { name: "Selenium", icon: SiSelenium },
     ],
   };
 
   return (
     <div className="relative flex flex-col items-center overflow-x-hidden gap-16 py-12 md:py-24">
       <h1 className="eb-garamond px-4 text-shadow/25 text-center text-5xl text-shadow-xs md:text-8xl">
-        toolbelt and <em className="text-orange-500">technologies</em>
+        toolbelt and <em className="text-orange-500 dark:text-orange-300">technologies</em>
       </h1>
       <p className="text-base px-8">I use various tools, but there are several that I trust to get the job at hand done.</p>
       <div className="flex px-4 md:flex-row justify-center md:justify-center w-full gap-8 sm:gap-16 md:gap-24">

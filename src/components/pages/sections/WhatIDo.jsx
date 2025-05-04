@@ -8,7 +8,6 @@ const backendSkills = [
   "Performance Optimization",
   "Microservice Design",
   "Caching Strategies",
-  "CI/CD Automation",
   "Test Automation",
   "DevOps",
   "Serverless Architecture",
@@ -18,16 +17,12 @@ const backendSkills = [
 ];
 
 const frontendSkills = [
-  "Frontend Design",
   "UI Development",
   "Responsive Design",
   "Performance Optimization",
-  "Cross-Browser Compatiblity",
   "User Accessibility",
-  "Desktop Application",
-  "State Management",
-  "Unit Testing",
-  "E2E Testing",
+  "UI Testing",
+  "Integration Testing",
 ];
 
 function InfiniteMarquee({ items, reverse = false }) {
