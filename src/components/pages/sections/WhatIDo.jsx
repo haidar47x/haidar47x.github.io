@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 const backendSkills = [
   "API Development",
   "Database Design",
-  "Performance Optimization",
   "Microservice Design",
   "Caching Strategies",
   "Test Automation",
