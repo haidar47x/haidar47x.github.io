@@ -26,7 +26,7 @@ const frontendSkills = [
 
 function InfiniteMarquee({ items, reverse = false }) {
   const MarqueeText = () => (
-    <span className="">
+    <span className="inline-block overflow-y-hidden py-1">
       {items.map((item, i) => {
         return (
           <span className="not-even:font-light not-odd:font-black px-16" key={`${item} - ${i}`}>
@@ -38,9 +38,9 @@ function InfiniteMarquee({ items, reverse = false }) {
   );
 
   return (
-    <div className="marquee relative h-12 w-screen max-w-full overflow-x-hidden">
+    <div className="marquee relative h-16 w-screen max-w-full overflow-x-hidden">
       <motion.div
-        className="track py-2 absolute whitespace-nowrap"
+        className="track absolute whitespace-nowrap"
         style={{ willChange: "transform" }}
         variants={{
           animate: {
