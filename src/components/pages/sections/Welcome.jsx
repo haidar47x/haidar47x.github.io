@@ -19,7 +19,7 @@ function Welcome() {
         <p className="mt-4">
           My work revolves around solving real problems with thoughtful design
           and sharp execution. Currently, I’m working on a platform for
-          fictional authors to turn their ideas into beautiful art.
+          fiction authors to turn their ideas into beautiful art.
         </p>
       </div>
     </div>
