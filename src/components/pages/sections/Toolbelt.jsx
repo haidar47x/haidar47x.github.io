@@ -3,8 +3,8 @@ import { useState } from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
+import { BiLogoTypescript } from "react-icons/bi";
 import { IoLogoJavascript } from "react-icons/io5";
-import { FaPython } from "react-icons/fa";
 import { FaGolang } from "react-icons/fa6";
 import { PiFileSqlFill } from "react-icons/pi";
 import { SiGnubash } from "react-icons/si";
@@ -28,12 +28,8 @@ import { RiNextjsFill } from "react-icons/ri";
 import { IoLogoElectron } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { GrGraphQl } from "react-icons/gr";
-import { SiSelenium } from "react-icons/si";
-import { SiSpringboot } from "react-icons/si";
-import { SiSpringsecurity } from "react-icons/si";
-import { SiJunit5 } from "react-icons/si";
-import { SiHibernate } from "react-icons/si";
-import { FaJava } from "react-icons/fa";
+import { SiReactquery } from "react-icons/si";
+import { FaMasksTheater } from "react-icons/fa6";
 
 
 function Toolbelt() {
@@ -41,8 +37,8 @@ function Toolbelt() {
 
   const tools = {
     languages: [
-      { name: "Java", icon: FaJava },
       { name: "JavaScript", icon: IoLogoJavascript },
+      { name: "TypeScript", icon: BiLogoTypescript },
       { name: "Go", icon: FaGolang },
       { name: "SQL", icon: PiFileSqlFill },
       { name: "Bash", icon: SiGnubash },
@@ -50,27 +46,28 @@ function Toolbelt() {
       { name: "CSS", icon: IoLogoCss3 },
     ],
     backend: [
-      { name: "Spring Boot", icon: SiSpringboot },
-      { name: "Spring Security", icon: SiSpringsecurity },
-      { name: "JUnit", icon: SiJunit5},
+      { name: "Node.js", icon: FaNodeJs },
+      { name: "NestJS", icon: SiNestjs },
+      { name: "Express.js", icon: SiExpress },
       { name: "Kafka", icon: SiApachekafka },
       { name: "RabbitMQ", icon: SiRabbitmq },
-      { name: "Hibernate", icon: SiHibernate },
+      { name: "Prisma", icon: SiPrisma },
       { name: "PostgreSQL", icon: BiLogoPostgresql },
       { name: "Redis", icon: SiRedis },
+      { name: "Jest", icon: SiJest },
       { name: "Elastic Stack", icon: SiElasticstack },
       { name: "AWS", icon: FaAws },
       { name: "Docker", icon: FaDocker },
     ],
     frontend: [
       { name: "React", icon: FaReact },
+      { name: "React Query", icon: SiReactquery },
       { name: "Zustand", icon: RiBearSmileFill },
       { name: "Next.js", icon: RiNextjsFill },
+      { name: "GraphQL", icon: GrGraphQl },
       { name: "Electron", icon: IoLogoElectron },
       { name: "Tailwind CSS", icon: RiTailwindCssFill },
-      { name: "GraphQL", icon: GrGraphQl },
-      { name: "Node.js", icon: FaNodeJs },
-      { name: "Selenium", icon: SiSelenium },
+      { name: "Playwright", icon: FaMasksTheater },
     ],
   };
 
