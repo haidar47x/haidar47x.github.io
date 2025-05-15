@@ -16,7 +16,7 @@ function Welcome() {
         </em>{" "}
         den
       </h1>
-      <div className="mt-2 w-10/12 text-lg tracking-[0.6px] md:w-8/12 md:text-xl lg:w-8/12 lg:text-2xl xl:w-6/12">
+      <div className="mt-2 w-10/12 text-lg tracking-[-0.6px] md:w-8/12 md:text-xl lg:w-8/12 lg:text-2xl xl:w-6/12">
         <p>
           I’m Haidar Ali, a software engineer with 5½ years’ experience building
           and deploying robust and user-focused apps that scale.
