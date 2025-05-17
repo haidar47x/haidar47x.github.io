@@ -6,7 +6,7 @@ function CareerJourney() {
   const timelineData = [
     {
       year: "2021 – 2025",
-      title: "Senior Backend Developer",
+      title: "Senior Backend Engineer",
       company: "Createch IT Solutions (Pvt.) Ltd.",
       description:
         "Designed and developed backend for a healthcare SaaS to provide an ergonomic solution to patient and hospital management nationwide. Mentored junior developers and developed optimal UX guidelines.",
