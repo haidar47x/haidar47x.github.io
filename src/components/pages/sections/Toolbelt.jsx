@@ -30,6 +30,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { GrGraphQl } from "react-icons/gr";
 import { SiReactquery } from "react-icons/si";
 import { FaMasksTheater } from "react-icons/fa6";
+import { SiDatadog } from "react-icons/si";
 
 
 function Toolbelt() {
@@ -49,7 +50,6 @@ function Toolbelt() {
       { name: "Node.js", icon: FaNodeJs },
       { name: "NestJS", icon: SiNestjs },
       { name: "Express.js", icon: SiExpress },
-      { name: "Kafka", icon: SiApachekafka },
       { name: "RabbitMQ", icon: SiRabbitmq },
       { name: "Prisma", icon: SiPrisma },
       { name: "PostgreSQL", icon: BiLogoPostgresql },
@@ -57,6 +57,7 @@ function Toolbelt() {
       { name: "Jest", icon: SiJest },
       { name: "Elastic Stack", icon: SiElasticstack },
       { name: "AWS", icon: FaAws },
+      { name: "Datadog", icon: SiDatadog },
       { name: "Docker", icon: FaDocker },
     ],
     frontend: [
