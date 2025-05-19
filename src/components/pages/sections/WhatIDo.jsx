@@ -64,7 +64,7 @@ function InfiniteMarquee({ items, reverse = false }) {
 
 function WhatIDo() {
   return (
-    <div className="what-i-do flex flex-col items-center pb-12 py-20 md:py-24 dark:text-slate-400" >
+    <div className="what-i-do flex flex-col items-center pb-12 py-20 md:py-24 text-slate-700 dark:text-slate-500" >
       <div className="flex w-full flex-col items-center text-2xl sm:text-4xl font-medium md:gap-3">
         <InfiniteMarquee items={backendSkills} reverse={true}/>
         <InfiniteMarquee items={frontendSkills} />
