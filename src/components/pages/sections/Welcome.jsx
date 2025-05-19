@@ -8,7 +8,7 @@ function Welcome() {
         alt="Gradient"
         className="animate-fade absolute top-0 -right-48 -z-10 h-[80%] w-full overflow-x-hidden opacity-100 sm:h-[100%] sm:w-auto md:-right-60 lg:-right-24 xl:right-12"
       />
-      <h1 className="eb-garamond text-shadow/25 text-center text-5xl text-shadow-xs md:text-8xl lg:text-9xl">
+      <h1 className="eb-garamond text-shadow/25 text-center tracking-[-5px] text-5xl text-shadow-xs md:text-8xl lg:text-9xl">
         welcome to
         <br />
         the <em className="text-orange-500 dark:text-orange-300">

@@ -36,7 +36,7 @@ function CareerJourney() {
 
   return (
     <div className="relative flex flex-col items-center overflow-x-hidden gap-20 py-12 md:gap-36 md:py-24">
-      <h1 className="eb-garamond text-shadow/25 text-center text-5xl text-shadow-xs md:text-8xl">
+      <h1 className="eb-garamond text-shadow/25 text-center text-5xl text-shadow-xs md:text-8xl tracking-[-4px]">
         career <em className="text-orange-500 dark:text-orange-300">journey</em>
       </h1>
       <div className="relative w-full max-w-4xl">
