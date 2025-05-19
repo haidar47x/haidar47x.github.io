@@ -21,7 +21,7 @@ function Article({ post, separatorYear, printSeparator = false }) {
     <React.Fragment>
       {printSeparator ? <Separator year={separatorYear} className="" /> : null}
       <div className="entry flex flex-col justify-start gap-1 pl-0.5">
-        <div className="eb-garamond text-sm font-semibold text-slate-600 dark:text-slate-400 italic md:text-base">
+        <div className="eb-garamond text-sm font-semibold text-slate-600 dark:text-slate-300 italic md:text-base">
           <time dateTime={post.date}>{ format(post.date) }</time>
         </div>
         <h3 className="text-sm hover:text-orange-500 hover:dark:text-orange-300 sm:text-base md:text-lg">

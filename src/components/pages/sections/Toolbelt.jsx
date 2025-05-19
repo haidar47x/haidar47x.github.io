@@ -84,7 +84,7 @@ function Toolbelt() {
             {tools[stack].map((t, j) => {
               const Icon = t.icon;
               return (
-                <motion.div key={`${stack} - ${j}`} className="flex items-center gap-2 sm:gap-4"
+                <motion.div key={`${stack} - ${j}`} className="flex items-center gap-2 sm:gap-4 tracking-[-0.4px]"
                   initial={{ opacity: 0, x: xOffset}}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true, amount: 1.0 }}
