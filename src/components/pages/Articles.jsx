@@ -13,7 +13,7 @@ function Articles() {
         className="animate-fade absolute top-0 -left-32 -z-10 h-[4/12] w-full overflow-x-hidden opacity-100 sm:w-auto md:-left-60 lg:-left-30 xl:left-40"
       />
       <div className="wrapper flex flex-col items-start gap-12 px-4 sm:px-8 md:gap-24 md:px-12 lg:px-0">
-        <h1 className="eb-garamond text-shadow/25 text-5xl text-shadow-xs md:text-8xl tracking-tighter md:tracking-[-2.5px]">
+        <h1 className="eb-garamond text-shadow/25 text-5xl text-shadow-xs md:text-8xl tracking-tight md:tracking-[-2.5px]">
           articles
         </h1>
         <div className="posts flex flex-col gap-5">

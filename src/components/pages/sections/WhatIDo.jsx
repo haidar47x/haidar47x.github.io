@@ -40,7 +40,7 @@ function InfiniteMarquee({ items, reverse = false }) {
   return (
     <div className="marquee relative h-16 w-screen max-w-full overflow-x-hidden">
       <motion.div
-        className="track absolute whitespace-nowrap tracking-[-0.5px]"
+        className="track absolute whitespace-nowrap tracking-tight"
         style={{ willChange: "transform" }}
         variants={{
           animate: {

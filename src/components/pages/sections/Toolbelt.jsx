@@ -74,7 +74,7 @@ function Toolbelt() {
 
   return (
     <div className="relative flex flex-col items-center overflow-x-hidden gap-16 py-12 md:py-24">
-      <h1 className="eb-garamond px-4 text-shadow/25 text-center text-5xl text-shadow-xs md:text-8xl tracking-tighter md:tracking-[-2.5px]">
+      <h1 className="eb-garamond px-4 text-shadow/25 text-center text-5xl text-shadow-xs md:text-8xl tracking-tight md:tracking-[-2.5px]">
         toolbelt and <em className="text-orange-500 dark:text-orange-300">technologies</em>
       </h1>
       <p className="text-base px-8">I use various tools, but there are several that I trust to get the job at hand done.</p>
