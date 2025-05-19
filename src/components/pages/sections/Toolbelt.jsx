@@ -74,7 +74,7 @@ function Toolbelt() {
 
   return (
     <div className="relative flex flex-col items-center overflow-x-hidden gap-16 py-12 md:py-24">
-      <h1 className="eb-garamond px-4 text-shadow/25 text-center text-5xl text-shadow-xs md:text-8xl">
+      <h1 className="eb-garamond px-4 text-shadow/25 text-center text-5xl text-shadow-xs md:text-8xl tracking-tighter md:tracking-[-2.5px]">
         toolbelt and <em className="text-orange-500 dark:text-orange-300">technologies</em>
       </h1>
       <p className="text-base px-8">I use various tools, but there are several that I trust to get the job at hand done.</p>
@@ -84,7 +84,7 @@ function Toolbelt() {
             {tools[stack].map((t, j) => {
               const Icon = t.icon;
               return (
-                <motion.div key={`${stack} - ${j}`} className="flex items-center gap-2 sm:gap-4 tracking-[-0.4px]"
+                <motion.div key={`${stack} - ${j}`} className="flex items-center gap-2 sm:gap-4 tracking-tight"
                   initial={{ opacity: 0, x: xOffset}}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true, amount: 1.0 }}

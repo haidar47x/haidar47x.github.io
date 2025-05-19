@@ -36,7 +36,7 @@ function CareerJourney() {
 
   return (
     <div className="relative flex flex-col items-center overflow-x-hidden gap-20 py-12 md:gap-36 md:py-24">
-      <h1 className="eb-garamond text-shadow/25 text-center text-5xl text-shadow-xs md:text-8xl tracking-[-4px]">
+      <h1 className="eb-garamond text-shadow/25 text-center text-5xl text-shadow-xs md:text-8xl tracking-tighter md:tracking-[-2.5px]">
         career <em className="text-orange-500 dark:text-orange-300">journey</em>
       </h1>
       <div className="relative w-full max-w-4xl">
@@ -66,11 +66,11 @@ function CareerJourney() {
                 {item.year}
               </h1>
               <h4
-                className={`${i % 2 === 0 ? "text-left md:text-left" : "text-left md:text-right"} font-regular inherit py-1 text-sm text-slate-700 dark:text-slate-300 uppercase md:text-[0.825em] md:tracking-tight`}>
+                className={`${i % 2 === 0 ? "text-left md:text-left" : "text-left md:text-right"} font-regular inherit py-1 text-sm text-slate-700 dark:text-slate-300 uppercase md:text-[0.825em] tracking-[-0.2px] md:tracking-tight`}>
                 {item.title}
               </h4>
               <h4
-                className={`${i % 2 === 0 ? "text-left md:text-left" : "text-left md:text-right"} py-1 text-sm font-bold text-slate-600 dark:text-slate-300`}>
+                className={`${i % 2 === 0 ? "text-left md:text-left" : "text-left md:text-right"} py-1 text-sm font-bold text-slate-600 dark:text-slate-300 tracking-tight`}>
                 {item.company}
               </h4>
               <p className="py-1 text-justify text-sm text-slate-950 dark:text-slate-100">

@@ -24,7 +24,7 @@ function Article({ post, separatorYear, printSeparator = false }) {
         <div className="eb-garamond text-sm font-semibold text-slate-600 dark:text-slate-300 italic md:text-base">
           <time dateTime={post.date}>{ format(post.date) }</time>
         </div>
-        <h3 className="text-sm hover:text-orange-500 hover:dark:text-orange-300 sm:text-base md:text-lg">
+        <h3 className="text-sm hover:text-orange-500 hover:dark:text-orange-300 tracking-tight sm:text-base md:text-lg">
           <a href={post.url} target="_blank">
             {post.title}
           </a>
