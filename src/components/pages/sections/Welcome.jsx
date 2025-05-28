@@ -19,7 +19,7 @@ function Welcome() {
       <div className="mt-2 w-10/12 text-lg tracking-tight md:tracking-[-0.9px] md:w-8/12 md:text-xl lg:w-8/12 lg:text-2xl xl:w-6/12">
         <p>
           I’m Haidar Ali, a software engineer with 5½ years’ experience building
-          and deploying robust and user-focused apps that scale.
+          and deploying robust, user-focused, and accessible frontend apps.
         </p>
         <p className="mt-4">
           My work revolves around solving real problems with thoughtful design
