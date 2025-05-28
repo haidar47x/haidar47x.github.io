@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import gradientImage from "../../../assets/gradient.png"
 import experience from "../../../assets/experience.json"
 
-function CareerJourney() {
+function Career() {
   return (
     <div className="relative flex flex-col items-center overflow-x-hidden gap-20 py-12 md:gap-36 md:py-24">
       <h1 className="eb-garamond text-shadow/25 text-center text-5xl text-shadow-xs md:text-8xl tracking-tight md:tracking-[-2.5px]">
@@ -52,4 +52,4 @@ function CareerJourney() {
   );
 }
 
-export default CareerJourney;
+export default Career;

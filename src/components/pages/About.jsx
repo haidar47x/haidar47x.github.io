@@ -1,7 +1,7 @@
 import React from "react";
 import Welcome from "./sections/Welcome";
 import WhatIDo from "./sections/WhatIDo";
-import CareerJourney from "./sections/CareeerJourney";
+import Career from "./sections/Career"
 import Toolbelt from "./sections/Toolbelt";
 
 function About() {
@@ -9,7 +9,7 @@ function About() {
     <React.Fragment>
       <Welcome />
       <WhatIDo />
-      <CareerJourney />
+      <Career />
       <Toolbelt />
     </React.Fragment>
   );
