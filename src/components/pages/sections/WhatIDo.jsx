@@ -2,26 +2,14 @@ import React from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
-const backendSkills = [
-  "API Development",
-  "Database Design",
-  "Microservice Design",
-  "Caching Strategies",
-  "Test Automation",
-  "DevOps",
-  "Serverless Architecture",
-  "Authentication & Authorization",
-  "Application Security",
-  "Documentation",
-];
-
-const frontendSkills = [
+const skills = [
   "UI Development",
   "Responsive Design",
   "Performance Optimization",
-  "User Accessibility",
+  "Accessibility",
   "UI Testing",
-  "Integration Testing",
+  "E2E Testing",
+  "Documentation",
 ];
 
 function InfiniteMarquee({ items, reverse = false }) {
@@ -66,8 +54,7 @@ function WhatIDo() {
   return (
     <div className="what-i-do flex flex-col items-center pb-12 py-20 md:py-24 text-slate-700 dark:text-slate-500" >
       <div className="flex w-full flex-col items-center text-2xl sm:text-4xl font-medium md:gap-3">
-        <InfiniteMarquee items={backendSkills} reverse={true}/>
-        <InfiniteMarquee items={frontendSkills} />
+        <InfiniteMarquee items={skills} />
       </div>
     </div>
   );
