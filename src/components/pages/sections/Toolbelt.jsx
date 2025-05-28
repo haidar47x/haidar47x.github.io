@@ -4,71 +4,61 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 import { BiLogoTypescript } from "react-icons/bi";
-import { IoLogoJavascript } from "react-icons/io5";
-import { FaGolang } from "react-icons/fa6";
-import { PiFileSqlFill } from "react-icons/pi";
-import { SiGnubash } from "react-icons/si";
-import { FaHtml5 } from "react-icons/fa";
+import { FaSass} from "react-icons/fa6";
+import { PiLighthouse } from "react-icons/pi";
+import { SiGithubactions, SiGnubash, SiPython, SiSentry} from "react-icons/si";
+import { FaHtml5, FaJsSquare } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io5";
 import { FaNodeJs } from "react-icons/fa";
-import { SiExpress } from "react-icons/si";
-import { SiNestjs } from "react-icons/si";
-import { SiPrisma } from "react-icons/si";
 import { SiJest } from "react-icons/si";
-import { SiApachekafka } from "react-icons/si";
-import { SiRabbitmq } from "react-icons/si";
-import { BiLogoPostgresql } from "react-icons/bi";
-import { SiRedis } from "react-icons/si";
-import { SiElasticstack } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
-import { FaDocker } from "react-icons/fa";
 import { FaReact } from "react-icons/fa6";
-import { RiBearSmileFill } from "react-icons/ri"
-import { RiNextjsFill } from "react-icons/ri";
+import { RiBearSmileLine, RiNextjsLine, RiVercelLine } from "react-icons/ri"
 import { IoLogoElectron } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { GrGraphQl } from "react-icons/gr";
-import { SiReactquery } from "react-icons/si";
-import { FaMasksTheater } from "react-icons/fa6";
 import { SiDatadog } from "react-icons/si";
-
+import { TbBrandD3, TbBrandFramerMotion, TbBrandStorybook, TbBrandThreejs, TbMasksTheater } from "react-icons/tb";
+import { FiFigma } from "react-icons/fi";
+import { LiaDocker } from "react-icons/lia";
 
 function Toolbelt() {
   const [xOffset] = useState(() => Math.floor(Math.random() * 40));
 
   const tools = {
     languages: [
-      { name: "JavaScript", icon: IoLogoJavascript },
+      { name: "JavaScript", icon: FaJsSquare },
       { name: "TypeScript", icon: BiLogoTypescript },
-      { name: "Go", icon: FaGolang },
-      { name: "SQL", icon: PiFileSqlFill },
+      { name: "GraphQL", icon: GrGraphQl },
+      { name: "Python", icon: SiPython },
       { name: "Bash", icon: SiGnubash },
       { name: "HTML", icon: FaHtml5 },
       { name: "CSS", icon: IoLogoCss3 },
-    ],
-    backend: [
-      { name: "Node.js", icon: FaNodeJs },
-      { name: "NestJS", icon: SiNestjs },
-      { name: "Express.js", icon: SiExpress },
-      { name: "RabbitMQ", icon: SiRabbitmq },
-      { name: "Prisma", icon: SiPrisma },
-      { name: "PostgreSQL", icon: BiLogoPostgresql },
-      { name: "Redis", icon: SiRedis },
-      { name: "Jest", icon: SiJest },
-      { name: "Elastic Stack", icon: SiElasticstack },
-      { name: "AWS", icon: FaAws },
-      { name: "Datadog", icon: SiDatadog },
-      { name: "Docker", icon: FaDocker },
+      { name: "Sass", icon: FaSass },
     ],
     frontend: [
       { name: "React", icon: FaReact },
-      { name: "React Query", icon: SiReactquery },
-      { name: "Zustand", icon: RiBearSmileFill },
-      { name: "Next.js", icon: RiNextjsFill },
-      { name: "GraphQL", icon: GrGraphQl },
+      { name: "Next.js", icon: RiNextjsLine },
+      { name: "Node.js", icon: FaNodeJs },
       { name: "Electron", icon: IoLogoElectron },
+      { name: "Zustand", icon: RiBearSmileLine },
       { name: "Tailwind CSS", icon: RiTailwindCssFill },
-      { name: "Playwright", icon: FaMasksTheater },
+      { name: "Framer Motion", icon: TbBrandFramerMotion },
+      { name: "D3.js", icon: TbBrandD3 },
+      { name: "Three.js", icon: TbBrandThreejs },
+      { name: "Figma", icon: FiFigma },
+      { name: "Storybook", icon: TbBrandStorybook },
+      { name: "Playwright", icon: TbMasksTheater },
+      { name: "Jest", icon: SiJest },
+    ],
+    tools: [
+      { name: "AWS", icon: FaAws },
+      { name: "Vercel", icon: RiVercelLine },
+      { name: "Datadog", icon: SiDatadog },
+      { name: "Sentry", icon: SiSentry },
+      { name: "GitHub Actions", icon: SiGithubactions },
+      { name: "Lighthouse CI", icon: PiLighthouse },
+      { name: "Docker", icon: LiaDocker },
     ],
   };
 
