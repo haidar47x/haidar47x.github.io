@@ -1,52 +1,20 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import gradientImage from "../../../assets/gradient.png"
+import experience from "../../../assets/experience.json"
 
 function CareerJourney() {
-  const timelineData = [
-    {
-      year: "2021 – 2025",
-      title: "Senior Backend Engineer",
-      company: "Createch IT Solutions (Pvt.) Ltd.",
-      description:
-        "Designed and developed backend for a healthcare SaaS to provide an ergonomic solution to patient and hospital management nationwide. Mentored junior developers and developed optimal UX guidelines.",
-    },
-    {
-      year: "2020 – 2021",
-      title: "Backend Engineer",
-      company: "MicroAgility Services (Pvt.) Ltd.",
-      description:
-        "Worked on a heuristics-based consultation platform. Designed a microservice for mobile push notifications. Observability employment and codebase optimizations to increase request-reponse time.",
-    },
-    {
-      year: "2018 – 2020",
-      title: "Full Stack Developer",
-      company: "Upwork",
-      description:
-        "Built and worked on numerous projects using JavaScript technologies. Developed Chrome Extensions for various niche business use cases. Built and maintained backend systems for moderate projects.",
-    },
-    {
-      year: "2019 – 2020",
-      title: "Full Stack Developer",
-      company: "KapOnTwo LLC",
-      description:
-        "Developed an interactive play-by-play score manager for basketball sports. Built a service for optimizing sports videos to reduce storage costs.",
-    },
-  ];
-
   return (
     <div className="relative flex flex-col items-center overflow-x-hidden gap-20 py-12 md:gap-36 md:py-24">
       <h1 className="eb-garamond text-shadow/25 text-center text-5xl text-shadow-xs md:text-8xl tracking-tight md:tracking-[-2.5px]">
         career <em className="text-orange-500 dark:text-orange-300">journey</em>
       </h1>
       <div className="relative w-full max-w-4xl">
-        {/* Timeline Line */}
         <div className="absolute top-0 left-4 ml-2 h-[calc(97.25%)] md:h-[calc(98.5%)] w-[2px] bg-orange-500 dark:bg-orange-300 shadow-xs/20 md:left-1/2"></div>
       <img src={gradientImage}
            alt="Gradient"
            className="animate-fade overflow-x-hidden absolute -z-10 -right-32 md:-left-60 lg:-left-64 xl:-left-72 top-0 h-[80%] sm:h-[100%] w-full sm:w-auto opacity-50" />
-        {/* Timeline Items */}
-        {timelineData.map((item, i) => (
+        {experience.map((item, i) => (
           <motion.div
             key={i}
             className={`mb-8 flex w-full items-center ${
@@ -56,7 +24,6 @@ function CareerJourney() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.4 }}
             transition={{ duration: 0.75, ease: "easeInOut" }}>
-            {/* Timeline Content */}
             <div
               className={`relative mr-8 ml-12 w-11/12 md:ml-12 md:w-[calc(45%-2.5rem)] ${
                 i % 2 === 0 ? "md:ml-auto" : "md:mr-auto md:ml-8"
@@ -77,7 +44,6 @@ function CareerJourney() {
                 {item.description}
               </p>
             </div>
-            {/* Timeline Marker */}
             <div className="absolute left-4 ml-2 h-4 w-4 -translate-x-[0.45rem] rounded-full border-2 border-white bg-orange-500 dark:bg-orange-300 shadow-sm/20 glow md:left-1/2 md:ml-2"></div>
           </motion.div>
         ))}
