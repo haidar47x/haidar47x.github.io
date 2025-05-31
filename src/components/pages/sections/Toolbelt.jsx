@@ -16,6 +16,7 @@ import { SiDatadog } from "react-icons/si";
 import { LiaDocker } from "react-icons/lia";
 import { BsCupStraw } from "react-icons/bs";
 import { HiMiniCube } from "react-icons/hi2";
+import { GiDatabase } from "react-icons/gi";
 
 function Toolbelt() {
   const [xOffset] = useState(() => Math.floor(Math.random() * 40));
@@ -26,6 +27,7 @@ function Toolbelt() {
       { name: "JavaScript", icon: FaJsSquare },
       { name: "Python", icon: SiPython },
       { name: "GraphQL", icon: GrGraphQl },
+      { name: "SQL", icon: GiDatabase },
       { name: "HTML", icon: FaHtml5 },
       { name: "CSS", icon: IoLogoCss3 },
       { name: "Bash", icon: SiGnubash },
