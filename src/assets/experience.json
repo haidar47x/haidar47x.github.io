@@ -1,28 +1,26 @@
-    [{
-      "year": "2021 – 2025",
-      "title": "Senior Frontend Engineer",
-      "company": "Createch IT Solutions (Pvt.) Ltd.",
-      "description":
-        ""
-    },
-    {
-      "year": "2020 – 2021",
-      "title": "Full Stack Engineer",
-      "company": "MicroAgility Services (Pvt.) Ltd.",
-      "description":
-        ""
-    },
-    {
-      "year": "2018 – 2020",
-      "title": "Frontend Developer",
-      "company": "Upwork",
-      "description":
-        ""
-    },
-    {
-      "year": "2019 – 2020",
-      "title": "Frontend Developer",
-      "company": "KapOnTwo LLC",
-      "description":
-        ""
-    }]
+[
+  {
+    "year": "2021 – 2025",
+    "title": "Senior Backend Engineer",
+    "company": "Createch IT Solutions (Pvt.) Ltd.",
+    "description": "Led the backend development of Laboratary Information Management System (LIMS) using Spring Boot."
+  },
+  {
+    "year": "2021 – Present",
+    "title": "Technical Content Engineer",
+    "company": "Baeldung",
+    "description": "Author and research deeply technical articles on DevOps, Linux, and Java. Published 150+ articles for 12+M readers worldwide on Baeldung."
+  },
+  {
+    "year": "2020 – 2021",
+    "title": "Full Stack Engineer",
+    "company": "MicroAgility Services (Pvt.) Ltd.",
+    "description": "Worked on the backend of a heuristics-based consultation matchmaking platform using Spring Boot and Node.js."
+  },
+  {
+    "year": "2018 – 2020",
+    "title": "Frontend Developer",
+    "company": "Upwork",
+    "description": "Developed full stack solutions and Google Chrome extensions for clients around the globe."
+  }
+]

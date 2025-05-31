@@ -17,7 +17,7 @@ function Career() {
         {experience.map((item, i) => (
           <motion.div
             key={i}
-            className={`mb-8 flex w-full items-center ${
+            className={`mb-8 flex w-full items-center text-shadow-2xs ${
               i % 2 === 0 ? "md:justify-start" : "md:justify-end"
             }`}
             initial={{ opacity: 0, x: i % 2 === 0 ? -100 : 100 }}
@@ -29,18 +29,18 @@ function Career() {
                 i % 2 === 0 ? "md:ml-auto" : "md:mr-auto md:ml-8"
               }`}>
               <h1
-                className={`${i % 2 === 0 ? "text-left md:text-left" : "text-left md:text-right"} eb-garamond py-1 text-2xl text-slate-800 dark:text-slate-300 text-shadow-2xs md:text-4xl`}>
+                className={`${i % 2 === 0 ? "text-left md:text-left" : "text-left md:text-right"} eb-garamond py-1 text-2xl text-slate-800 dark:text-slate-200 text-shadow-2xs md:text-4xl`}>
                 {item.year}
               </h1>
               <h4
-                className={`${i % 2 === 0 ? "text-left md:text-left" : "text-left md:text-right"} font-regular inherit py-1 text-sm text-slate-700 dark:text-slate-300 uppercase md:text-[0.825em] tracking-[-0.2px] md:tracking-tight`}>
+                className={`${i % 2 === 0 ? "text-left md:text-left" : "text-left md:text-right"} font-regular inherit py-1 text-sm text-slate-700 dark:text-slate-200 uppercase md:text-[0.825em] tracking-[-0.2px] md:tracking-tight`}>
                 {item.title}
               </h4>
               <h4
-                className={`${i % 2 === 0 ? "text-left md:text-left" : "text-left md:text-right"} py-1 text-sm font-bold text-slate-600 dark:text-slate-300 tracking-tight`}>
+                className={`${i % 2 === 0 ? "text-left md:text-left" : "text-left md:text-right"} py-1 text-sm font-bold text-slate-600 dark:text-slate-200 tracking-tight`}>
                 {item.company}
               </h4>
-              <p className="py-1 text-justify text-sm text-slate-950 dark:text-slate-100">
+              <p className="py-1 text-justify text-base text-slate-950 dark:text-slate-100">
                 {item.description}
               </p>
             </div>

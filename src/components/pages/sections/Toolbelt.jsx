@@ -3,62 +3,62 @@ import { useState } from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
-import { BiLogoTypescript } from "react-icons/bi";
-import { FaSass} from "react-icons/fa6";
-import { PiLighthouse } from "react-icons/pi";
-import { SiGithubactions, SiGnubash, SiPython, SiSentry} from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { FaGitAlt, FaJava } from "react-icons/fa6";
+import { SiAmazondynamodb, SiAwsfargate, SiAwslambda, SiElasticstack, SiFlyway, SiGithubactions, SiGnubash, SiHibernate, SiJunit5, SiLiquibase, SiPython, SiRabbitmq, SiRedis, SiSelenium, SiSentry, SiSpringboot, SiSpringsecurity, SiSwagger} from "react-icons/si";
 import { FaHtml5, FaJsSquare } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io5";
 import { FaNodeJs } from "react-icons/fa";
-import { SiJest } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
 import { FaReact } from "react-icons/fa6";
-import { RiBearSmileLine, RiNextjsLine, RiVercelLine } from "react-icons/ri"
-import { IoLogoElectron } from "react-icons/io5";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { GrGraphQl } from "react-icons/gr";
+import { GrGraphQl, GrMysql } from "react-icons/gr";
 import { SiDatadog } from "react-icons/si";
-import { TbBrandD3, TbBrandFramerMotion, TbBrandStorybook, TbBrandThreejs, TbMasksTheater } from "react-icons/tb";
-import { FiFigma } from "react-icons/fi";
 import { LiaDocker } from "react-icons/lia";
+import { BsCupStraw } from "react-icons/bs";
+import { HiMiniCube } from "react-icons/hi2";
 
 function Toolbelt() {
   const [xOffset] = useState(() => Math.floor(Math.random() * 40));
 
   const tools = {
     languages: [
+      { name: "Java", icon: FaJava },
       { name: "JavaScript", icon: FaJsSquare },
-      { name: "TypeScript", icon: BiLogoTypescript },
-      { name: "GraphQL", icon: GrGraphQl },
       { name: "Python", icon: SiPython },
-      { name: "Bash", icon: SiGnubash },
+      { name: "GraphQL", icon: GrGraphQl },
       { name: "HTML", icon: FaHtml5 },
       { name: "CSS", icon: IoLogoCss3 },
-      { name: "Sass", icon: FaSass },
+      { name: "Bash", icon: SiGnubash },
     ],
-    frontend: [
-      { name: "React", icon: FaReact },
-      { name: "Next.js", icon: RiNextjsLine },
+    libraries: [
+      { name: "Spring Boot", icon: SiSpringboot },
+      { name: "Spring Security", icon: SiSpringsecurity },
+      { name: "MySQL", icon: GrMysql },
+      { name: "PostgreSQL", icon: BiLogoPostgresql },
+      { name: "DynamoDB", icon: SiAmazondynamodb },
+      { name: "Hibernate", icon: SiHibernate },
+      { name: "RabbitMQ", icon: SiRabbitmq },
+      { name: "Redis", icon: SiRedis },
+      { name: "JUnit", icon: SiJunit5 },
+      { name: "Mockito", icon: BsCupStraw },
+      { name: "Testcontainers", icon: HiMiniCube },
+      { name: "Selenium", icon: SiSelenium },
       { name: "Node.js", icon: FaNodeJs },
-      { name: "Electron", icon: IoLogoElectron },
-      { name: "Zustand", icon: RiBearSmileLine },
-      { name: "Tailwind CSS", icon: RiTailwindCssFill },
-      { name: "Framer Motion", icon: TbBrandFramerMotion },
-      { name: "D3.js", icon: TbBrandD3 },
-      { name: "Three.js", icon: TbBrandThreejs },
-      { name: "Figma", icon: FiFigma },
-      { name: "Storybook", icon: TbBrandStorybook },
-      { name: "Playwright", icon: TbMasksTheater },
-      { name: "Jest", icon: SiJest },
+      { name: "React", icon: FaReact },
     ],
     tools: [
       { name: "AWS", icon: FaAws },
-      { name: "Vercel", icon: RiVercelLine },
-      { name: "Datadog", icon: SiDatadog },
+      { name: "Flyway", icon: SiFlyway },
+      { name: "Liquibase", icon: SiLiquibase },
+      { name: "Elastic Stack", icon: SiElasticstack },
       { name: "Sentry", icon: SiSentry },
+      { name: "Datadog", icon: SiDatadog },
+      { name: "Swagger", icon: SiSwagger },
+      { name: "AWS Lambda", icon: SiAwslambda },
+      { name: "Fargate", icon: SiAwsfargate },
       { name: "GitHub Actions", icon: SiGithubactions },
-      { name: "Lighthouse CI", icon: PiLighthouse },
       { name: "Docker", icon: LiaDocker },
+      { name: "Git", icon: FaGitAlt },
     ],
   };
 

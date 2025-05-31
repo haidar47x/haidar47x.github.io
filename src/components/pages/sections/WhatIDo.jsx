@@ -3,13 +3,17 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const skills = [
-  "UI Development",
-  "Responsive Design",
+  "API Design",
+  "Backend Development",
+  "Scalability",
   "Performance Optimization",
-  "Accessibility",
-  "UI Testing",
-  "E2E Testing",
+  "Microservices",
+  "Database Design",
+  "Test Automation",
+  "Caching",
+  "CI/CD Workflows",
   "Documentation",
+  "Technical Writing",
 ];
 
 function InfiniteMarquee({ items, reverse = false }) {

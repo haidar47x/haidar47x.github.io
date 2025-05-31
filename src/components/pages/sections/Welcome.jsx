@@ -16,16 +16,12 @@ function Welcome() {
         </em>{" "}
         den
       </h1>
-      <div className="mt-2 w-10/12 text-lg tracking-tight md:tracking-[-0.9px] md:w-8/12 md:text-xl lg:w-8/12 lg:text-2xl xl:w-6/12">
+      <div className="mt-2 w-10/12 text-lg tracking-tight md:tracking-[-0.9px] md:w-8/12 md:text-xl lg:w-8/12 xl:w-6/12">
         <p>
-          I’m Haidar Ali, a software engineer with 5½ years’ experience building
-          and deploying robust, user-focused, and accessible frontend apps.
+          I’m <span className="font-semibold">Haidar Ali</span>, a software engineer with 5½ years’ experience specializing in building
+          and deploying robust and scalable backend systems. My core expertise include Java, Spring Boot, and DevOps. When I'm not coding, I write about it publicly. Sporadically, I develop full stack apps as a freelancer on Upwork.
         </p>
-        <p className="mt-4">
-          My work revolves around solving real problems with thoughtful design
-          and sharp execution. Currently, I’m working on a platform for fiction
-          authors to turn their ideas into beautiful art.
-        </p>
+        <p className="mt-4">Currently, I’m working solo on a proprietary platform for fiction authors to turn their ideas into beautiful art.</p>
       </div>
     </div>
   );
