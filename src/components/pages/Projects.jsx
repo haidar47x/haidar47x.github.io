@@ -29,7 +29,7 @@ function Projects() {
                     return (
                       <span
                         key={i}
-                        className="text-700 rounded-full border-1 border-slate-700 dark:border-slate-300 px-1.5 py-0.5 text-xs sm:text-sm">
+                        className="text-slate-800 dark:text-slate-100 text-shadow-2xs rounded-full border-2 border-slate-700 dark:border-slate-200 px-1.5 text-xs sm:text-sm">
                         {t}
                       </span>
                     );

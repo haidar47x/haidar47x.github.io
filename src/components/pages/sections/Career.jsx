@@ -13,11 +13,11 @@ function Career() {
         <div className="absolute top-0 left-4 ml-2 h-[calc(97.25%)] md:h-[calc(98.5%)] w-[2px] bg-orange-500 dark:bg-orange-300 shadow-xs/20 md:left-1/2"></div>
       <img src={gradientImage}
            alt="Gradient"
-           className="animate-fade overflow-x-hidden absolute -z-10 -right-32 md:-left-60 lg:-left-64 xl:-left-72 top-0 h-[80%] sm:h-[100%] w-full sm:w-auto opacity-50" />
+           className="overflow-x-hidden absolute -z-10 -right-32 md:-left-60 lg:-left-64 xl:-left-72 top-0 h-[80%] sm:h-[100%] w-full sm:w-auto opacity-50" />
         {experience.map((item, i) => (
           <motion.div
             key={i}
-            className={`mb-8 flex w-full items-center text-shadow-2xs ${
+            className={`mb-8 flex w-full items-center text-shadow-md/35 ${
               i % 2 === 0 ? "md:justify-start" : "md:justify-end"
             }`}
             initial={{ opacity: 0, x: i % 2 === 0 ? -100 : 100 }}
@@ -43,6 +43,11 @@ function Career() {
               <p className="py-1 text-justify text-base text-slate-950 dark:text-slate-100">
                 {item.description}
               </p>
+              <div className="flex flex-wrap gap-1.5 py-2">
+                {item.tech.map((t) => {
+                  return (<span className="border-2 dark:border-slate-200 border-slate-800 rounded-full px-1.5 text-sm text-slate-800 dark:text-slate-100" >{ t }</span>);
+                })}
+                </div>
             </div>
             <div className="absolute left-4 ml-2 h-4 w-4 -translate-x-[0.45rem] rounded-full border-2 border-white bg-orange-500 dark:bg-orange-300 shadow-sm/20 glow md:left-1/2 md:ml-2"></div>
           </motion.div>

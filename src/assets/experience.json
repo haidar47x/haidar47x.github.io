@@ -3,24 +3,71 @@
     "year": "2021 – 2025",
     "title": "Senior Backend Engineer",
     "company": "Createch IT Solutions (Pvt.) Ltd.",
-    "description": "Led the backend development of Laboratary Information Management System (LIMS) using Spring Boot."
+    "description": "Led the backend development of a medical Laboratary Information Management System (LIMS) using Spring Boot. Implemented auth for user roles, async pipeline for uploads, automated PDF summary generation, integrated caching mechaism, refactored DTO and database queries, provided CI/CD workflows for faster deployments.",
+    "tech": [
+      "Java",
+      "Spring Boot",
+      "Spring Securiy",
+      "Redis",
+      "Hibernate",
+      "PostgreSQL",
+      "JUnit",
+      "Testcontainers",
+      "Docker",
+      "AWS",
+      "JIRA"
+    ]
   },
   {
     "year": "2021 – Present",
     "title": "Technical Content Engineer",
     "company": "Baeldung",
-    "description": "Author and research deeply technical articles on DevOps, Linux, and Java. Published 150+ articles for 12+M readers worldwide on Baeldung."
+    "description": "Author deeply technical articles on DevOps, Linux, and Java. Published 150+ articles for 12+ million readers on the platform worldwide. Conducted deep research on 2500+ DevOps and Linux topics for 50+ authors. Ranked top 5% of contributors.",
+    "tech": [
+      "Linux",
+      "Java",
+      "DevOps",
+      "Networking",
+      "File Systems",
+      "Security",
+      "Virtualization",
+      "Shell Scripting"
+    ]
   },
   {
     "year": "2020 – 2021",
     "title": "Backend Engineer",
     "company": "MicroAgility Services (Pvt.) Ltd.",
-    "description": "Worked on the backend of a heuristics-based consultation matchmaking platform using Spring Boot and Node.js."
+    "description": "Worked on the backend of a mobile-first U.S. based consultation platform. Engineered microservices, refactored database schemas, optimized queries, and wrote technical documentations.",
+    "tech": [
+      "Java",
+      "Spring Boot",
+      "Spring Security",
+      "MongoDB",
+      "RabbitMQ",
+      "Docker",
+      "AWS",
+      "ClickUp"
+    ]
   },
   {
     "year": "2018 – 2020",
     "title": "Full Stack Developer",
     "company": "Upwork",
-    "description": "Developed full-stack solutions and Google Chrome extensions for clients around the globe."
+    "description": "Developed full-stack solutions, achieving Top Rated status and 4.75/5 rating across 12+ projects. Worked solo on a basketball sports management platform covering features including player/stats management, play-by-play tracking, video compression, highlights generation from events, and adaptive playback.",
+    "tech": [
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "OpenAPI",
+      "Jasmine",
+      "MongoDB",
+      "PostgreSQL",
+      "TypeORM",
+      "Mongoose",
+      "Redis",
+      "FFmpeg",
+      "React"
+    ]
   }
 ]
