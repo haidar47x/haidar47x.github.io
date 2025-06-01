@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 import { BiLogoPostgresql } from "react-icons/bi";
 import { FaGitAlt, FaJava } from "react-icons/fa6";
-import { SiAmazondynamodb, SiAwsfargate, SiAwslambda, SiElasticstack, SiFlyway, SiGithubactions, SiGnubash, SiHibernate, SiJunit5, SiLiquibase, SiPython, SiRabbitmq, SiRedis, SiSelenium, SiSentry, SiSpringboot, SiSpringsecurity, SiSwagger} from "react-icons/si";
+import { SiAmazondynamodb, SiAwsfargate, SiAwslambda, SiElasticstack, SiFlyway, SiGithubactions, SiGnubash, SiGrafana, SiHibernate, SiJunit5, SiLiquibase, SiPrometheus, SiPython, SiRabbitmq, SiRedis, SiSelenium, SiSentry, SiSpringboot, SiSpringsecurity, SiSwagger} from "react-icons/si";
 import { FaHtml5, FaJsSquare } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io5";
 import { FaNodeJs } from "react-icons/fa";
@@ -50,14 +50,11 @@ function Toolbelt() {
     ],
     tools: [
       { name: "AWS", icon: FaAws },
-      { name: "Flyway", icon: SiFlyway },
-      { name: "Liquibase", icon: SiLiquibase },
       { name: "Elastic Stack", icon: SiElasticstack },
+      { name: "Grafana", icon: SiGrafana },
+      { name: "Prometheus", icon: SiPrometheus },
       { name: "Sentry", icon: SiSentry },
-      { name: "Datadog", icon: SiDatadog },
       { name: "Swagger", icon: SiSwagger },
-      { name: "AWS Lambda", icon: SiAwslambda },
-      { name: "Fargate", icon: SiAwsfargate },
       { name: "GitHub Actions", icon: SiGithubactions },
       { name: "Docker", icon: LiaDocker },
       { name: "Git", icon: FaGitAlt },
