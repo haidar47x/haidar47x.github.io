@@ -5,14 +5,13 @@ import { motion } from "framer-motion";
 
 import { BiLogoPostgresql } from "react-icons/bi";
 import { FaGitAlt, FaJava } from "react-icons/fa6";
-import { SiAmazondynamodb, SiAwsfargate, SiAwslambda, SiElasticstack, SiFlyway, SiGithubactions, SiGnubash, SiGrafana, SiHibernate, SiJunit5, SiLiquibase, SiPrometheus, SiPython, SiRabbitmq, SiRedis, SiSelenium, SiSentry, SiSpringboot, SiSpringsecurity, SiSwagger} from "react-icons/si";
+import { SiAmazondynamodb,  SiElasticstack, SiGithubactions, SiGnubash, SiGrafana, SiHibernate, SiJunit5, SiPrometheus, SiPython, SiRabbitmq, SiRedis, SiSelenium, SiSentry, SiSpringboot, SiSpringsecurity, SiSwagger} from "react-icons/si";
 import { FaHtml5, FaJsSquare } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io5";
 import { FaNodeJs } from "react-icons/fa";
 import { FaAws } from "react-icons/fa";
 import { FaReact } from "react-icons/fa6";
 import { GrGraphQl, GrMysql } from "react-icons/gr";
-import { SiDatadog } from "react-icons/si";
 import { LiaDocker } from "react-icons/lia";
 import { BsCupStraw } from "react-icons/bs";
 import { HiMiniCube } from "react-icons/hi2";
