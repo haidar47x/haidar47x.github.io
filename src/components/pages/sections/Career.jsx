@@ -45,7 +45,7 @@ function Career() {
               </p>
               <div className="flex flex-wrap gap-1.5 py-2">
                 {item.tech.map((t) => {
-                  return (<span className="border-2 dark:border-slate-200 border-slate-800 rounded-full px-1.5 text-sm text-slate-800 dark:text-slate-100" >{ t }</span>);
+                  return (<span key={`${item.company} - ${t}`} className="border-2 dark:border-slate-200 border-slate-800 rounded-full px-1.5 text-sm text-slate-800 dark:text-slate-100" >{ t }</span>);
                 })}
                 </div>
             </div>

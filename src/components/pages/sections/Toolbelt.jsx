@@ -19,7 +19,7 @@ import { HiMiniCube } from "react-icons/hi2";
 import { GiDatabase } from "react-icons/gi";
 
 function Toolbelt() {
-  const [xOffset] = useState(() => Math.floor(Math.random() * 40));
+  const [xOffset] = useState(() => Math.floor(Math.random() * 32));
 
   const tools = {
     languages: [
