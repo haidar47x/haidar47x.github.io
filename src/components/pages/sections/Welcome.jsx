@@ -12,7 +12,7 @@ function Welcome() {
         welcome to
         <br />
         the <em className="text-orange-500 dark:text-orange-300">
-          maker'
+          maker's
         </em>{" "}
         den
       </h1>
