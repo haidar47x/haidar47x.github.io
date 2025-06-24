@@ -32,8 +32,6 @@ function Toolbelt() {
       { name: "Bash", icon: SiGnubash },
     ],
     libraries: [
-      { name: "Node.js", icon: FaNodeJs },
-      { name: "NestJS", icon: SiNestjs},
       { name: "Spring Boot", icon: SiSpringboot },
       { name: "Spring Security", icon: SiSpringsecurity },
       { name: "MySQL", icon: GrMysql },
@@ -46,6 +44,8 @@ function Toolbelt() {
       { name: "Mockito", icon: BsCupStraw },
       { name: "Testcontainers", icon: HiMiniCube },
       { name: "Selenium", icon: SiSelenium },
+      { name: "Node.js", icon: FaNodeJs },
+      { name: "NestJS", icon: SiNestjs},
       { name: "React", icon: FaReact },
     ],
     tools: [

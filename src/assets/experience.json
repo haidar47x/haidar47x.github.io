@@ -3,10 +3,8 @@
     "year": "2021 – 2025",
     "title": "Senior Backend Engineer",
     "company": "Createch IT Solutions (Pvt.) Ltd.",
-    "description": "Led the backend development of a medical Laboratary Information Management System (LIMS) using NestJS and Spring Boot. Implemented auth for user roles, async pipeline for uploads, automated PDF summary generation, integrated caching mechaism, refactored DTO and database queries, provided CI/CD workflows for faster deployments.",
+    "description": "Led the backend development of a medical Laboratary Information Management System (LIMS). Implemented auth for user roles, async pipeline for uploads, automated PDF summary generation, integrated caching mechaism, refactored DTO and database queries, provided CI/CD workflows for faster deployments.",
     "tech": [
-      "Node.js",
-      "NestJS",
       "Spring Boot",
       "Spring Securiy",
       "Redis",
@@ -14,6 +12,7 @@
       "PostgreSQL",
       "JUnit",
       "Testcontainers",
+      "Node.js",
       "Docker",
       "AWS",
       "JIRA"
@@ -41,11 +40,11 @@
     "company": "MicroAgility Services (Pvt.) Ltd.",
     "description": "Worked on the backend of a mobile-first U.S. based consultation platform. Engineered microservices, refactored database schemas, optimized queries, and wrote technical documentations.",
     "tech": [
-      "Node.js",
       "Spring Boot",
       "Spring Security",
       "MongoDB",
       "RabbitMQ",
+      "Node.js",
       "Docker",
       "AWS",
       "ClickUp"
@@ -60,6 +59,7 @@
       "TypeScript",
       "Node.js",
       "Express.js",
+      "NestJS",
       "OpenAPI",
       "Jasmine",
       "MongoDB",
