@@ -10,14 +10,14 @@ function Career() {
         career <em className="text-orange-500 dark:text-orange-300">journey</em>
       </h1>
       <div className="relative w-full max-w-4xl">
-        <div className="absolute top-0 left-4 ml-2 h-[calc(97.25%)] md:h-[calc(98.5%)] w-[2px] bg-orange-500 dark:bg-orange-300 shadow-xs/20 md:left-1/2"></div>
+        <div className="absolute top-0 left-4 ml-2 h-[calc(97.25%)] md:h-[calc(98.5%)] w-[2px] bg-orange-500 dark:bg-orange-300 dark:shadow-xs/20 md:left-1/2"></div>
       <img src={gradientImage}
            alt="Gradient"
-           className="overflow-x-hidden absolute -z-10 -right-32 md:-left-60 lg:-left-64 xl:-left-72 top-0 h-[80%] sm:h-[100%] w-full sm:w-auto opacity-50" />
+           className="dark:dial-down overflow-x-hidden absolute -z-10 -right-32 md:-left-60 lg:-left-64 xl:-left-72 top-0 h-[80%] sm:h-[100%] w-full sm:w-auto opacity-50" />
         {experience.map((item, i) => (
           <motion.div
             key={i}
-            className={`mb-8 flex w-full items-center text-shadow-md/35 ${
+            className={`mb-8 flex w-full items-center dark:text-shadow-md/35 ${
               i % 2 === 0 ? "md:justify-start" : "md:justify-end"
             }`}
             initial={{ opacity: 0, x: i % 2 === 0 ? -100 : 100 }}
@@ -29,7 +29,7 @@ function Career() {
                 i % 2 === 0 ? "md:ml-auto" : "md:mr-auto md:ml-8"
               }`}>
               <h1
-                className={`${i % 2 === 0 ? "text-left md:text-left" : "text-left md:text-right"} eb-garamond py-1 text-2xl text-slate-800 dark:text-slate-200 text-shadow-2xs md:text-4xl`}>
+                className={`${i % 2 === 0 ? "text-left md:text-left" : "text-left md:text-right"} eb-garamond py-1 text-2xl text-slate-800 dark:text-slate-200 dark:text-shadow-2xs md:text-4xl`}>
                 {item.year}
               </h1>
               <h4
@@ -49,7 +49,7 @@ function Career() {
                 })}
                 </div>
             </div>
-            <div className="absolute left-4 ml-2 h-4 w-4 -translate-x-[0.45rem] rounded-full border-2 border-white bg-orange-500 dark:bg-orange-300 shadow-sm/20 glow md:left-1/2 md:ml-2"></div>
+            <div className="absolute left-4 ml-2 h-4 w-4 -translate-x-[0.4rem] rounded-full border-2 border-white bg-orange-500 dark:bg-orange-300 shadow-sm/20 glow md:left-1/2 md:ml-2"></div>
           </motion.div>
         ))}
       </div>
