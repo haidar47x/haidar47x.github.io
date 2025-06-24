@@ -13,7 +13,7 @@ function Career() {
         <div className="absolute top-0 left-4 ml-2 h-[calc(97.25%)] md:h-[calc(98.5%)] w-[2px] bg-orange-500 dark:bg-orange-300 dark:shadow-xs/20 md:left-1/2"></div>
       <img src={gradientImage}
            alt="Gradient"
-           className="dark:dial-down overflow-x-hidden absolute -z-10 -right-32 md:-left-60 lg:-left-64 xl:-left-72 top-0 h-[80%] sm:h-[100%] w-full sm:w-auto opacity-50" />
+           className="dial-down overflow-x-hidden absolute -z-10 -right-32 md:-left-60 lg:-left-64 xl:-left-72 top-0 h-[80%] sm:h-[100%] w-full sm:w-auto opacity-50" />
         {experience.map((item, i) => (
           <motion.div
             key={i}
