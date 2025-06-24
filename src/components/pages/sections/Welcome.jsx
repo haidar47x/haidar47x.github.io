@@ -6,7 +6,7 @@ function Welcome() {
       <img
         src={gradientImage}
         alt="Gradient"
-        className="animate-fade dark:dial-down absolute top-0 -right-48 -z-10 h-[80%] w-full overflow-x-hidden opacity-100 sm:h-[100%] sm:w-auto md:-right-60 lg:-right-24 xl:right-12"
+        className="animate-fade dial-down absolute top-0 -right-48 -z-10 h-[80%] w-full overflow-x-hidden opacity-100 sm:h-[100%] sm:w-auto md:-right-60 lg:-right-24 xl:right-12"
       />
       <h1 className="eb-garamond text-shadow/25 text-center tracking-tight md:tracking-[-4px] text-5xl text-shadow-xs md:text-8xl lg:text-9xl">
         welcome to
