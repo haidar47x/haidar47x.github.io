@@ -758,5 +758,10 @@
     "title": "Dual Boot Ubuntu Alongside macOS",
     "url": "https://www.baeldung.com/linux/ubuntu-macos-dual-boot",
     "date": "2025-01-01T16:01:07+0200"
+  },
+  {
+    "title": "Copying Text to the Clipboard in Java",
+    "url": "https://www.baeldung.com/java-clipboard-copy-paste-text",
+    "date": "2025-07-07T06:16:10+0300"
   }
 ]
