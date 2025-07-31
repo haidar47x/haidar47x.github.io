@@ -1,5 +1,24 @@
 [
   {
+    "year": "2024 – Present",
+    "title": "Independent Product Engineer",
+    "company": "Createch IT Solutions (Pvt.) Ltd.",
+    "description": "Led the backend development of a medical Laboratary Information Management System (LIMS). Implemented auth for user roles, async pipeline for uploads, automated PDF summary generation, integrated caching mechaism, refactored DTO and database queries, provided CI/CD workflows for faster deployments.",
+    "tech": [
+      "Spring Boot",
+      "Spring Securiy",
+      "Redis",
+      "Hibernate",
+      "PostgreSQL",
+      "JUnit",
+      "Testcontainers",
+      "Node.js",
+      "Docker",
+      "AWS",
+      "JIRA"
+    ]
+  },
+  {
     "year": "2021 – 2025",
     "title": "Senior Backend Engineer",
     "company": "Createch IT Solutions (Pvt.) Ltd.",
