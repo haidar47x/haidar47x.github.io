@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Sheppards&display=swap');
+
+
 
 @import "tailwindcss";
 
@@ -37,7 +41,7 @@ body {
 }
 
 .yellowtail {
-  font-family: "Yellowtail";
+  font-family: "Mrs Sheppards";
   font-optical-sizing: auto;
 }
 
@@ -88,6 +92,10 @@ body {
 
   .dial-down {
     filter: brightness(0.5) contrast(1.2) saturate(1.3) sepia(0.1);
+  }
+
+  .skeumorphic-borders {
+    @apply border-1 border-slate-700/55 border-t-1 border-t-slate-500/60
   }
 
 }
