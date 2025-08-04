@@ -19,7 +19,7 @@ function Welcome() {
       <div className="mt-2 w-10/12 text-lg tracking-tight md:tracking-[-0.6px] md:w-8/12 md:text-xl lg:w-8/12 xl:w-6/12">
         <p>
           I’m <span className="font-semibold">Haidar Ali</span>, a software engineer with 6 years in specializing in building
-          and deploying robust and scalable backend systems. My core expertise includes Java, Spring Boot, Node.js, Python, and DevOps. When I'm not coding, I write about it on Baeldung. Occasionally, I develop full-stack apps as a freelancer on Upwork.
+          and deploying robust and scalable backend systems. Occasionally, I develop full-stack apps as a freelancer on Upwork. When I'm not coding, I write about it on Baeldung.
         </p>
         <p className="mt-4">Currently, I’m working solo on a proprietary platform for fiction authors to turn their ideas into beautiful art.</p>
       </div>
