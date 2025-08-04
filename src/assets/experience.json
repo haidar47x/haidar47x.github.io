@@ -5,8 +5,11 @@
     "company": "Createch IT Solutions (Pvt.) Ltd.",
     "description": "Led the backend development of a medical Laboratary Information Management System (LIMS). Implemented auth for user roles, async pipeline for uploads, automated PDF summary generation, integrated caching mechaism, refactored DTO and database queries, provided CI/CD workflows for faster deployments.",
     "tech": [
+      "Java",
+      "Python",
       "Spring Boot",
       "Spring Securiy",
+      "Django",
       "Redis",
       "Hibernate",
       "PostgreSQL",
@@ -25,8 +28,8 @@
     "description": "Author deeply technical articles on DevOps, Linux, and Java. Published 150+ articles for 12+ million readers on the platform worldwide. Conducted deep research on 2500+ DevOps and Linux topics for 50+ authors. Ranked top 5% of contributors.",
     "tech": [
       "Linux",
-      "Java",
       "DevOps",
+      "Java",
       "Networking",
       "File Systems",
       "Security",
@@ -42,6 +45,7 @@
     "tech": [
       "Spring Boot",
       "Spring Security",
+      "Node.js",
       "MongoDB",
       "RabbitMQ",
       "Node.js",
@@ -57,7 +61,9 @@
     "description": "Developed full-stack solutions, achieving Top Rated status and 4.75/5 rating across 12+ projects. Worked solo on a basketball sports management platform covering features including player/stats management, play-by-play tracking, video compression, highlights generation from events, and adaptive playback.",
     "tech": [
       "TypeScript",
+      "Python",
       "Node.js",
+      "Django",
       "Express.js",
       "NestJS",
       "OpenAPI",
