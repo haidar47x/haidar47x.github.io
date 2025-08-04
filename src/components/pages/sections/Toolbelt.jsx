@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 import { BiLogoPostgresql } from "react-icons/bi";
 import { FaGitAlt, FaJava } from "react-icons/fa6";
-import { SiAmazondynamodb,  SiElasticstack, SiGithubactions, SiGnubash, SiGrafana, SiHibernate, SiJunit5, SiNestjs, SiPrometheus, SiPython, SiRabbitmq, SiRedis, SiSelenium, SiSentry, SiSpringboot, SiSpringsecurity, SiSwagger} from "react-icons/si";
+import { SiAmazondynamodb,  SiDjango,  SiElasticstack, SiGithubactions, SiGnubash, SiGrafana, SiHibernate, SiJunit5, SiNestjs, SiPrometheus, SiPython, SiRabbitmq, SiRedis, SiSelenium, SiSentry, SiSpringboot, SiSpringsecurity, SiSwagger} from "react-icons/si";
 import { FaHtml5, FaJsSquare } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io5";
 import { FaNodeJs } from "react-icons/fa";
@@ -34,6 +34,9 @@ function Toolbelt() {
     libraries: [
       { name: "Spring Boot", icon: SiSpringboot },
       { name: "Spring Security", icon: SiSpringsecurity },
+      { name: "Node.js", icon: FaNodeJs },
+      { name: "NestJS", icon: SiNestjs},
+      { name: "Django", icon: SiDjango },
       { name: "MySQL", icon: GrMysql },
       { name: "PostgreSQL", icon: BiLogoPostgresql },
       { name: "DynamoDB", icon: SiAmazondynamodb },
@@ -44,8 +47,6 @@ function Toolbelt() {
       { name: "Mockito", icon: BsCupStraw },
       { name: "Testcontainers", icon: HiMiniCube },
       { name: "Selenium", icon: SiSelenium },
-      { name: "Node.js", icon: FaNodeJs },
-      { name: "NestJS", icon: SiNestjs},
       { name: "React", icon: FaReact },
     ],
     tools: [
