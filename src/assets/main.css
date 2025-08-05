@@ -71,16 +71,9 @@ body {
     text-shadow:
       0 0 2px #fff,
       0 0 4px #fff,
-      0 0 6px #fff,
-      0 0 42px #FF0099,
-      0 0 82px #FF0099,
-      0 0 92px #FF0099,
-      0 0 102px #FF0099,
-      0 0 151px #FF0099;
-  }
-
-  .animate-neon {
-    animation: pulsate 3s infinite alternate;
+      0 0 10px #FF0099,
+      0 0 45px #FF0099,
+      0 0 80px #FF0099;
   }
 
   .glow {
@@ -91,7 +84,7 @@ body {
   }
 
   .dial-down {
-    filter: brightness(0.5) contrast(1.2) saturate(1.3) sepia(0.1);
+    filter: brightness(0.5) contrast(1.2) saturate(0.75) sepia(0.1);
   }
 
   .skeumorphic-borders {
