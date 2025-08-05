@@ -77,7 +77,7 @@ body {
   }
 
   .skeumorphic-borders {
-    @apply border-1 border-slate-700/55 border-t-1 border-t-slate-500/60
+    @apply border-1 border-slate-700/55 border-t-1 border-t-slate-500/50
   }
 
 }
