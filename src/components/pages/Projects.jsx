@@ -9,7 +9,7 @@ function Projects() {
       <img
         src={gradientImage}
         alt="Gradient"
-        className="animate-fade absolute top-0 -left-32 -z-10 h-[4/12] w-full overflow-x-hidden opacity-100 sm:w-auto md:-left-60 lg:-left-30 xl:left-40"
+        className="absolute top-0 -left-32 -z-10 h-[4/12] w-full overflow-x-hidden opacity-100 sm:w-auto md:-left-60 lg:-left-30 xl:left-40"
       />
       <div className="wrapper flex w-full flex-col gap-12 px-4 sm:px-8 md:gap-24 md:px-12 lg:w-10/12 lg:px-0 xl:w-8/12">
         <h1 className="eb-garamond text-shadow/25 text-5xl text-shadow-xs md:text-8xl tracking-tight md:tracking-[-2.5px]">

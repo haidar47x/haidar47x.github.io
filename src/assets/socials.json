@@ -1,22 +1,22 @@
 [
   {
     "name": "GitHub",
-    "url": "https://github.com/haidar47x",
-    "icon": "github.svg"
+    "url": "https://github.com/haidar47x"
   },
   {
     "name": "LinkedIn",
-    "url": "https://www.linkedin.com/in/haidarali-dev",
-    "icon": "linkedin.svg"
-  },
-  {
-    "name": "Discord",
-    "url": "https://discord.gg/haidar47x",
-    "icon": "discord.svg"
+    "url": "https://www.linkedin.com/in/haidarali-dev"
   },
   {
     "name": "WhatsApp",
-    "url": "https://wa.me/923454794362",
-    "icon": "whatsapp.svg"
+    "url": "https://wa.me/923454794362"
+  },
+  {
+    "name": "Discord",
+    "url": "https://discord.gg/haidar47x"
+  },
+  {
+    "name": "Email",
+    "url": "mailto:haidar47x@gmail.com"
   }
 ]

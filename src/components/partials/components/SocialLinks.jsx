@@ -5,12 +5,14 @@ import { FaGithub } from "react-icons/fa"
 import { FaLinkedin } from "react-icons/fa"
 import { IoLogoWhatsapp } from "react-icons/io"
 import { FaDiscord } from "react-icons/fa"
+import { MdEmail } from "react-icons/md"
 
 const icons = {
   "discord": FaDiscord,
   "github": FaGithub,
   "linkedin": FaLinkedin,
-  "whatsapp": IoLogoWhatsapp
+  "whatsapp": IoLogoWhatsapp,
+  "email": MdEmail
 }
 
 function SocialLinks() {
