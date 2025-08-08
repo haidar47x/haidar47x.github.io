@@ -9,7 +9,7 @@ function Projects() {
       <img
         src={gradientImage}
         alt="Gradient"
-        className="absolute top-0 -left-32 -z-10 h-[4/12] w-full overflow-x-hidden opacity-100 sm:w-auto md:-left-60 lg:-left-30 xl:left-40"
+        className="dial-down absolute top-0 -left-32 -z-10 h-[4/12] w-full overflow-x-hidden opacity-100 sm:w-auto md:-left-60 lg:-left-30 xl:left-40"
       />
       <div className="wrapper flex w-full flex-col gap-12 px-4 sm:px-8 md:gap-24 md:px-12 lg:w-10/12 lg:px-0 xl:w-8/12">
         <h1 className="eb-garamond text-shadow/25 text-5xl text-shadow-xs md:text-8xl tracking-tight md:tracking-[-2.5px]">
@@ -18,7 +18,7 @@ function Projects() {
         <div className="projects flex flex-col gap-20">
           {projects.map((p, i) => {
             return (
-              <div key={i} className="project flex flex-col gap-4">
+              <div key={p.name} className="project flex flex-col gap-4">
                 <h1 className="text-xl tracking-tight  sm:text-3xl">
                   <a className="hover:text-slate-700 dark:hover:text-slate-300" href={p.url} target="_blank">
                     {p.name}
@@ -36,14 +36,17 @@ function Projects() {
                   })}
                 </div>
                 <div className="order flex flex-col-reverse gap-8 py-4 text-sm sm:flex-row sm:py-8 sm:text-base">
-                  <div class="description sm:w-1/2 sm:py-2">
-                    {p.description}
+                  <div className="description sm:w-1/2 sm:py-2">
+                    {p.description.map((desc, i) => {
+                      console.log(desc);
+                      return (<div className={`${ i > 0 ? "pt-3" : ""}`} key={Math.random().toString()}>{desc }</div>)
+                    })}
                   </div>
                   <motion.div
-                    class={`cover overflow-hidden rounded-2xl sm:w-1/2 ${p.img ? "shadow-md/10" : ""}`}
+                    className={`cover overflow-hidden rounded-2xl cursor-pointer sm:w-1/2 ${p.img ? "shadow-md/10" : ""}`}
                     whileHover={{ scale: 1.1, y: -4 }}>
                     {p.img ? (
-                      <img className="h-full w-full object-cover" src={p.img} />
+                      <img className=" " src={p.img} />
                     ) : (
                       <div className="flex h-full items-center justify-center text-3xl font-extralight tracking-tighter text-slate-950 dark:text-slate-500 cursor-default">
                         COMING SOON
@@ -54,7 +57,6 @@ function Projects() {
               </div>
             );
           })}
-          <div class="project"></div>
         </div>
       </div>
     </div>

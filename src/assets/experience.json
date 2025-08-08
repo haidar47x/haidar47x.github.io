@@ -3,19 +3,16 @@
     "year": "2021 – 2025",
     "title": "Senior Backend Engineer",
     "company": "Createch IT Solutions (Pvt.) Ltd.",
-    "description": "Led the backend development of a medical Laboratary Information Management System (LIMS). Implemented auth for user roles, async pipeline for uploads, automated PDF summary generation, integrated caching mechaism, refactored DTO and database queries, provided CI/CD workflows for faster deployments.",
+    "description": "Led the backend development of a medical Laboratary Information Management System (LIMS). Implemented auth for user roles, async pipeline for uploads, automated PDF summary generation, integrated caching mechaism, refactored DTO and DB queries. Implemented CI/CD workflows for faster deployments.",
     "tech": [
       "Java",
-      "Python",
       "Spring Boot",
       "Spring Securiy",
-      "Django",
       "Redis",
       "Hibernate",
-      "PostgreSQL",
+      "MySQL",
       "JUnit",
       "Testcontainers",
-      "Node.js",
       "Docker",
       "AWS",
       "JIRA"
@@ -23,17 +20,15 @@
   },
   {
     "year": "2021 – Present",
-    "title": "Technical Content Engineer",
+    "title": "Technical Author",
     "company": "Baeldung",
-    "description": "Author deeply technical articles on DevOps, Linux, and Java. Published 150+ articles for 12+ million readers on the platform worldwide. Conducted deep research on 2500+ DevOps and Linux topics for 50+ authors. Ranked top 5% of contributors.",
+    "description": "Author technical articles on Java, infrastructure, and Linux internals. Published 150+ articles for 12+ million readers on the platform worldwide. Conducted deep research on 2500+ on technical topics for 50+ authors. Ranked top 5% of contributors.",
     "tech": [
-      "Linux",
-      "DevOps",
       "Java",
+      "Infrastructure",
+      "Linux",
       "Networking",
-      "File Systems",
       "Security",
-      "Virtualization",
       "Shell Scripting"
     ]
   },
@@ -45,10 +40,8 @@
     "tech": [
       "Spring Boot",
       "Spring Security",
-      "Node.js",
-      "MongoDB",
+      "MySQL",
       "RabbitMQ",
-      "Node.js",
       "Docker",
       "AWS",
       "ClickUp"
@@ -61,18 +54,12 @@
     "description": "Developed full-stack solutions, achieving Top Rated status and 4.75/5 rating across 12+ projects. Worked solo on a basketball sports management platform covering features including player/stats management, play-by-play tracking, video compression, highlights generation from events, and adaptive playback.",
     "tech": [
       "TypeScript",
-      "Python",
       "Node.js",
-      "Django",
       "Express.js",
-      "NestJS",
       "OpenAPI",
-      "Jasmine",
+      "Jest",
       "MongoDB",
-      "PostgreSQL",
-      "TypeORM",
-      "Mongoose",
-      "Redis",
+      "Chrome API",
       "FFmpeg",
       "React"
     ]

@@ -8,7 +8,6 @@ function About() {
   return (
     <React.Fragment>
       <Welcome />
-      <WhatIDo />
       <Career />
       <Toolbelt />
     </React.Fragment>

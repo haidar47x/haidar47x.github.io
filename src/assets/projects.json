@@ -1,11 +1,28 @@
 [
   {
+    "name": "Ursacore",
+    "technologies": [
+      "Java", "Spring Boot", "MySQL", "Docker"
+    ],
+    "url": "https://github.com/haidar47x/ursacore",
+    "description": ["An open-source self-hosted medical LIMS for small labs with limited budgets. Provides core lab workflows like patient registration, sample tracking, report generation, and billing. Provides an easy way to get up and running via Docker."]
+  },
+  {
+    "name": "Formattr",
+    "technologies": [
+      "TypeScript", "C++", "Electron", "React", "Readium Engine"
+    ],
+    "url": "https://github.com/haidar47x/ursacore",
+    "description": ["A professional-grade structure content formatter built for indie authors. Built from scratch with a custom block-style WYSIWYG editor, document parser, content optimization engine, custom theme generator, and print output."]
+  },
+  {
     "name": "Pocketer",
     "technologies": [
-      "JavaScript", "TypeScript", "Pocket API", "Chrome API"
+      "TypeScript", "jQuery", "Chrome API", "Pocket API"
     ],
     "url": "https://github.com/haidar47x/pocketer",
-    "description": "A Google Chrome extension that lets you easily manage your Mozilla Pocket items.",
-    "img": "https://raw.githubusercontent.com/haidar47x/Pocketer/refs/heads/master/.github/pocketer.png"
+    "description": ["Note: Mozilla has decided to discontinue the Pocket service, so this extension will become obsolote in the future.",
+                    "Pocketer is a user-friendly Chrome extension to manage and organize Mozilla Pocket items."],
+    "img": "https://github.com/haidar47x/pocketer/raw/master/.github/screenshot.png"
   }
 ]
