@@ -11,20 +11,20 @@ import { LiaDocker } from "react-icons/lia";
 import { BsCupStraw } from "react-icons/bs";
 import { HiMiniCube } from "react-icons/hi2";
 import { GiDatabase } from "react-icons/gi";
-import {  SiApachekafka,
-          SiCplusplus,
-          SiElasticsearch,
-          SiFlyway,
-          SiGithubactions,
-          SiGrafana,
-          SiHibernate,
-          SiJunit5,
-          SiMongodb,
-          SiPrometheus,
-          SiRabbitmq,
-          SiRedis,
-          SiSpringboot,
-          SiSwagger } from "react-icons/si";
+import { SiApachekafka,
+         SiCplusplus,
+         SiElasticsearch,
+         SiFlyway,
+         SiGithubactions,
+         SiGrafana,
+         SiHibernate,
+         SiJunit5,
+         SiMongodb,
+         SiPrometheus,
+         SiRabbitmq,
+         SiRedis,
+         SiSpringboot,
+         SiSwagger } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { BiLogoCPlusPlus } from "react-icons/bi";
 

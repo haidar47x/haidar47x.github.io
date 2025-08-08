@@ -13,7 +13,7 @@ function Welcome() {
       </h1>
       <div className="mt-2 w-10/12 text-lg tracking-tight md:tracking-[-0.6px] md:w-6/12 md:text-xl lg:w-6/12 xl:w-4/12">
         <p>
-          I’m <span className="font-semibold">Haidar </span>, a software engineer with 6 years of expreience in building
+          I’m <span className="font-semibold">Haidar, </span>a software engineer with 6 years of expreience in building
           and deploying robust and scalable backend systems.</p>
         <p className="mt-4">I also write about programming and infrastructure.</p>
       </div>

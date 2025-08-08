@@ -19,8 +19,8 @@ function Projects() {
           {projects.map((p, i) => {
             return (
               <div key={p.name} className="project flex flex-col gap-4">
-                <h1 className="text-xl tracking-tight  sm:text-3xl">
-                  <a className="hover:text-slate-700 dark:hover:text-slate-300" href={p.url} target="_blank">
+                <h1 className="text-xl tracking-tight sm:text-3xl">
+                  <a className="hover:text-slate-700 dark:hover:text-slate-300" href={p.url ?? "#"} target="_blank">
                     {p.name}
                   </a>
                 </h1>
@@ -35,7 +35,7 @@ function Projects() {
                     );
                   })}
                 </div>
-                <div className="order flex flex-col-reverse gap-8 py-4 text-sm sm:flex-row sm:py-8 sm:text-base">
+                <div className="order flex flex-col-reverse gap-8 py-4 text-sm sm:flex-row sm:text-base">
                   <div className="description sm:w-1/2 sm:py-2">
                     {p.description.map((desc, i) => {
                       console.log(desc);
@@ -46,10 +46,10 @@ function Projects() {
                     className={`cover overflow-hidden rounded-2xl cursor-pointer sm:w-1/2 ${p.img ? "shadow-md/10" : ""}`}
                     whileHover={{ scale: 1.1, y: -4 }}>
                     {p.img ? (
-                      <img className=" " src={p.img} />
+                      <a href={`${p.url ?? "#"}`}><img className=" " src={p.img} /></a>
                     ) : (
-                      <div className="flex h-full items-center justify-center text-3xl font-extralight tracking-tighter text-slate-950 dark:text-slate-500 cursor-default">
-                        COMING SOON
+                      <div className="flex h-full uppercase items-center justify-center text-3xl font-extralight tracking-tighter text-slate-950 dark:text-slate-500 cursor-default">
+                        Coming Soon
                       </div>
                     )}
                   </motion.div>
