@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Formattr",
+    "technologies": [
+      "TypeScript", "C++", "Electron", "React", "Readium Engine"
+    ],
+    "description": ["A professional-grade structure content formatter built for indie authors. Built from scratch with a custom block-style WYSIWYG editor, document parser, content optimization engine, custom theme generator, and print output."]
+  },
+  {
+    "name": "Pocketer",
+    "technologies": [
+      "TypeScript", "jQuery", "Chrome API", "Pocket API"
+    ],
+    "url": "https://github.com/haidar47x/pocketer",
+    "description": ["Note: Mozilla has decided to discontinue the Pocket service, so this extension will be dicontinued as well.",
+                    "Pocketer is a user-friendly Chrome extension to manage and organize Mozilla Pocket items."],
+    "img": "https://github.com/haidar47x/pocketer/raw/master/.github/screenshot.png"
+  }
+]

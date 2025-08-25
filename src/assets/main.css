@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Sheppards&display=swap');
+
+
+
+@import "tailwindcss";
+
+
+/* Don't mess with this or utility classes won't work */
+@layer base {
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+:root {
+  @apply bg-slate-100 dark:bg-slate-950;
+  @apply text-slate-950;
+}
+
+body {
+  font-family: "Inter";
+  overflow-x: hidden;
+}
+
+.eb-garamond {
+  font-family: "EB Garamond";
+  font-optical-sizing: auto;
+}
+
+.yellowtail {
+  font-family: "Mrs Sheppards";
+  font-optical-sizing: auto;
+}
+
+.active {
+  @apply border-b-2 border-dashed border-gray-950;
+}
+
+
+/* .animate-fade {
+  animation: fade 10s ease-in-out infinite;
+} */
+
+@media (prefers-color-scheme: dark) {
+  .text-neon {
+    color: #fff;
+    text-shadow:
+      0 0 2px #fff,
+      0 0 4px #fff,
+      0 0 10px #FF0099,
+      0 0 45px #FF0099,
+      0 0 80px #FF0099;
+  }
+
+  .glow {
+    box-shadow:
+      0 0 4px #fff,
+      0 0 8px rgba(253, 186, 116, 1.0),
+      0 0 16px rgba(253, 186, 116, 1.0);
+  }
+
+  .dial-down {
+    filter: brightness(0.5) contrast(1.2) saturate(0.75) sepia(0.1);
+  }
+
+  .skeumorphic-borders {
+    @apply border-1 border-slate-700/55 border-t-1 border-t-slate-500/50
+  }
+
+}

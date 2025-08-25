@@ -1,0 +1,68 @@
+[
+  {
+    "year": "2021 – 2025",
+    "title": "Senior Backend Engineer",
+    "company": "Createch IT Solutions (Pvt.) Ltd.",
+    "description": "Designed and scaled data-driven systems around geospatial and environmental datasets. Built ingestion pipelines with to process large JSON datasets, architected GIS layers for renewable energy planning, and developed on-demand reporting services. Developed CI/CD pipelines for deployment to EC2 and AWS Lambda.",
+    "tech": [
+      "TypeScript",
+      "NestJS",
+      "Node.js",
+      "Redis",
+      "PostgreSQL",
+      "Jest",
+      "Testcontainers",
+      "Docker",
+      "AWS",
+      "JIRA"
+    ]
+  },
+  {
+    "year": "2020 – 2021",
+    "title": "Backend Engineer",
+    "company": "MicroAgility Services (Pvt.) Ltd.",
+    "description": "Worked on the backend of a mobile-first U.S. based consultation platform. Engineered microservices, refactored and migrated database schemas, optimized queries, and wrote technical documentations.",
+    "tech": [
+      "TypeScript",
+      "Node.js",
+      "NestJS",
+      "MySQL",
+      "RabbitMQ",
+      "Docker",
+      "AWS",
+      "ClickUp"
+    ]
+  },
+  {
+    "year": "2018 – 2020",
+    "title": "Full Stack Developer",
+    "company": "Upwork",
+    "description": "Developed full-stack solutions, achieving Top Rated status and 4.75/5 rating across 8+ projects. Worked on a basketball sports management platform covering features including player/stats management, play-by-play tracking, video compression, highlights generation from events, and adaptive playback.",
+    "tech": [
+      "TypeScript",
+      "Python",
+      "Node.js",
+      "Express.js",
+      "OpenAPI",
+      "Jest",
+      "MongoDB",
+      "Chrome API",
+      "FFmpeg",
+      "React"
+    ]
+  },
+  {
+    "year": "2021 – Present",
+    "title": "Technical Author",
+    "company": "Baeldung",
+    "description": "Author technical articles on programming, infrastructure, and Linux internals. Published 150+ articles for 12+ million readers on the platform worldwide. Conducted deep research on 2500+ on technical topics for 50+ authors. Ranked top 5% of contributors.",
+    "tech": [
+      "Containers",
+      "Infrastructure",
+      "Linux",
+      "Shell Scripting",
+      "Networking",
+      "Security"
+    ]
+  }
+]

@@ -1,0 +1,767 @@
+[
+  {
+    "title": "What are .a and .so Files?",
+    "url": "https://www.baeldung.com/linux/a-so-extension-files",
+    "date": "2021-07-09T08:58:26+0300"
+  },
+  {
+    "title": "Find Out the Total Physical Memory (RAM) on Linux",
+    "url": "https://www.baeldung.com/linux/total-physical-memory",
+    "date": "2021-07-17T13:31:47+0300"
+  },
+  {
+    "title": "The Most Common Flags in /proc/cpuinfo with Examples",
+    "url": "https://www.baeldung.com/linux/proc-cpuinfo-flags",
+    "date": "2021-07-17T13:25:38+0300"
+  },
+  {
+    "title": "What’s the Difference Between sh and Bash?",
+    "url": "https://www.baeldung.com/linux/sh-vs-bash",
+    "date": "2021-07-21T09:56:46+0300"
+  },
+  {
+    "title": "How to Create a CPU Spike in Bash",
+    "url": "https://www.baeldung.com/linux/cpu-spike-bash",
+    "date": "2021-07-29T09:47:31+0300"
+  },
+  {
+    "title": "View Images from the Terminal in Linux",
+    "url": "https://www.baeldung.com/linux/view-images-from-terminal",
+    "date": "2021-08-05T09:18:17+0300"
+  },
+  {
+    "title": "Cutting Videos Based on Start and End Time using FFmpeg",
+    "url": "https://www.baeldung.com/linux/ffmpeg-cutting-videos",
+    "date": "2021-08-07T11:26:14+0300"
+  },
+  {
+    "title": "Find Out Image Dimensions From the Linux Terminal",
+    "url": "https://www.baeldung.com/linux/image-dimensions",
+    "date": "2021-08-17T09:57:44+0300"
+  },
+  {
+    "title": "Simulating the Enter Keypress in Bash Scripts",
+    "url": "https://www.baeldung.com/linux/simulate-enter-keypress-bash",
+    "date": "2021-08-12T09:04:29+0300"
+  },
+  {
+    "title": "Display the First “n” Characters of a File in Linux",
+    "url": "https://www.baeldung.com/linux/display-first-n-characters-of-file",
+    "date": "2021-08-20T10:09:41+0300"
+  },
+  {
+    "title": "How to Base64 Encode an Image in Linux",
+    "url": "https://www.baeldung.com/linux/base64-encode-image",
+    "date": "2021-08-23T09:42:15+0300"
+  },
+  {
+    "title": "Find the Graphics Card Version from the Command Line",
+    "url": "https://www.baeldung.com/linux/find-graphics-card-version",
+    "date": "2021-09-08T09:33:03+0300"
+  },
+  {
+    "title": "How to Encrypt a Partition in Linux",
+    "url": "https://www.baeldung.com/linux/encrypt-partition",
+    "date": "2021-09-14T08:53:13+0300"
+  },
+  {
+    "title": "Finding Files by Name and Extension",
+    "url": "https://www.baeldung.com/linux/find-files-by-name-extension",
+    "date": "2021-09-21T08:20:25+0300"
+  },
+  {
+    "title": "A Guide to POSIX",
+    "url": "https://www.baeldung.com/linux/posix",
+    "date": "2021-10-06T09:34:54+0300"
+  },
+  {
+    "title": "Linux in Virtual Machine vs. on Native Hardware",
+    "url": "https://www.baeldung.com/linux/virtual-machine-vs-native-hardware",
+    "date": "2021-10-14T11:50:00+0300"
+  },
+  {
+    "title": "GUI Under Linux",
+    "url": "https://www.baeldung.com/linux/gui",
+    "date": "2021-10-23T10:45:36+0300"
+  },
+  {
+    "title": "Automating User Account Creation with Password in Shell",
+    "url": "https://www.baeldung.com/linux/automate-user-account-creation",
+    "date": "2021-12-01T11:22:21+0200"
+  },
+  {
+    "title": "Use of Dash “-” in Command-Line Parameters",
+    "url": "https://www.baeldung.com/linux/dash-in-command-line-parameters",
+    "date": "2021-12-12T11:26:43+0200"
+  },
+  {
+    "title": "The lost+found Directory in Linux and UNIX",
+    "url": "https://www.baeldung.com/linux/lost-found-directory",
+    "date": "2021-12-14T10:52:15+0200"
+  },
+  {
+    "title": "Checking a File’s Age and Modification Time",
+    "url": "https://www.baeldung.com/linux/file-age-and-modification-time",
+    "date": "2021-12-23T10:36:18+0200"
+  },
+  {
+    "title": "Read Values Into a Shell Variable From a Pipe",
+    "url": "https://www.baeldung.com/linux/values-into-variable-from-pipe",
+    "date": "2021-12-28T13:11:47+0200"
+  },
+  {
+    "title": "Search for a Multi-Line Pattern in a File in Linux",
+    "url": "https://www.baeldung.com/linux/search-file-multi-line-pattern",
+    "date": "2022-01-02T15:26:15+0200"
+  },
+  {
+    "title": "Pasting Text in Vim",
+    "url": "https://www.baeldung.com/linux/vim-paste-text",
+    "date": "2022-01-02T15:28:08+0200"
+  },
+  {
+    "title": "Save and Restore a Linux Process",
+    "url": "https://www.baeldung.com/linux/process-save-restore",
+    "date": "2022-01-20T05:55:02+0200"
+  },
+  {
+    "title": "Multiple glibc on a Single Linux Machine",
+    "url": "https://www.baeldung.com/linux/multiple-glibc",
+    "date": "2022-01-18T09:46:08+0200"
+  },
+  {
+    "title": "Running a Linux Command on Start-Up",
+    "url": "https://www.baeldung.com/linux/run-command-start-up",
+    "date": "2022-01-23T11:27:06+0200"
+  },
+  {
+    "title": "Set Default Permission for New Files and Subdirectories",
+    "url": "https://www.baeldung.com/linux/new-files-dirs-default-permission",
+    "date": "2022-01-28T10:27:53+0200"
+  },
+  {
+    "title": "Moving Files in Linux While Showing Progress",
+    "url": "https://www.baeldung.com/linux/moving-files-showing-progress",
+    "date": "2022-02-17T10:56:37+0200"
+  },
+  {
+    "title": "Using “/” in a Filename in Linux",
+    "url": "https://www.baeldung.com/linux/filename-with-slash",
+    "date": "2022-02-22T10:58:24+0200"
+  },
+  {
+    "title": "Find Swap Memory Usage by Processes in Linux",
+    "url": "https://www.baeldung.com/linux/find-swap-memory-usage-by-processes",
+    "date": "2022-02-26T16:12:43+0200"
+  },
+  {
+    "title": "How Is the Linux Kernel Tested",
+    "url": "https://www.baeldung.com/linux/kernel-testing",
+    "date": "2022-03-11T11:06:56+0200"
+  },
+  {
+    "title": "Handling Special Characters in Shell Scripts",
+    "url": "https://www.baeldung.com/linux/special-characters-in-shell-scripts",
+    "date": "2022-03-24T10:09:53+0200"
+  },
+  {
+    "title": "The Exclamation Mark (!) in Interactive Shells",
+    "url": "https://www.baeldung.com/linux/exclamation-mark-interactive-shells",
+    "date": "2022-04-14T09:38:11+0300"
+  },
+  {
+    "title": "Dealing with Frozen Windows and Desktop on Linux",
+    "url": "https://www.baeldung.com/linux/frozen-windows-desktop",
+    "date": "2022-04-12T10:09:52+0300"
+  },
+  {
+    "title": "Find Out CPU Temperature From the Command-Line",
+    "url": "https://www.baeldung.com/linux/cpu-temperature",
+    "date": "2022-04-17T11:58:05+0300"
+  },
+  {
+    "title": "Why Is Using a Shell Loop to Process Text a Bad Practice?",
+    "url": "https://www.baeldung.com/linux/shell-loop-to-process-text",
+    "date": "2022-04-25T09:41:42+0300"
+  },
+  {
+    "title": "Checking Whether a Directory Exists in a Shell Script",
+    "url": "https://www.baeldung.com/linux/checking-directory-exists",
+    "date": "2022-05-04T12:26:42+0300"
+  },
+  {
+    "title": "Running the NGINX Server in a Docker Container",
+    "url": "https://www.baeldung.com/linux/nginx-docker-container",
+    "date": "2022-05-12T08:45:12+0300"
+  },
+  {
+    "title": "Guide to Virtual Disk Images",
+    "url": "https://www.baeldung.com/linux/virtual-disk-images",
+    "date": "2022-05-20T14:33:39+0300"
+  },
+  {
+    "title": "Mounting MTP Devices on Linux",
+    "url": "https://www.baeldung.com/linux/mounting-mtp-devices",
+    "date": "2022-05-28T14:02:09+0300"
+  },
+  {
+    "title": "Creating and Restoring a Linux System Image",
+    "url": "https://www.baeldung.com/linux/system-image-create-restore",
+    "date": "2022-06-02T10:23:48+0300"
+  },
+  {
+    "title": "Figuring Out Which Files in /dev are Block USB Devices",
+    "url": "https://www.baeldung.com/linux/usb-devices-dev",
+    "date": "2022-06-03T23:05:50+0300"
+  },
+  {
+    "title": "Clone Only the Space In-Use from a Disk",
+    "url": "https://www.baeldung.com/linux/clone-space-in-use-from-disk",
+    "date": "2022-06-15T11:19:43+0300"
+  },
+  {
+    "title": "Installing and Managing Multiple Node.js Versions in Linux",
+    "url": "https://www.baeldung.com/linux/multiple-node-js-versions",
+    "date": "2022-06-23T09:55:29+0300"
+  },
+  {
+    "title": "Installing RPM Packages on Arch-Based Distros",
+    "url": "https://www.baeldung.com/linux/install-rpm-arch-based-distros",
+    "date": "2022-07-01T10:46:52+0300"
+  },
+  {
+    "title": "How is NeoVim Different From Vim?",
+    "url": "https://www.baeldung.com/linux/vim-vs-neovim",
+    "date": "2022-07-18T18:20:02+0300"
+  },
+  {
+    "title": "How to Clean Up a Linux System",
+    "url": "https://www.baeldung.com/linux/clean-up-linux-system",
+    "date": "2022-07-27T10:08:06+0300"
+  },
+  {
+    "title": "What Is X11?",
+    "url": "https://www.baeldung.com/linux/x11",
+    "date": "2022-07-10T11:39:11+0300"
+  },
+  {
+    "title": "Create a GIF Animation From PNG Files",
+    "url": "https://www.baeldung.com/linux/gif-from-png-files",
+    "date": "2022-08-07T21:20:47+0300"
+  },
+  {
+    "title": "Using Environment Variables in Nginx Config File",
+    "url": "https://www.baeldung.com/linux/nginx-config-environment-variables",
+    "date": "2022-09-07T22:03:47+0300"
+  },
+  {
+    "title": "Installing Vim/NeoVim Plugins",
+    "url": "https://www.baeldung.com/linux/vim-install-neovim-plugins",
+    "date": "2022-09-15T03:32:34+0300"
+  },
+  {
+    "title": "Understanding the /etc/mtab File",
+    "url": "https://www.baeldung.com/linux/etc-mtab-file",
+    "date": "2022-11-15T05:11:28+0200"
+  },
+  {
+    "title": "Prevent Specific Package Update in Linux",
+    "url": "https://www.baeldung.com/linux/prevent-specific-package-update",
+    "date": "2022-11-15T04:52:42+0200"
+  },
+  {
+    "title": "LVM Dangers and Caveats",
+    "url": "https://www.baeldung.com/linux/logical-volume-management-problems",
+    "date": "2022-11-24T13:51:45+0200"
+  },
+  {
+    "title": "How to Detect RAID Information in Linux",
+    "url": "https://www.baeldung.com/linux/raid-information-command-line",
+    "date": "2022-11-27T07:56:01+0200"
+  },
+  {
+    "title": "How to Install and Set Up Headless Linux",
+    "url": "https://www.baeldung.com/linux/install-headless-linux",
+    "date": "2022-12-05T14:06:19+0200"
+  },
+  {
+    "title": "How to Monitor DHCP Client Activity in Linux",
+    "url": "https://www.baeldung.com/linux/monitor-dhcp-client-activity",
+    "date": "2022-12-05T14:03:16+0200"
+  },
+  {
+    "title": "What Happens to Scheduled Crontab Jobs When the Computer Is Shutdown",
+    "url": "https://www.baeldung.com/linux/crontab-scheduled-jobs-computer-shutdown",
+    "date": "2023-01-10T16:02:00+0200"
+  },
+  {
+    "title": "How to Operate as Root in GUI",
+    "url": "https://www.baeldung.com/linux/root-in-gui",
+    "date": "2023-01-29T04:06:58+0200"
+  },
+  {
+    "title": "How to Convert CUE, BIN, IMG Images to ISO Images in Linux",
+    "url": "https://www.baeldung.com/linux/convert-cue-bin-img-images-to-iso",
+    "date": "2023-02-12T04:45:05+0200"
+  },
+  {
+    "title": "Conversion of a Disk from MBR to GPT with UEFI",
+    "url": "https://www.baeldung.com/linux/convert-disk-mbr-gpt-uefi",
+    "date": "2023-02-28T21:10:51+0200"
+  },
+  {
+    "title": "Using a Specific DNS for a Specific Domain in Linux",
+    "url": "https://www.baeldung.com/linux/specific-dns-for-specific-domain",
+    "date": "2023-02-28T21:07:16+0200"
+  },
+  {
+    "title": "How to Quickly Install Multiple Fonts in Linux",
+    "url": "https://www.baeldung.com/linux/install-multiple-fonts",
+    "date": "2023-03-20T05:51:39+0200"
+  },
+  {
+    "title": "How to Configure Multilingual Fonts on Linux",
+    "url": "https://www.baeldung.com/linux/configure-multilingual-fonts",
+    "date": "2023-03-20T06:20:45+0200"
+  },
+  {
+    "title": "Mounting APFS Partition on Linux",
+    "url": "https://www.baeldung.com/linux/apfs-partition-mount",
+    "date": "2023-03-23T16:00:54+0200"
+  },
+  {
+    "title": "How to Enable/Disable Touchpad in Linux",
+    "url": "https://www.baeldung.com/linux/enable-disable-touchpad",
+    "date": "2023-04-09T16:36:13+0300"
+  },
+  {
+    "title": "Open Large Files With Good Performance in Vim",
+    "url": "https://www.baeldung.com/linux/vim-large-files-performance",
+    "date": "2023-04-13T23:55:38+0300"
+  },
+  {
+    "title": "Add Syntax Highlighting and Additional Features to the Shell Command-Line",
+    "url": "https://www.baeldung.com/linux/shell-add-syntax-highlighting-other-features",
+    "date": "2023-04-24T06:44:30+0300"
+  },
+  {
+    "title": "How to Test for POSIX Compliance of Shell Scripts",
+    "url": "https://www.baeldung.com/linux/test-posix-compliance-shell-scripts",
+    "date": "2023-04-30T21:27:59+0300"
+  },
+  {
+    "title": "How to Automatically Switch to the Git Directory After Cloning",
+    "url": "https://www.baeldung.com/linux/git-switch-directory-after-cloning",
+    "date": "2023-05-12T14:50:48+0300"
+  },
+  {
+    "title": "How to Use Dark Theme for All GTK Applications",
+    "url": "https://www.baeldung.com/linux/gtk-applications-dark-theme",
+    "date": "2023-05-17T18:28:32+0300"
+  },
+  {
+    "title": "How to Quickly Render Basic HTML in the Command Line",
+    "url": "https://www.baeldung.com/linux/render-basic-html",
+    "date": "2023-05-21T03:13:46+0300"
+  },
+  {
+    "title": "Installing More Recent Versions of a Software on Debian",
+    "url": "https://www.baeldung.com/linux/debian-installing-newer-software",
+    "date": "2023-05-25T01:45:09+0300"
+  },
+  {
+    "title": "Connect to a Hidden Wireless Network Using Network Manager",
+    "url": "https://www.baeldung.com/linux/connect-to-hidden-wireless-network",
+    "date": "2023-05-25T01:41:54+0300"
+  },
+  {
+    "title": "How to Setup a Development Environment for Shell Scripting in Linux",
+    "url": "https://www.baeldung.com/linux/shell-scripting-setup-development-environment",
+    "date": "2023-05-29T07:49:21+0300"
+  },
+  {
+    "title": "How to Check Whether a Machine Is Booted Using the UEFI",
+    "url": "https://www.baeldung.com/linux/uefi-check-machine-boot-method",
+    "date": "2023-06-01T02:19:25+0300"
+  },
+  {
+    "title": "Upgrading an Older Vim Script Code to Vim 9 Script",
+    "url": "https://www.baeldung.com/linux/vim-script-upgrade",
+    "date": "2023-06-06T02:05:05+0300"
+  },
+  {
+    "title": "Quickly Formatting an ext4 Filesystem",
+    "url": "https://www.baeldung.com/linux/ext4-file-system-formatting",
+    "date": "2023-06-09T05:26:08+0300"
+  },
+  {
+    "title": "Running fsck on a Mounted Partition",
+    "url": "https://www.baeldung.com/linux/fsck-mounted-partition",
+    "date": "2023-06-11T16:38:27+0300"
+  },
+  {
+    "title": "How To Stream and Watch Remote Videos in Linux",
+    "url": "https://www.baeldung.com/linux/command-line-stream-watch-remote-videos",
+    "date": "2023-06-13T09:16:15+0300"
+  },
+  {
+    "title": "How to Generate a Thumbnails Gallery of a Video",
+    "url": "https://www.baeldung.com/linux/generate-video-thumbnails-gallery",
+    "date": "2023-06-19T13:51:26+0300"
+  },
+  {
+    "title": "How to Disable CPU Cores in Linux",
+    "url": "https://www.baeldung.com/linux/disable-cpu-cores",
+    "date": "2023-06-19T13:54:15+0300"
+  },
+  {
+    "title": "Close File Descriptors in Bash",
+    "url": "https://www.baeldung.com/linux/bash-close-file-descriptors",
+    "date": "2023-06-27T20:27:13+0300"
+  },
+  {
+    "title": "How to Find the Drivers Associated With a Device on Linux",
+    "url": "https://www.baeldung.com/linux/find-device-drivers",
+    "date": "2023-06-24T16:19:01+0300"
+  },
+  {
+    "title": "Check Permissions of a Mounted Filesystem in Shell",
+    "url": "https://www.baeldung.com/linux/filesystem-check-permissions",
+    "date": "2023-07-02T20:58:27+0300"
+  },
+  {
+    "title": "Understanding the dm-0 Device in Linux",
+    "url": "https://www.baeldung.com/linux/dm-0-device-lvm",
+    "date": "2023-07-02T22:57:33+0300"
+  },
+  {
+    "title": "How to Find “n” Consecutive Characters in Text",
+    "url": "https://www.baeldung.com/linux/regex-n-consecutive-characters",
+    "date": "2023-07-17T06:19:21+0300"
+  },
+  {
+    "title": "Differences Between GTK+ and Qt Applications",
+    "url": "https://www.baeldung.com/linux/gui-toolkits-gtk-qt",
+    "date": "2023-07-22T03:44:30+0300"
+  },
+  {
+    "title": "Adjust GRUB Menu Font Size",
+    "url": "https://www.baeldung.com/linux/grub-menu-font-size",
+    "date": "2023-07-17T06:30:48+0300"
+  },
+  {
+    "title": "The $TERM Environment Variable",
+    "url": "https://www.baeldung.com/linux/term-environment-variable",
+    "date": "2023-07-25T06:42:13+0300"
+  },
+  {
+    "title": "How to Fill and Sign PDFs in Linux",
+    "url": "https://www.baeldung.com/linux/fill-and-sign-pdfs",
+    "date": "2023-07-29T05:49:24+0300"
+  },
+  {
+    "title": "Bidirectional Clipboard Piping in Bash",
+    "url": "https://www.baeldung.com/linux/bash-bidirectional-clipboard-piping",
+    "date": "2023-07-29T05:24:02+0300"
+  },
+  {
+    "title": "How to Create a Bootable USB Drive in Linux",
+    "url": "https://www.baeldung.com/linux/create-bootable-usb-drive",
+    "date": "2023-08-02T15:55:21+0300"
+  },
+  {
+    "title": "How to Check Monitor Names in Linux",
+    "url": "https://www.baeldung.com/linux/check-monitor-names",
+    "date": "2023-08-07T00:45:21+0300"
+  },
+  {
+    "title": "Guide to Personal Package Archives",
+    "url": "https://www.baeldung.com/linux/ppa",
+    "date": "2023-08-09T10:21:07+0300"
+  },
+  {
+    "title": "Creating GIF of Screen Recording on Linux",
+    "url": "https://www.baeldung.com/linux/gif-screen-recording",
+    "date": "2023-08-14T06:48:34+0300"
+  },
+  {
+    "title": "Checking Whether Logged in via VPN",
+    "url": "https://www.baeldung.com/linux/vpn-check-if-connected",
+    "date": "2023-08-15T06:55:17+0300"
+  },
+  {
+    "title": "sudo Access for a File Inside Vi/Vim",
+    "url": "https://www.baeldung.com/linux/root-vi-vim-save-file",
+    "date": "2023-08-16T22:26:33+0300"
+  },
+  {
+    "title": "Format a USB Drive in Linux",
+    "url": "https://www.baeldung.com/linux/usb-drive-format",
+    "date": "2023-08-22T14:02:24+0300"
+  },
+  {
+    "title": "How to Remove Personal Package Archives (PPAs)",
+    "url": "https://www.baeldung.com/linux/remove-personal-package-archives",
+    "date": "2023-08-24T19:13:54+0300"
+  },
+  {
+    "title": "Lossless Conversion of MKV to MP4",
+    "url": "https://www.baeldung.com/linux/matroska-video-mpeg-4-convert",
+    "date": "2023-08-30T19:24:07+0300"
+  },
+  {
+    "title": "Sound Equalizers on Linux",
+    "url": "https://www.baeldung.com/linux/sound-equalizers",
+    "date": "2023-09-16T22:24:25+0300"
+  },
+  {
+    "title": "How to Annotate Image Files in Linux",
+    "url": "https://www.baeldung.com/linux/annotate-image-files",
+    "date": "2023-09-22T03:22:28+0300"
+  },
+  {
+    "title": "How to Convert Audio File Format From M4A to MP3 in Linux",
+    "url": "https://www.baeldung.com/linux/conversion-audio-m4a-mp3",
+    "date": "2023-09-23T06:43:13+0300"
+  },
+  {
+    "title": "How to Sort Bash Arrays",
+    "url": "https://www.baeldung.com/linux/sort-bash-arrays",
+    "date": "2023-09-26T10:06:12+0300"
+  },
+  {
+    "title": "How to Replicate Packages Across Linux Systems",
+    "url": "https://www.baeldung.com/linux/replicate-packages-across-systems",
+    "date": "2023-09-29T09:20:04+0300"
+  },
+  {
+    "title": "Zsh Configuration Files",
+    "url": "https://www.baeldung.com/linux/zsh-configuration-files",
+    "date": "2023-10-05T09:23:34+0300"
+  },
+  {
+    "title": "How to Interpolate Frames Using FFmpeg",
+    "url": "https://www.baeldung.com/linux/ffmpeg-interpolate-frames",
+    "date": "2023-10-08T11:08:33+0300"
+  },
+  {
+    "title": "How to Deactivate updatedb in Linux",
+    "url": "https://www.baeldung.com/linux/updatedb-turn-off",
+    "date": "2023-10-18T17:14:43+0300"
+  },
+  {
+    "title": "How to Normalize Audio Files in Linux",
+    "url": "https://www.baeldung.com/linux/normalize-audio-files",
+    "date": "2023-10-15T21:01:31+0300"
+  },
+  {
+    "title": "How to Add Objects Into JSON Array Using jq",
+    "url": "https://www.baeldung.com/linux/jq-add-objects-json-array",
+    "date": "2023-10-17T15:28:52+0300"
+  },
+  {
+    "title": "How to Set Icon Theme for GTK Applications",
+    "url": "https://www.baeldung.com/linux/gtk-set-icon-theme",
+    "date": "2023-10-26T18:59:14+0300"
+  },
+  {
+    "title": "How to Split an MP3 File in Linux",
+    "url": "https://www.baeldung.com/linux/mp3-split-file",
+    "date": "2023-10-26T22:37:13+0300"
+  },
+  {
+    "title": "How to Display a Real-Time Clock in Shell Prompt?",
+    "url": "https://www.baeldung.com/linux/shell-show-live-clock",
+    "date": "2023-10-29T17:52:35+0200"
+  },
+  {
+    "title": "How to Install and Configure Wine on Linux",
+    "url": "https://www.baeldung.com/linux/wine-install-configure",
+    "date": "2023-11-21T09:54:52+0200"
+  },
+  {
+    "title": "How to Stitch Videos Horizontally With FFmpeg",
+    "url": "https://www.baeldung.com/linux/ffmpeg-stitch-videos-horizontally",
+    "date": "2023-11-23T14:38:19+0200"
+  },
+  {
+    "title": "How to Setup WiFi Hotspot in Linux",
+    "url": "https://www.baeldung.com/linux/setup-wifi-hotspot",
+    "date": "2023-12-04T09:18:31+0200"
+  },
+  {
+    "title": "How to Install Packages Without Root Privileges",
+    "url": "https://www.baeldung.com/linux/install-packages-no-root-privileges",
+    "date": "2023-12-04T09:32:28+0200"
+  },
+  {
+    "title": "How to Install geckodriver in Linux",
+    "url": "https://www.baeldung.com/linux/geckodriver-installation",
+    "date": "2023-12-12T16:42:48+0200"
+  },
+  {
+    "title": "How to Quickly Trim Audio and Video in Linux",
+    "url": "https://www.baeldung.com/linux/trim-audio-and-video",
+    "date": "2023-12-12T17:31:50+0200"
+  },
+  {
+    "title": "Difference Between BusyBox and Alpine Docker Images",
+    "url": "https://www.baeldung.com/linux/busybox-vs-alpine-docker-images",
+    "date": "2023-12-17T05:26:18+0200"
+  },
+  {
+    "title": "How to Install and Configure Powerline in Linux",
+    "url": "https://www.baeldung.com/linux/powerline-installation-configuration",
+    "date": "2023-12-28T16:03:31+0200"
+  },
+  {
+    "title": "How to Extract Value From XML Tags in Shell",
+    "url": "https://www.baeldung.com/linux/xml-tag-extract-value",
+    "date": "2023-12-21T05:48:25+0200"
+  },
+  {
+    "title": "How to Switch Virtual Desktops Using CLI",
+    "url": "https://www.baeldung.com/linux/cli-switch-virtual-desktops",
+    "date": "2023-12-30T09:23:38+0200"
+  },
+  {
+    "title": "How to Set Up File Sharing Between Linux and macOS",
+    "url": "https://www.baeldung.com/linux/file-sharing-macos",
+    "date": "2024-01-15T22:27:04+0200"
+  },
+  {
+    "title": "How to Play DVD Movies in Linux",
+    "url": "https://www.baeldung.com/linux/play-dvd-movies",
+    "date": "2024-01-15T22:49:14+0200"
+  },
+  {
+    "title": "How to Delete Every nth Line in a File",
+    "url": "https://www.baeldung.com/linux/file-delete-every-nth-line",
+    "date": "2024-01-20T18:05:33+0200"
+  },
+  {
+    "title": "Guide to BGI graphics.h on Linux",
+    "url": "https://www.baeldung.com/linux/bgi-graphicsh",
+    "date": "2024-01-26T11:24:57+0200"
+  },
+  {
+    "title": "Replacing PulseAudio With PipeWire on Linux",
+    "url": "https://www.baeldung.com/linux/pulseaudio-pipewire-replace",
+    "date": "2024-01-26T11:56:14+0200"
+  },
+  {
+    "title": "GNU sed vs. BSD sed",
+    "url": "https://www.baeldung.com/linux/gnu-bsd-stream-editor",
+    "date": "2024-01-29T15:40:42+0200"
+  },
+  {
+    "title": "Adjust Color Temperature of Screen in Linux",
+    "url": "https://www.baeldung.com/linux/screen-color-temperature",
+    "date": "2024-02-06T08:31:03+0200"
+  },
+  {
+    "title": "How to Install PDFtk on Linux",
+    "url": "https://www.baeldung.com/linux/install-pdftk",
+    "date": "2024-02-09T21:39:37+0200"
+  },
+  {
+    "title": "Completely Uninstall Kubernetes",
+    "url": "https://www.baeldung.com/ops/kubernetes-uninstall",
+    "date": "2024-02-13T08:02:58+0200"
+  },
+  {
+    "title": "How to Share Desktop Screen via Web Browser in Linux",
+    "url": "https://www.baeldung.com/linux/share-desktop-screen-via-browser",
+    "date": "2024-02-20T19:16:21+0200"
+  },
+  {
+    "title": "How to Convert Markdown to PDF in Linux",
+    "url": "https://www.baeldung.com/linux/pdf-markdown-conversion",
+    "date": "2024-02-22T02:40:52+0200"
+  },
+  {
+    "title": "What Is a Boilerplate Code?",
+    "url": "https://www.baeldung.com/cs/boilerplate-code",
+    "date": "2024-05-02T06:07:52+0300"
+  },
+  {
+    "title": "How to Install pgAdmin 4 Desktop on Linux",
+    "url": "https://www.baeldung.com/linux/pgadmin-4-desktop-installation",
+    "date": "2024-05-04T05:00:42+0300"
+  },
+  {
+    "title": "Guide to i3 Window Manager",
+    "url": "https://www.baeldung.com/linux/i3-window-manager",
+    "date": "2024-05-02T06:15:52+0300"
+  },
+  {
+    "title": "Git vs. GitHub",
+    "url": "https://www.baeldung.com/ops/git-vs-github",
+    "date": "2024-05-21T22:57:27+0300"
+  },
+  {
+    "title": "Introspection vs. Reflection",
+    "url": "https://www.baeldung.com/cs/oop-introspection-reflection-difference",
+    "date": "2024-05-25T01:17:12+0300"
+  },
+  {
+    "title": "Guide to Linux hwinfo Command with Examples",
+    "url": "https://www.baeldung.com/linux/hwinfo-command-tutorial",
+    "date": "2024-05-30T23:42:23+0300"
+  },
+  {
+    "title": "List Supported Glyphs for a Font in Linux",
+    "url": "https://www.baeldung.com/linux/font-show-available-glyphs",
+    "date": "2024-07-11T14:08:56+0300"
+  },
+  {
+    "title": "What Is GNU?",
+    "url": "https://www.baeldung.com/linux/gnu-project",
+    "date": "2024-07-21T17:24:02+0300"
+  },
+  {
+    "title": "What Is Procedural Programming?",
+    "url": "https://www.baeldung.com/cs/procedural-programming",
+    "date": "2024-07-21T03:05:15+0300"
+  },
+  {
+    "title": "An Introduction to ELK Stack",
+    "url": "https://www.baeldung.com/ops/elk",
+    "date": "2024-09-17T08:46:28+0300"
+  },
+  {
+    "title": "How to Uninstall GNOME Stock Applications",
+    "url": "https://www.baeldung.com/linux/uninstall-gnome-stock-applications",
+    "date": "2024-09-19T09:57:13+0300"
+  },
+  {
+    "title": "What Is a Bootloader in Linux?",
+    "url": "https://www.baeldung.com/linux/bootloader-definition",
+    "date": "2024-09-23T09:33:47+0300"
+  },
+  {
+    "title": "Dockerizing the Python Poetry Project",
+    "url": "https://www.baeldung.com/ops/docker-python-poetry",
+    "date": "2024-09-26T09:45:39+0300"
+  },
+  {
+    "title": "Parse XML as a String in Java",
+    "url": "https://www.baeldung.com/java-parse-xml-string",
+    "date": "2024-10-15T04:56:14+0300"
+  },
+  {
+    "title": "Quickly Building a JAR File in Eclipse",
+    "url": "https://www.baeldung.com/eclipse-quickly-build-jar-file",
+    "date": "2024-11-25T16:20:02+0200"
+  },
+  {
+    "title": "Dual Boot Ubuntu Alongside macOS",
+    "url": "https://www.baeldung.com/linux/ubuntu-macos-dual-boot",
+    "date": "2025-01-01T16:01:07+0200"
+  },
+  {
+    "title": "Copying Text to the Clipboard in Java",
+    "url": "https://www.baeldung.com/java-clipboard-copy-paste-text",
+    "date": "2025-07-07T06:16:10+0300"
+  }
+]
