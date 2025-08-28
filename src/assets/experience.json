@@ -3,11 +3,11 @@
     "year": "2021 – 2025",
     "title": "Senior Backend Engineer",
     "company": "Createch IT Solutions (Pvt.) Ltd.",
-    "description": "Designed and scaled data-driven systems around geospatial and environmental datasets. Built ingestion pipelines with to process large JSON datasets, architected GIS layers for renewable energy planning, and developed on-demand reporting services. Developed CI/CD pipelines for deployment to EC2 and AWS Lambda.",
+    "description": "Designed and scaled data-driven systems around geospatial and environmental datasets. Built ingestion pipelines with to process large JSON datasets, and developed on-demand reporting services. Developed CI/CD pipelines for deployment to EC2 and AWS Lambda.",
     "tech": [
       "TypeScript",
-      "NestJS",
       "Node.js",
+      "NestJS",
       "Redis",
       "PostgreSQL",
       "Jest",
