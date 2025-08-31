@@ -3,24 +3,20 @@ import { useState } from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
-import { FaGitAlt, FaJava } from "react-icons/fa6";
+import { FaGitAlt } from "react-icons/fa6";
 import { FaHtml5, FaJsSquare } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io5";
 import { FaAws } from "react-icons/fa";
 import { LiaDocker } from "react-icons/lia";
-import { BsCupStraw } from "react-icons/bs";
 import { HiMiniCube } from "react-icons/hi2";
 import { GiDatabase } from "react-icons/gi";
 import { SiApachekafka,
-         SiCplusplus,
          SiElasticsearch,
          SiExpress,
-         SiFlyway,
          SiGithubactions,
+         SiGnubash,
          SiGrafana,
-         SiHibernate,
          SiJest,
-         SiJunit5,
          SiMongodb,
          SiNestjs,
          SiNodedotjs,
@@ -28,23 +24,20 @@ import { SiApachekafka,
          SiPython,
          SiRabbitmq,
          SiRedis,
-         SiSpringboot,
          SiSwagger,
          SiTypeorm,
          SiTypescript} from "react-icons/si";
-import { GrMysql } from "react-icons/gr";
-import { BiLogoCPlusPlus } from "react-icons/bi";
 import { DiPostgresql } from "react-icons/di";
 
 const tools = {
   languages: [
     { name: "TypeScript", icon: SiTypescript },
     { name: "JavaScript", icon: FaJsSquare },
-    { name: "Python", icon: SiPython },
+    { name: "Go", icon: SiPython },
     { name: "SQL", icon: GiDatabase },
+    { name: "Bash", icon: SiGnubash },
     { name: "HTML", icon: FaHtml5 },
     { name: "CSS", icon: IoLogoCss3 },
-    { name: "Bash", icon: SiCplusplus },
   ],
   libraries: [
     { name: "Node.js", icon: SiNodedotjs },

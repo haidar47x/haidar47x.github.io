@@ -6,6 +6,7 @@
     "description": "Designed and scaled data-driven systems around geospatial and environmental datasets. Built ingestion pipelines with to process large JSON datasets, and developed on-demand reporting services. Developed CI/CD pipelines for deployment to EC2 and AWS Lambda.",
     "tech": [
       "TypeScript",
+      "Go",
       "Node.js",
       "NestJS",
       "Redis",
