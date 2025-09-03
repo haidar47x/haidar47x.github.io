@@ -10,17 +10,13 @@ import { FaAws } from "react-icons/fa";
 import { LiaDocker } from "react-icons/lia";
 import { HiMiniCube } from "react-icons/hi2";
 import { GiDatabase } from "react-icons/gi";
-import { SiApachekafka,
-         SiElasticsearch,
-         SiExpress,
+import { SiElasticsearch,
          SiGithubactions,
          SiGnubash,
          SiGrafana,
          SiHibernate,
-         SiJest,
          SiJunit5,
          SiMongodb,
-         SiNestjs,
          SiNodedotjs,
          SiOpenjdk,
          SiPrometheus,
@@ -29,9 +25,7 @@ import { SiApachekafka,
          SiRedis,
          SiSpringboot,
          SiSpringsecurity,
-         SiSwagger,
-         SiTypeorm,
-         SiTypescript} from "react-icons/si";
+         SiSwagger } from "react-icons/si";
 import { DiPostgresql } from "react-icons/di";
 
 const tools = {
