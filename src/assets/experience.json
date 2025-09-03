@@ -1,17 +1,15 @@
 [
   {
-    "year": "2021 – 2025",
+    "year": "2022 – 2025",
     "title": "Senior Backend Engineer",
     "company": "Createch IT Solutions (Pvt.) Ltd.",
-    "description": "Designed and scaled data-driven systems around geospatial and environmental datasets. Built ingestion pipelines with to process large JSON datasets, and developed on-demand reporting services. Developed CI/CD pipelines for deployment to EC2 and AWS Lambda.",
+    "description": "Built a data pipeline to process and load large datasets into PostGIS. Designed microservices for data ingestion, data sanitation, generating reports, and implemented RBAC for secure access. Helped improved performance by optimizing queries with Redis caching. For cost savings, I migrated some services to AWS Lambda.Took initiative in design discussions, participate in code reviews, and took ownership of features.",
     "tech": [
-      "TypeScript",
-      "Go",
-      "Node.js",
-      "NestJS",
+      "Java",
+      "Spring Boot",
       "Redis",
       "PostgreSQL",
-      "Jest",
+      "JUnit",
       "Testcontainers",
       "Docker",
       "AWS",
@@ -19,15 +17,32 @@
     ]
   },
   {
+    "year": "2021 – 2022",
+    "title": "Full Stack Developer",
+    "company": "Upwork",
+    "description": "Partnered with international clients to gather requirements and agree on solutions aligned with business goals. Engineered, refactored, and delivered full-stack solutions, achieving a Top Rated status (4.7/5) across multiple projects.",
+    "tech": [
+      "TypeScript",
+      "Python",
+      "Node.js",
+      "NestJS",
+      "OpenAPI",
+      "Jest",
+      "PostgreSQL",
+      "Chrome API",
+      "React"
+    ]
+  },
+  {
     "year": "2020 – 2021",
     "title": "Backend Engineer",
     "company": "MicroAgility Services (Pvt.) Ltd.",
-    "description": "Worked on the backend of a mobile-first U.S. based consultation platform. Engineered microservices, refactored and migrated database schemas, optimized queries, and wrote technical documentations.",
+    "description": "Implemented backend services for a mobile-first U.S. based consultation platform. Created a push notification service using SQS, and set up Consul for service discovery to cut startup time. Enhanced data consistency and performance by refactoring and migrating core database schemas.",
     "tech": [
-      "TypeScript",
+      "Java",
+      "Spring Boot",
       "Node.js",
-      "NestJS",
-      "MySQL",
+      "MongoDB",
       "RabbitMQ",
       "Docker",
       "AWS",
@@ -36,12 +51,11 @@
   },
   {
     "year": "2018 – 2020",
-    "title": "Full Stack Developer",
-    "company": "Upwork",
-    "description": "Developed full-stack solutions, achieving Top Rated status and 4.75/5 rating across 8+ projects. Worked on a basketball sports management platform covering features including player/stats management, play-by-play tracking, video compression, highlights generation from events, and adaptive playback.",
+    "title": "Full Stack Engineer",
+    "company": "KapOnTwo",
+    "description": "Architected and designed a basketball sports analytics platform for an early startup. Developed and took ownership of features including play-by-play stats logging, automated video highlights, and adaptive playback. Built a service for video compression to reduce storage costs.",
     "tech": [
       "TypeScript",
-      "Python",
       "Node.js",
       "Express.js",
       "OpenAPI",
@@ -58,12 +72,12 @@
     "company": "Baeldung",
     "description": "Author technical articles on programming, infrastructure, and Linux internals. Published 150+ articles for thousands of readers on the platform worldwide. Conducted deep research on 2500+ on technical topics for 50+ authors. Ranked top 5% of contributors.",
     "tech": [
+      "Programming",
       "Containers",
       "Infrastructure",
       "Linux",
       "Shell Scripting",
-      "Networking",
-      "Security"
+      "Networking"
     ]
   }
 ]
