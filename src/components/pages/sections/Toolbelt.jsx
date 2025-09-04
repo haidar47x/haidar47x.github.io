@@ -3,7 +3,7 @@ import { useState } from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
-import { FaGitAlt } from "react-icons/fa6";
+import { FaGitAlt, FaJava } from "react-icons/fa6";
 import { FaHtml5, FaJsSquare } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io5";
 import { FaAws } from "react-icons/fa";
@@ -18,6 +18,7 @@ import { SiElasticsearch,
          SiJunit5,
          SiMongodb,
          SiNodedotjs,
+         SiOpenapiinitiative,
          SiOpenjdk,
          SiPrometheus,
          SiPython,
@@ -30,7 +31,7 @@ import { DiPostgresql } from "react-icons/di";
 
 const tools = {
   languages: [
-    { name: "Java", icon: SiOpenjdk },
+    { name: "Java", icon: FaJava },
     { name: "JavaScript", icon: FaJsSquare },
     { name: "Python", icon: SiPython },
     { name: "SQL", icon: GiDatabase },
@@ -55,7 +56,7 @@ const tools = {
     { name: "Elasticsearch", icon: SiElasticsearch },
     { name: "Grafana", icon: SiGrafana },
     { name: "Prometheus", icon: SiPrometheus },
-    { name: "Swagger", icon: SiSwagger },
+    { name: "OpenAPI", icon: SiOpenapiinitiative},
     { name: "Docker", icon: LiaDocker },
     { name: "GitHub Actions", icon: SiGithubactions },
     { name: "Git", icon: FaGitAlt },
