@@ -19,14 +19,12 @@ import { SiElasticsearch,
          SiMongodb,
          SiNodedotjs,
          SiOpenapiinitiative,
-         SiOpenjdk,
          SiPrometheus,
          SiPython,
          SiRabbitmq,
          SiRedis,
          SiSpringboot,
-         SiSpringsecurity,
-         SiSwagger } from "react-icons/si";
+         SiSpringsecurity } from "react-icons/si";
 import { DiPostgresql } from "react-icons/di";
 
 const tools = {

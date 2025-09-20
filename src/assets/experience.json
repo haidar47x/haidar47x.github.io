@@ -1,9 +1,9 @@
 [
   {
-    "year": "2022 – 2025",
+    "year": "2022 – Present",
     "title": "Senior Backend Engineer",
     "company": "Createch IT Solutions (Pvt.) Ltd.",
-    "description": "Built a data pipeline to process and load large datasets into PostGIS. Designed microservices for data ingestion, data sanitation, generating reports, and implemented RBAC for secure access. Helped improved performance by optimizing queries with Redis caching. For cost savings, I migrated some services to AWS Lambda.Took initiative in design discussions, participate in code reviews, and took ownership of features.",
+    "description": "Build a data pipeline to process and load large datasets into PostGIS. Design microservices for data ingestion, data sanitation, generating reports, and implement RBAC for secure access. Helped improved performance by optimizing queries with Redis caching. Migrated some services to AWS Lambda. Take initiative in design discussions, participate in code reviews, and took ownership of features.",
     "tech": [
       "Java",
       "Spring Boot",
@@ -67,7 +67,7 @@
     ]
   },
   {
-    "year": "2021 – Present",
+    "year": "2021 – 2025",
     "title": "Technical Author",
     "company": "Baeldung",
     "description": "Author technical articles on programming, infrastructure, and Linux internals. Published 150+ articles for thousands of readers on the platform worldwide. Conducted deep research on 2500+ on technical topics for 50+ authors. Ranked top 5% of contributors.",
