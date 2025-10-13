@@ -3,16 +3,16 @@
     "year": "2022 – Present",
     "title": "Senior Backend Engineer",
     "company": "Createch IT Solutions (Pvt.) Ltd.",
-    "description": "Build a data pipeline to process and load large datasets into PostGIS. Design microservices for data ingestion, data sanitation, generating reports, and implement RBAC for secure access. Helped improved performance by optimizing queries with Redis caching. Migrated some services to AWS Lambda. Take initiative in design discussions, participate in code reviews, and took ownership of features.",
+    "description": "Build a data pipeline to process and load large datasets into PostGIS. Design microservices for data ingestion, data sanitation, generating reports, and implement RBAC for secure access. Helped improved performance by optimizing queries with caching. Migrated some services to AWS Lambda. Take initiative in design discussions, participate in code reviews, and took ownership of features.",
     "tech": [
-      "Java",
-      "Spring Boot",
-      "Redis",
+      "TypeScript",
+      "Node.js",
+      "NestJS",
       "PostgreSQL",
-      "JUnit",
-      "Testcontainers",
+      "Redis",
       "Docker",
       "AWS",
+      "GitHub Actions",
       "JIRA"
     ]
   },
@@ -24,13 +24,13 @@
     "tech": [
       "TypeScript",
       "Python",
-      "Node.js",
       "NestJS",
-      "OpenAPI",
-      "Jest",
       "PostgreSQL",
-      "Chrome API",
-      "React"
+      "React",
+      "Next.js",
+      "OpenAPI",
+      "GitHub Actions",
+      "Jest"
     ]
   },
   {
@@ -39,13 +39,12 @@
     "company": "MicroAgility Services (Pvt.) Ltd.",
     "description": "Implemented backend services for a mobile-first U.S. based consultation platform. Created a push notification service using SQS, and set up Consul for service discovery to cut startup time. Enhanced data consistency and performance by refactoring and migrating core database schemas.",
     "tech": [
-      "Java",
-      "Spring Boot",
       "Node.js",
       "MongoDB",
       "RabbitMQ",
       "Docker",
       "AWS",
+      "CircleCI",
       "ClickUp"
     ]
   },

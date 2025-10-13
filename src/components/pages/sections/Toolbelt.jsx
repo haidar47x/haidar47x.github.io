@@ -3,51 +3,53 @@ import { useState } from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
-import { FaGitAlt, FaJava } from "react-icons/fa6";
+import { FaCanadianMapleLeaf, FaGitAlt, FaJava } from "react-icons/fa6";
 import { FaHtml5, FaJsSquare } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io5";
 import { FaAws } from "react-icons/fa";
 import { LiaDocker } from "react-icons/lia";
-import { HiMiniCube } from "react-icons/hi2";
 import { GiDatabase } from "react-icons/gi";
-import { SiElasticsearch,
+import { SiCplusplus, SiElasticsearch,
          SiGithubactions,
          SiGnubash,
          SiGrafana,
-         SiHibernate,
          SiJunit5,
+         SiKubernetes,
          SiMongodb,
+         SiNextdotjs,
          SiNodedotjs,
          SiOpenapiinitiative,
+         SiPrisma,
          SiPrometheus,
          SiPython,
          SiRabbitmq,
          SiRedis,
-         SiSpringboot,
-         SiSpringsecurity } from "react-icons/si";
+         SiTypeorm} from "react-icons/si";
 import { DiPostgresql } from "react-icons/di";
 
 const tools = {
   languages: [
-    { name: "Java", icon: FaJava },
     { name: "JavaScript", icon: FaJsSquare },
     { name: "Python", icon: SiPython },
+    { name: "C++", icon: SiCplusplus},
     { name: "SQL", icon: GiDatabase },
     { name: "Bash", icon: SiGnubash },
     { name: "HTML", icon: FaHtml5 },
     { name: "CSS", icon: IoLogoCss3 },
   ],
   libraries: [
-    { name: "Spring Boot", icon: SiSpringboot },
-    { name: "Spring Security", icon: SiSpringsecurity },
-    { name: "Node.js", icon: SiNodedotjs },
+    { name: "Node.js", icon: SiNodedotjs},
+    { name: "NestJS", icon: SiNextdotjs},
+    { name: "Next.js", icon: SiNextdotjs},
+    { name: "React", icon: SiNodedotjs },
     { name: "PostgreSQL", icon: DiPostgresql },
     { name: "MongoDB", icon: SiMongodb },
-    { name: "Hibernate", icon: SiHibernate },
+    { name: "Prisma", icon: SiPrisma},
+    { name: "TypeORM", icon: SiTypeorm},
     { name: "RabbitMQ", icon: SiRabbitmq },
     { name: "Redis", icon: SiRedis },
-    { name: "JUnit", icon: SiJunit5 },
-    { name: "Testcontainers", icon: HiMiniCube },
+    { name: "Jest", icon: SiJunit5 },
+    { name: "Supertest", icon: FaCanadianMapleLeaf },
   ],
   tools: [
     { name: "AWS", icon: FaAws },
@@ -56,6 +58,7 @@ const tools = {
     { name: "Prometheus", icon: SiPrometheus },
     { name: "OpenAPI", icon: SiOpenapiinitiative},
     { name: "Docker", icon: LiaDocker },
+    { name: "K8", icon: SiKubernetes },
     { name: "GitHub Actions", icon: SiGithubactions },
     { name: "Git", icon: FaGitAlt },
   ],
