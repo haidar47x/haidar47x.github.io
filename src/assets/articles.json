@@ -763,5 +763,10 @@
     "title": "Copying Text to the Clipboard in Java",
     "url": "https://www.baeldung.com/java-clipboard-copy-paste-text",
     "date": "2025-07-07T06:16:10+0300"
+  },
+  {
+    "title": "Constructor vs initialize() Method in OpenJFX",
+    "url": "https://www.baeldung.com/javafx-constructor-vs-initialize",
+    "date": "2025-10-10T05:45:23+0300"
   }
 ]
