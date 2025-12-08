@@ -768,5 +768,10 @@
     "title": "Constructor vs initialize() Method in OpenJFX",
     "url": "https://www.baeldung.com/javafx-constructor-vs-initialize",
     "date": "2025-10-10T05:45:23+0300"
+  },
+  {
+    "title": "Building Debian deb Packages From Java Builds Using jdeb",
+    "url": "https://www.baeldung.com/java-debian-deb-packages-jdeb",
+    "date": "2025-12-07T10:12:45+0200"
   }
 ]
